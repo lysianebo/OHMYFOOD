@@ -1,0 +1,98 @@
+{
+    "sourceFile": "perso/test.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1666251373798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666255499794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n                     <a href=\"#\" class=\"btn btn-green\">Green Button</a>\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n-                  </div>\n\\ No newline at end of file\n+                  </div>\n"
+                },
+                {
+                    "date": 1666272968669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,6 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n+\n+\n"
+                },
+                {
+                    "date": 1666272975547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,4 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-\n-\n"
+                },
+                {
+                    "date": 1666272981464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,5 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n+                  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279449066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-                  \n\\ No newline at end of file\n+           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"       \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279622857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"       \n\\ No newline at end of file\n+           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n+                 \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279629147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n+           EN\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n\\ No newline at end of file\n-                 \n"
+                },
+                {
+                    "date": 1666279634323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-           EN\n-           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n\\ No newline at end of file\n+           ENLEVÉ DU \n+           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n"
+                },
+                {
+                    "date": 1666279640630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-           ENLEVÉ DU \n+           ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n"
+                },
+                {
+                    "date": 1666279654644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,4 +7,5 @@\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n            ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n+          \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279659881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n            ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n-          \n\\ No newline at end of file\n+t\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279670377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n            ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n-t\n\\ No newline at end of file\n+TAPÉ DANS LE TERMINAL\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279685650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n            ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n-TAPÉ DANS LE TERMINAL\n\\ No newline at end of file\n+TAPÉ DANS LE TERMINAL\n+    sudo sass main.scss ../public/css/main.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279691164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n                     <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n-           ENLEVÉ DU JSON\n+ENLEVÉ DU JSON\n            //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n TAPÉ DANS LE TERMINAL\n     sudo sass main.scss ../public/css/main.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666279698872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n ENLEVÉ DU JSON\n-           //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n+     \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n TAPÉ DANS LE TERMINAL\n     sudo sass main.scss ../public/css/main.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666288349776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n                     <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                     <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                   </div>\n ENLEVÉ DU JSON\n-     \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n+    \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n TAPÉ DANS LE TERMINAL\n     sudo sass main.scss ../public/css/main.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667486089141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,15 @@\n                   </div>\n ENLEVÉ DU JSON\n     \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\" \n TAPÉ DANS LE TERMINAL\n-    sudo sass main.scss ../public/css/main.css --watch\n\\ No newline at end of file\n+    sudo sass main.scss ../public/css/main.css --watch\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667486110297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,12 @@\n \n \n \n \n-    \n\\ No newline at end of file\n+    @include @media{\n+        @include flexCenter(row);\n+            &btn.grey{\n+              width: 30%;\n+             }\n+    }\n+\n+    @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(-100px)}}\n"
+                },
+                {
+                    "date": 1667486157029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,4 +26,6 @@\n              }\n     }\n \n     @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(-100px)}}\n+\n+    \n"
+                },
+                {
+                    "date": 1667498175016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,8 @@\n     }\n \n     @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(-100px)}}\n \n-    \n+    .slide-left{animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both} \n+\n+\n+ @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(-100px)}}\n"
+                }
+            ],
+            "date": 1666251373798,
+            "name": "Commit-0",
+            "content": " <div class=\"wrap\">\n                    <h1>Sassy Button Mixin</h1>\n                    <p>Use SASS to detect your background colors and other styles and apply them to your buttons for consistent global hovers and active states.</p>\n                    <a href=\"#\" class=\"btn btn-green\">Green Button</a>\n                    <a href=\"#\" class=\"btn btn-blue\">Blue Button</a>\n                    <a href=\"#\" class=\"btn btn-yellow\">Yellow Button</a>\n                    <a href=\"#\" class=\"btn btn-red\">Red Button</a>\n                  </div>"
+        }
+    ]
+}

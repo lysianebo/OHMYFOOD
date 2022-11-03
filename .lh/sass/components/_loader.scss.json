@@ -1,0 +1,538 @@
+{
+    "sourceFile": "sass/components/_loader.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 130,
+            "patches": [
+                {
+                    "date": 1667201837808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667201858278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-f\n\\ No newline at end of file\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201863705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.\n\\ No newline at end of file\n+.l\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201869541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.l\n\\ No newline at end of file\n+.loader{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201928223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.loader{}\n\\ No newline at end of file\n+.loader{\n+    fon\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201937080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .loader{\n-    fon\n+    font-size: 40px;\n+    font\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201945696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .loader{\n     font-size: 40px;\n-    font\n+    font-family: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201985202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .loader{\n     font-size: 40px;\n-    font-family: ;\n+    font-family: Shrikhand;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667201995001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n+    ba\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202002454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n-    ba\n+    background-color: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202008606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n-    background-color: ;\n+    background-color: white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202016226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n     background-color: white;\n+    o\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202022013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n     background-color: white;\n-    o\n+    opacity: b;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202028317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n     background-color: white;\n-    opacity: b;\n+    ba;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202046039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n     background-color: white;\n-    ba;\n+    background-blend-mode: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202058752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n     background-color: white;\n-    background-blend-mode: ;\n+    background-blend-mode: overlay;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202095179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n+    \n     background-color: white;\n     background-blend-mode: overlay;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202103448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n-    \n+    text-align: ;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202116945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .loader{\n     font-size: 40px;\n     font-family: Shrikhand;\n-    text-align: ;\n+    text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1667202124026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n     font-family: Shrikhand;\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n-}\n\\ No newline at end of file\n+}\n+.chargement\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202130569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-.chargement\n\\ No newline at end of file\n+.chargement{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202141929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-.chargement{}\n\\ No newline at end of file\n+.chargement{\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202148265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n     background-color: white;\n     background-blend-mode: overlay;\n }\n .chargement{\n-    \n+    height: 500px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202162844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n     background-blend-mode: overlay;\n }\n .chargement{\n     height: 500px;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202177188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n     background-blend-mode: overlay;\n }\n .chargement{\n     height: 500px;\n-    \n+    line-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202194463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n     background-blend-mode: overlay;\n }\n .chargement{\n     height: 500px;\n-    line-\n+    line-height: 500px;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202246950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,5 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-.chargement{\n-    height: 500px;\n-    line-height: 500px;\n-    \n-}\n\\ No newline at end of file\n+background-color: white;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202253770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,9 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-background-color: white;\n\\ No newline at end of file\n+.chargement{\n+    height: 500px;\n+    line-height: 500px;\n+    background-color: white;\n+}\n"
+                },
+                {
+                    "date": 1667202263779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,14 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n+section{\n+    height: 500px;\n+    line-height: 500px;\n+    background-color: white;\n+}\n .chargement{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n-}\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202283636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n     line-height: 500px;\n     background-color: white;\n }\n .chargement{\n-    height: 500px;\n+    height: 50px;\n     line-height: 500px;\n     background-color: white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202292108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n     background-color: white;\n }\n .chargement{\n     height: 50px;\n-    line-height: 500px;\n-    background-color: white;\n+    line-height: 50px;\n+    dis\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202297210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n }\n .chargement{\n     height: 50px;\n     line-height: 50px;\n-    dis\n+    display: inline-block;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202325292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,6 @@\n .chargement{\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n+    b\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202330538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n .chargement{\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    b\n+    border-radius: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202339461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n .chargement{\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    border-radius: ;\n+    border-radius: 50px;\n+    bor\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202364573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    bor\n+    border:\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202378527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border:\n+    border: 6px s;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202383974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border: 6px s;\n+    border: 6px solid ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202390019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border: 6px solid ;\n+    border: 6px solid $co;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202403718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border: 6px solid $co;\n+    border: 6px solid $colour-primary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202899877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1667202913598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,4 +16,11 @@\n     display: inline-block;\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n+.chargement:a{\n+    height: 50px;\n+    line-height: 50px;\n+    display: inline-block;\n+    border-radius: 50px;\n+    border: 6px solid $colour-primary;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667202929206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n     display: inline-block;\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n-.chargement:a{\n+.chargement::after{\n+    c\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667202957248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n-    c\n+    position: ;\n+    content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667203030402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n-    position: ;\n+\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203050811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n-\n+po\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203056932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n-po\n+position: absolute;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203063869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n+\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203070217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-\n+top: 1;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203075418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-top: 1;\n+top: 10px;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203105173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     line-height: 500px;\n     background-color: white;\n }\n .chargement{\n+    position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667203552652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-top: 10px;\n+top: 010px;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203560035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-top: 010px;\n+top: 0; left10px;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203567700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-top: 0; left10px;\n+top: 0; left :0px;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667203573921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n-top: 0; left :0px;\n+top: 0; left :0;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205166039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    border-radius: 50px;\n+    border-radius: 50<;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n"
+                },
+                {
+                    "date": 1667205172584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    border-radius: 50<;\n+    border-radius: 50<%;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n"
+                },
+                {
+                    "date": 1667205402753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-section{\n+{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n@@ -14,9 +14,9 @@\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    border-radius: 50<%;\n+    border-radius: 50%;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n"
+                },
+                {
+                    "date": 1667205408937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-{\n+.loader-quart{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n"
+                },
+                {
+                    "date": 1667205467881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n+\n .loader-quart{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n"
+                },
+                {
+                    "date": 1667205481856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,9 @@\n     text-align: center;\n     background-color: white;\n     background-blend-mode: overlay;\n }\n-\n-.loader-quart{\n+.section{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n"
+                },
+                {
+                    "date": 1667205551738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-.chargement{\n+.loader{\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205558035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-.loader{\n+.loader-quart{\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205575965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n+\n .loader-quart{\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n"
+                },
+                {
+                    "date": 1667205582326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-\n+.loader\n .loader-quart{\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n"
+                },
+                {
+                    "date": 1667205589045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-.loader\n+.loader{\n+    \n+}\n .loader-quart{\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n"
+                },
+                {
+                    "date": 1667205595117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 500px;\n     background-color: white;\n }\n .loader{\n-    \n+    width: 50px;\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667205602548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     background-color: white;\n }\n .loader{\n     width: 50px;\n+    hei\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667205626863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n     background-color: white;\n }\n .loader{\n     width: 50px;\n-    hei\n+    height: 50px;\n+    line-height: 50px;\n+    display: inline-block;;\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667205712528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,13 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-.loader{\n+.loader-s{\n     width: 50px;\n     height: 50px;\n     line-height: 50px;\n-    display: inline-block;;\n+    display: inline-block;\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667205753610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,12 @@\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n }\n-.loader-s{\n+.loader-section{\n+    height: 500px;\n+    line-height: 500px;\n+    background-color: white;\n     width: 50px;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205788226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     height: 500px;\n     line-height: 500px;\n     background-color: white;\n-    width: 50px;\n+    \n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205796189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n }\n .loader-section{\n     height: 500px;\n     line-height: 500px;\n-    background-color: white;\n+\n     \n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205819282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,13 @@\n     line-height: 500px;\n     background-color: white;\n }\n .loader-section{\n+    background-color: white;\n     height: 500px;\n     line-height: 500px;\n \n-    \n+  .loader  \n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205824854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     background-color: white;\n     height: 500px;\n     line-height: 500px;\n \n-  .loader  \n+  .loader{  \n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205842080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     background-color: white;\n     height: 500px;\n     line-height: 500px;\n \n-  .loader{  \n+  .loader{  w\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205850309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,10 @@\n     background-color: white;\n     height: 500px;\n     line-height: 500px;\n \n-  .loader{  w\n+  .loader{\n+    width: ;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205856555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     height: 500px;\n     line-height: 500px;\n \n   .loader{\n-    width: ;\n+    width: 50px;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n }\n"
+                },
+                {
+                    "date": 1667205865915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n \n   .loader{\n     width: 50px;\n     height: 50px;\n-    line-height: 50px;\n     display: inline-block;\n }\n .loader-quart{\n     position: relative;\n"
+                },
+                {
+                    "date": 1667205880720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     position: relative;\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n-    border-radius: 50%;\n+    border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n position: absolute;\n"
+                },
+                {
+                    "date": 1667205929647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n-position: absolute;\n+    position: absolute;\n top: 0; left :0;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n"
+                },
+                {
+                    "date": 1667205944857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: white;\n     height: 500px;\n     line-height: 500px;\n-\n+}\n   .loader{\n     width: 50px;\n     height: 50px;\n     display: inline-block;\n@@ -29,9 +29,9 @@\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n     position: absolute;\n-top: 0; left :0;\n+    top: 0; left :0;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667205979063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n   .loader{\n     width: 50px;\n     height: 50px;\n     display: inline-block;\n+    ver\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667205985822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   .loader{\n     width: 50px;\n     height: 50px;\n     display: inline-block;\n-    ver\n+    vertical-align: middle;\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206068053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n     width: 50px;\n     height: 50px;\n     display: inline-block;\n     vertical-align: middle;\n+    po\n }\n .loader-quart{\n     position: relative;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206079612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,16 +19,12 @@\n     width: 50px;\n     height: 50px;\n     display: inline-block;\n     vertical-align: middle;\n-    po\n+    position: relative;\n }\n .loader-quart{\n-    position: relative;\n-    height: 50px;\n-    line-height: 50px;\n-    display: inline-block;\n-    border-radius: 50px;\n+   \n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n     position: absolute;\n"
+                },
+                {
+                    "date": 1667206087482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     vertical-align: middle;\n     position: relative;\n }\n .loader-quart{\n-   \n+   bor\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n     position: absolute;\n"
+                },
+                {
+                    "date": 1667206093910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     vertical-align: middle;\n     position: relative;\n }\n .loader-quart{\n-   bor\n+   border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n .chargement::after{\n     position: absolute;\n"
+                },
+                {
+                    "date": 1667206132576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,6 +33,6 @@\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border: 6px solid $colour-primary;\n+    border: 6px solid $colour-s;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206162826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,14 +25,14 @@\n .loader-quart{\n    border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n-.chargement::after{\n+.loader::after{\n     position: absolute;\n     top: 0; left :0;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n     border-radius: 50px;\n-    border: 6px solid $colour-s;\n+    border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206196818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,12 @@\n .loader-quart{\n    border-radius: 50px;\n     border: 6px solid $colour-primary;\n }\n-.loader::after{\n+.loader-quart::after{\n     position: absolute;\n-    top: 0; left :0;\n+    top: 0;\n+     left :0;\n     content: '';\n     height: 50px;\n     line-height: 50px;\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1667206229012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,12 +28,11 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: 0;\n-     left :0;\n+    left :0;\n     content: '';\n     height: 50px;\n-    line-height: 50px;\n-    display: inline-block;\n+    \n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206239232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,7 @@\n     top: 0;\n     left :0;\n     content: '';\n     height: 50px;\n-    \n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206254372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: 0;\n+    top: ;\n     left :0;\n     content: '';\n     height: 50px;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667206267454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: ;\n-    left :0;\n+    top: -6;\n+    left:0;\n     content: '';\n     height: 50px;\n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n"
+                },
+                {
+                    "date": 1667206306698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 500px;\n     background-color: white;\n }\n .loader-section{\n-    background-color: white;\n+    background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n }\n   .loader{\n@@ -28,9 +28,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -6;\n-    left:0;\n+    left: -6;\n     content: '';\n     height: 50px;\n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n"
+                },
+                {
+                    "date": 1667206323472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\n .section{\n     height: 500px;\n     line-height: 500px;\n-    background-color: white;\n+    background-color: rgb(255, 255, 255);\n }\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n"
+                },
+                {
+                    "date": 1667206391063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\n .section{\n     height: 500px;\n     line-height: 500px;\n-    background-color: rgb(255, 255, 255);\n+    background-color: rgb(75, 71, 215);\n }\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n@@ -31,7 +31,8 @@\n     top: -6;\n     left: -6;\n     content: '';\n     height: 50px;\n+    \n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206397856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,8 @@\n     top: -6;\n     left: -6;\n     content: '';\n     height: 50px;\n-    \n+    width: ;\n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206441277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,11 @@\n .loader-quart::after{\n     position: absolute;\n     top: -6;\n     left: -6;\n+    b\n     content: '';\n     height: 50px;\n-    width: ;\n+    width: 50px;\n     border-radius: 50px;\n     border: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206447535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n .loader-quart::after{\n     position: absolute;\n     top: -6;\n     left: -6;\n-    b\n+    bottom: -;\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667206470242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n .loader-quart::after{\n     position: absolute;\n     top: -6;\n     left: -6;\n-    bottom: -;\n+    bottom: -6;\n+    ri\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667206475340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     position: absolute;\n     top: -6;\n     left: -6;\n     bottom: -6;\n-    ri\n+    right: -6;\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667206485285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: -6;\n+    top: -6px;\n     left: -6;\n     bottom: -6;\n     right: -6;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206490930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -6px;\n-    left: -6;\n-    bottom: -6;\n+    left: -6px;\n+    bottom: -6px;\n     right: -6;\n     content: '';\n     height: 50px;\n     width: 50px;\n"
+                },
+                {
+                    "date": 1667206536026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,11 +30,11 @@\n     position: absolute;\n     top: -6px;\n     left: -6px;\n     bottom: -6px;\n-    right: -6;\n+    right: -6px;\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n-    border: 6px solid $colour-secondary;\n+    border-top: 6px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667206884125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n+    dis\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206890680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n-    dis\n+    @in\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206896100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n-    @in\n+    @include flexCenter\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206904681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n-    @include flexCenter\n+    @include flexCenter;\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206916800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n-    @include flexCenter;\n+    @include flexCenter();\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206922131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n .loader-section{\n     background-color: rgb(189, 90, 90);\n     height: 500px;\n     line-height: 500px;\n-    @include flexCenter();\n+    @include flexCenter(row);\n }\n   .loader{\n     width: 50px;\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667206945295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: -6px;\n+    top: -2px;\n     left: -6px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206962457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: -2px;\n+    top: 8px;\n     left: -6px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206968477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: 8px;\n+    top: -8px;\n     left: -6px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206978985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: -8px;\n+    top: initial;\n     left: -6px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206986837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: initial;\n+    top: ;\n     left: -6px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n"
+                },
+                {
+                    "date": 1667206995696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: ;\n-    left: -6px;\n+    top: -8;\n+    left: -px;\n     bottom: -6px;\n     right: -6px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207002997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: -px;\n+    left: -8px;\n     bottom: -6px;\n-    right: -6px;\n+    right: -8px;\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n"
+                },
+                {
+                    "date": 1667207012044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n     left: -8px;\n-    bottom: -6px;\n+    bottom: -px;\n     right: -8px;\n     content: '';\n     height: 50px;\n     width: 50px;\n"
+                },
+                {
+                    "date": 1667207021842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: -8px;\n-    bottom: -px;\n+    left: -18px;\n+    bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n     width: 50px;\n"
+                },
+                {
+                    "date": 1667207026994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: -18px;\n+    left: 8px;\n     bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207035002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: 8px;\n+    left: px;\n     bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207045956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: px;\n+    left: 66px;\n     bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207055126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: 66px;\n+    left: 6px;\n     bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207062408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\n .loader-quart::after{\n     position: absolute;\n     top: -8;\n-    left: 6px;\n+    left: 0px;\n     bottom: -8px;\n     right: -8px;\n     content: '';\n     height: 50px;\n"
+                },
+                {
+                    "date": 1667207081503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,6 @@\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n-    border-top: 6px solid $colour-secondary;\n+    border-top: 8px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667207158205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,7 @@\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n-    border-top: 8px solid $colour-secondary;\n+    border-top: 10px solid $colour-secondary;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667207170649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,7 +36,7 @@\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n+    border: 10px solid $colour-secondary;\n     border-top: 10px solid $colour-secondary;\n-    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667207184646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,7 +36,7 @@\n     content: '';\n     height: 50px;\n     width: 50px;\n     border-radius: 50px;\n-    border: 10px solid ;\n+    border: 10px solid t;\n     border-top: 10px solid $colour-secondary;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667207331979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     border: 6px solid $colour-primary;\n }\n .loader-quart::after{\n     position: absolute;\n-    top: ;\n+    top: 0;\n     left: -20px;\n     bottom: -6px;\n     right: -2px;\n     content: '';\n"
+                }
+            ],
+            "date": 1667201837808,
+            "name": "Commit-0",
+            "content": "f"
+        }
+    ]
+}

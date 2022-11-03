@@ -1,0 +1,90 @@
+{
+    "sourceFile": "sass/base/_base.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1667500297611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667500308118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-{\n-    box-sizing: border-box;\n+ box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500334259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n- box-sizing: border-box;\n+4 box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500340129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-4 box-sizing: border-box;\n+{ box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500346262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n { box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n-    //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n+    //border: 1px solid rgb(48, 162, 116);\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500365520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-{ box-sizing: border-box;\n+{ box-sizing border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500376993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-{ box-sizing border-box;\n+ box-sizing border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500383647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n- box-sizing border-box;\n+ box-sizing {\n+    border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500399808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n  box-sizing {\n-    border-box;\n+    border-box:\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500424644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n- box-sizing {\n+ box-sizing \n     border-box:\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n"
+                },
+                {
+                    "date": 1667500430191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n- box-sizing \n-    border-box:\n+ box-sizing :    border-box:\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500439311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n- box-sizing :    border-box:\n+ {box-sizing :    border-box:\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500454961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n- {box-sizing :    border-box:\n+ {\n+    box-sizing:    border-box:\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500496845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n- {\n-    box-sizing:    border-box:\n+ \n+    box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500592265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n  \n-    box-sizing:    border-box;\n+   * box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n-}\n"
+                },
+                {
+                    "date": 1667500599050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n  \n-   * box-sizing:    border-box;\n+   *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n\\ No newline at end of file\n-    //border: 1px solid rgb(48, 162, 116);\n+    //border: 1px solid rgb(48, 162, 116);\n"
+                },
+                {
+                    "date": 1667500604952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n  \n    *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n-    //border: 1px solid rgb(48, 162, 116);\n\\ No newline at end of file\n+    //border: 1px solid rgb(48, 162, 116);\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667500686046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n  \n    *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n-    //border: 1px solid rgb(48, 162, 116);\n+    border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667503348921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n  \n    *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n-    border: 1px solid rgb(48, 162, 116);\n+    //border: 1px solid rgb(48, 162, 116);\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1667500297611,
+            "name": "Commit-0",
+            "content": "{\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    //border: 1px solid rgb(48, 162, 116);"
+        }
+    ]
+}

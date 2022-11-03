@@ -1,0 +1,118 @@
+{
+    "sourceFile": "À_la_française.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1666021370185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666021407380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    \n-    À la française\n+    <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n+    hÀ la française\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                },
+                {
+                    "date": 1666021415175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    hÀ la française\n+    <h1></h1>À la française\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                },
+                {
+                    "date": 1666021422850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    <h1></h1>À la française\n+    <h1>À la française</h1>\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                },
+                {
+                    "date": 1666021462417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n+    \n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                },
+                {
+                    "date": 1666021479712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,12 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n-    \n+    <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n+\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                },
+                {
+                    "date": 1666021486210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n-\n+but\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                },
+                {
+                    "date": 1666021500429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n-but\n+<button>Tartare de poulpe acidulé\n+    Aux zestes d'orange\n+    25€</button>\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                },
+                {
+                    "date": 1666021523466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n Entrées\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n+    \n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                },
+                {
+                    "date": 1666021533601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,11 @@\n Entrées\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n-    \n-Tartare de poulpe acidulé\n-Aux zestes d'orange\n-25€\n \n+\n+\n Velouté de légumes d'antan\n Carotte, panais, topinambour\n 35€\n \n"
+                },
+                {
+                    "date": 1666021545256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,13 +15,11 @@\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n \n+<button></button>\n \n \n-Velouté de légumes d'antan\n-Carotte, panais, topinambour\n-35€\n \n Soupe à l'oignon\n Revisitée\n 20€\n"
+                },
+                {
+                    "date": 1666021557246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,12 @@\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n \n-<button></button>\n+<button>Velouté de légumes d'antan\n+    Carotte, panais, topinambour\n+    35€</button>\n \n-\n-\n Soupe à l'oignon\n Revisitée\n 20€\n \n"
+                },
+                {
+                    "date": 1666021565574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,10 @@\n \n <button>Velouté de légumes d'antan\n     Carotte, panais, topinambour\n     35€</button>\n+<button></button>\n \n-Soupe à l'oignon\n-Revisitée\n-20€\n \n Plats\n Coquilles Saint-Jacques\n Accompagnées d'une purée de panais\n"
+                },
+                {
+                    "date": 1666021583201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,15 @@\n \n <button>Velouté de légumes d'antan\n     Carotte, panais, topinambour\n     35€</button>\n-<button></button>\n+<button>Soupe à l'oignon\n+    Revisitée\n+    20€</button>\n \n \n Plats\n+\n Coquilles Saint-Jacques\n Accompagnées d'une purée de panais\n 40€\n \n"
+                },
+                {
+                    "date": 1666021601038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     20€</button>\n \n \n Plats\n-\n+bu\n Coquilles Saint-Jacques\n Accompagnées d'une purée de panais\n 40€\n \n"
+                },
+                {
+                    "date": 1666021623948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,13 +24,11 @@\n     20€</button>\n \n \n Plats\n-bu\n-Coquilles Saint-Jacques\n-Accompagnées d'une purée de panais\n-40€\n+<button></button>\n \n+\n Magret de canard\n Et parmentier de pommes de terre\n 35€\n \n"
+                },
+                {
+                    "date": 1666021632240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,13 @@\n     20€</button>\n \n \n Plats\n-<button></button>\n+<button>Coquilles Saint-Jacques\n+    Accompagnées d'une purée de panais\n+    40€</button>\n \n-\n+bu\n Magret de canard\n Et parmentier de pommes de terre\n 35€\n \n"
+                },
+                {
+                    "date": 1666021638610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n <button>Coquilles Saint-Jacques\n     Accompagnées d'une purée de panais\n     40€</button>\n \n-bu\n+<button></button>\n Magret de canard\n Et parmentier de pommes de terre\n 35€\n \n"
+                },
+                {
+                    "date": 1666021647132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,10 @@\n     Accompagnées d'une purée de panais\n     40€</button>\n \n <button></button>\n-Magret de canard\n-Et parmentier de pommes de terre\n-35€\n \n+\n Pigeonneau d’Ille-et-Vilaine\n Sur son lit de gnocchis aux légumes\n 44€\n \n"
+                },
+                {
+                    "date": 1666021655922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,13 @@\n <button>Coquilles Saint-Jacques\n     Accompagnées d'une purée de panais\n     40€</button>\n \n-<button></button>\n+<button>Magret de canard\n+    Et parmentier de pommes de terre\n+    35€</button>\n \n-\n+bu\n Pigeonneau d’Ille-et-Vilaine\n Sur son lit de gnocchis aux légumes\n 44€\n \n"
+                },
+                {
+                    "date": 1666021662555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,13 +32,11 @@\n <button>Magret de canard\n     Et parmentier de pommes de terre\n     35€</button>\n \n-bu\n-Pigeonneau d’Ille-et-Vilaine\n-Sur son lit de gnocchis aux légumes\n-44€\n+<button></button>\n \n+\n Desserts\n Pétales de violettes glacés\n Et purée de noisettes\n 18€\n"
+                },
+                {
+                    "date": 1666021670049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,15 @@\n <button>Magret de canard\n     Et parmentier de pommes de terre\n     35€</button>\n \n-<button></button>\n+<button>Pigeonneau d’Ille-et-Vilaine\n+    Sur son lit de gnocchis aux légumes\n+    44€</button>\n \n \n Desserts\n+\n Pétales de violettes glacés\n Et purée de noisettes\n 18€\n \n"
+                },
+                {
+                    "date": 1666021698207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     44€</button>\n \n \n Desserts\n-\n+bu\n Pétales de violettes glacés\n Et purée de noisettes\n 18€\n \n"
+                },
+                {
+                    "date": 1666021703588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,13 +38,11 @@\n     44€</button>\n \n \n Desserts\n-bu\n-Pétales de violettes glacés\n-Et purée de noisettes\n-18€\n+<button></button>\n \n+\n Fondant au chocolat\n Revisité\n 22€\n \n"
+                },
+                {
+                    "date": 1666021709417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n <button>Pétales de violettes glacés\n     Et purée de noisettes\n     18€</button>\n \n-bu\n+<button></button>\n Fondant au chocolat\n Revisité\n 22€\n \n"
+                },
+                {
+                    "date": 1666022397531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n     <title>Ohmyfood - A la française</title>\n </head>\n <header>\n-    <i class=\"fa fas'\"></i>  <h1>ohmyfood</h1>\n+    <i class=\"fa fas\"></i>  <h1>ohmyfood</h1>\n </header>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n"
+                }
+            ],
+            "date": 1666021370185,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n    À la française\n\nEntrées\nTartare de poulpe acidulé\nAux zestes d'orange\n25€\n\nVelouté de légumes d'antan\nCarotte, panais, topinambour\n35€\n\nSoupe à l'oignon\nRevisitée\n20€\n\nPlats\nCoquilles Saint-Jacques\nAccompagnées d'une purée de panais\n40€\n\nMagret de canard\nEt parmentier de pommes de terre\n35€\n\nPigeonneau d’Ille-et-Vilaine\nSur son lit de gnocchis aux légumes\n44€\n\nDesserts\nPétales de violettes glacés\nEt purée de noisettes\n18€\n\nFondant au chocolat\nRevisité\n22€\n\nMillefeuille croustillant\nMyrtilles et pâte d’amande\n23€\n</body>\n</html>"
+        }
+    ]
+}

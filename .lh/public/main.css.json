@@ -1,0 +1,18 @@
+{
+    "sourceFile": "public/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1666256025272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1666256025272,
+            "name": "Commit-0",
+            "content": "@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Shrikhand&display=swap\");\n@import url(\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\");\nbody {\n  font-family: Roboto, sans-serif;\n  font-size: 16px;\n}\n\nh1 {\n  font-family: Shrikhand, sans-serif;\n  font-size: 50px;\n  font-weight: 700;\n  line-height: 1.1;\n}\n\nh4 {\n  font-family: Shrikhand, sans-serif;\n  font-size: 30px;\n}\n\nul {\n  list-style-type: none;\n  text-decoration: none;\n}\n\nspan {\n  font-family: Roboto, sans-serif;\n  font-size: 50px;\n}\n\n/*# sourceMappingURL=main.css.map */\n"
+        }
+    ]
+}

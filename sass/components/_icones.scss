@@ -1,0 +1,41 @@
+.fonctionnement i {
+   font-size: 22px;
+   color: darken($colour-gray, 30);
+  
+    &.fa-mobile-screen{
+         font-size: 28px;
+         padding-right: 0px;
+         padding-left: 0px;
+         }
+   &:hover{
+    color: $colour-primary;
+   }
+}
+//heart-----------------
+.description i {
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+   
+ }
+.description .fa {
+    opacity: 0;
+    transform: scale(1);
+    background: linear-gradient($colour-secondary,$colour-primary);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ :hover .fa{
+    opacity: 1;
+    transform: scale(1.1);
+    animation: fill 10.3s ease-in-out;
+}
+
+
+       
+  
+  
+ 

@@ -1,0 +1,126 @@
+{
+    "sourceFile": "La_note_enchantée.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1666443858911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666443865859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n </head>\n <body>\n     Le délice des sens\n \n- Entrées\n+ <h5></h5>Entrées\n Tartare de thon\n Assaisonné au yuzu\n 25€\n \n"
+                },
+                {
+                    "date": 1666443875084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n </head>\n <body>\n     Le délice des sens\n \n- <h5></h5>Entrées\n+ <h5>Entrées</h5>\n Tartare de thon\n Assaisonné au yuzu\n 25€\n \n"
+                },
+                {
+                    "date": 1666443907784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,9 @@\n <body>\n     Le délice des sens\n \n  <h5>Entrées</h5>\n-Tartare de thon\n-Assaisonné au yuzu\n-25€\n+a\n \n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n"
+                },
+                {
+                    "date": 1666443913761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,11 @@\n <body>\n     Le délice des sens\n \n  <h5>Entrées</h5>\n-a\n+Tartare de thon\n+Assaisonné au yuzu\n+25€\n \n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n"
+                },
+                {
+                    "date": 1666443946819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,13 @@\n <body>\n     Le délice des sens\n \n  <h5>Entrées</h5>\n-Tartare de thon\n+ <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n \n-Bouchée de homard croustillant \n+                                                            Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n \n Velouté de cèpes \n"
+                },
+                {
+                    "date": 1666443952097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n \n-                                                            Bouchée de homard croustillant \n+Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n \n Velouté de cèpes \n"
+                },
+                {
+                    "date": 1666444011904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,40 +12,40 @@\n  <h5>Entrées</h5>\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n-\n+<a href=\"\" class=\"btn grey\"></a>\n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n-\n+<a href=\"\" class=\"btn grey\"></a>\n Velouté de cèpes \n Aux truffes\n 20€\n         \n-Plats\n+Plats<a href=\"\" class=\"btn grey\"></a>\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€\n-\n+<a href=\"\" class=\"btn grey\"></a>\n Langouste rôtie \n Et ses légumes de saison\n 35€\n-\n+<a href=\"\" class=\"btn grey\"></a>\n Côte de boeuf Angus \n Et sa purée de panais\n 44€\n \n Desserts\n-Farandole de desserts\n+<a href=\"\" class=\"btn grey\"></a>Farandole de desserts\n Du chef\n 18€\n \n-Crème brulée \n+<a href=\"\" class=\"btn grey\"></a>Crème brulée \n Revisitée\n 22€\n \n-Tiramisu \n+<a href=\"\" class=\"btn grey\"></a>Tiramisu \n À la noisette\n 23€\n \n </body>\n"
+                },
+                {
+                    "date": 1666444025689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n  <h5>Entrées</h5>\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n-<a href=\"\" class=\"btn grey\"></a>\n+<a href=\"\" class=\"btn grey\">\n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€\n <a href=\"\" class=\"btn grey\"></a>\n"
+                },
+                {
+                    "date": 1666444034246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n 25€\n <a href=\"\" class=\"btn grey\">\n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n-35€\n+35€</a>\n <a href=\"\" class=\"btn grey\"></a>\n Velouté de cèpes \n Aux truffes\n 20€\n"
+                },
+                {
+                    "date": 1666444039718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n <a href=\"\" class=\"btn grey\">\n Bouchée de homard croustillant \n Et sa farandole de petits légumes\n 35€</a>\n-<a href=\"\" class=\"btn grey\"></a>\n+<a href=\"\" class=\"btn grey\">\n Velouté de cèpes \n Aux truffes\n 20€\n         \n"
+                },
+                {
+                    "date": 1666444050346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,14 +19,14 @@\n 35€</a>\n <a href=\"\" class=\"btn grey\">\n Velouté de cèpes \n Aux truffes\n-20€\n+20€</a>\n         \n Plats<a href=\"\" class=\"btn grey\"></a>\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n-40€\n+40€</a>\n <a href=\"\" class=\"btn grey\"></a>\n Langouste rôtie \n Et ses légumes de saison\n 35€\n"
+                },
+                {
+                    "date": 1666444056384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n Velouté de cèpes \n Aux truffes\n 20€</a>\n         \n-Plats<a href=\"\" class=\"btn grey\"></a>\n+Plats<a href=\"\" class=\"btn grey\">\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€</a>\n <a href=\"\" class=\"btn grey\"></a>\n"
+                },
+                {
+                    "date": 1666444067695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n Plats<a href=\"\" class=\"btn grey\">\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€</a>\n-<a href=\"\" class=\"btn grey\"></a>\n+<a href=\"\" class=\"btn grey\">\n Langouste rôtie \n Et ses légumes de saison\n 35€\n <a href=\"\" class=\"btn grey\"></a>\n"
+                },
+                {
+                    "date": 1666444077450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n 40€</a>\n <a href=\"\" class=\"btn grey\">\n Langouste rôtie \n Et ses légumes de saison\n-35€\n-<a href=\"\" class=\"btn grey\"></a>\n+35€</a>\n+<a href=\"\" class=\"btn grey\">\n Côte de boeuf Angus \n Et sa purée de panais\n 44€\n \n"
+                },
+                {
+                    "date": 1666444091894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,12 @@\n 35€</a>\n <a href=\"\" class=\"btn grey\">\n Côte de boeuf Angus \n Et sa purée de panais\n-44€\n+44€</a>\n \n Desserts\n-<a href=\"\" class=\"btn grey\"></a>Farandole de desserts\n+<a href=\"\" class=\"btn grey\">Farandole de desserts\n Du chef\n 18€\n \n <a href=\"\" class=\"btn grey\"></a>Crème brulée \n"
+                },
+                {
+                    "date": 1666444100846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,11 +39,11 @@\n <a href=\"\" class=\"btn grey\">Farandole de desserts\n Du chef\n 18€\n \n-<a href=\"\" class=\"btn grey\"></a>Crème brulée \n+<a href=\"\" class=\"btn grey\">Crème brulée \n Revisitée\n-22€\n+22€</a>\n \n <a href=\"\" class=\"btn grey\"></a>Tiramisu \n À la noisette\n 23€\n"
+                },
+                {
+                    "date": 1666444106147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n <a href=\"\" class=\"btn grey\">Crème brulée \n Revisitée\n 22€</a>\n \n-<a href=\"\" class=\"btn grey\"></a>Tiramisu \n+<a href=\"\" class=\"btn grey\">Tiramisu \n À la noisette\n 23€\n \n </body>\n"
+                },
+                {
+                    "date": 1666444123111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,8 @@\n 22€</a>\n \n <a href=\"\" class=\"btn grey\">Tiramisu \n À la noisette\n-23€\n+23€</a>\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666444139590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n Côte de boeuf Angus \n Et sa purée de panais\n 44€</a>\n \n-Desserts\n+HDesserts\n <a href=\"\" class=\"btn grey\">Farandole de desserts\n Du chef\n 18€\n \n"
+                },
+                {
+                    "date": 1666444148220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n Côte de boeuf Angus \n Et sa purée de panais\n 44€</a>\n \n-HDesserts\n+<H5></H5>\n <a href=\"\" class=\"btn grey\">Farandole de desserts\n Du chef\n 18€\n \n"
+                },
+                {
+                    "date": 1666444167225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,10 @@\n Velouté de cèpes \n Aux truffes\n 20€</a>\n         \n-Plats<a href=\"\" class=\"btn grey\">\n+Plats\n+<a href=\"\" class=\"btn grey\">\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€</a>\n <a href=\"\" class=\"btn grey\">\n@@ -34,9 +35,9 @@\n Côte de boeuf Angus \n Et sa purée de panais\n 44€</a>\n \n-<H5></H5>\n+<H5>Desserts</H5>\n <a href=\"\" class=\"btn grey\">Farandole de desserts\n Du chef\n 18€\n \n"
+                },
+                {
+                    "date": 1666444175818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n Velouté de cèpes \n Aux truffes\n 20€</a>\n         \n-Plats\n+<H5>Plats\n <a href=\"\" class=\"btn grey\">\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€</a>\n"
+                },
+                {
+                    "date": 1666444225908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    \n     <title>Document</title>\n </head>\n <body>\n     Le délice des sens\n@@ -21,9 +22,9 @@\n Velouté de cèpes \n Aux truffes\n 20€</a>\n         \n-<H5>Plats\n+<H5>Plats</H5>\n <a href=\"\" class=\"btn grey\">\n Poulet rôti aux herbes de Provence \n Et sa crème de truffe\n 40€</a>\n"
+                },
+                {
+                    "date": 1666445657474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    \n+    <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n     <title>Document</title>\n </head>\n <body>\n     Le délice des sens\n-\n+gfgfgf\n  <h5>Entrées</h5>\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n"
+                },
+                {
+                    "date": 1666445663931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <title>Document</title>\n </head>\n <body>\n     Le délice des sens\n-gfgfgf\n+\n  <h5>Entrées</h5>\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n"
+                },
+                {
+                    "date": 1666530979243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\n <body>\n     Le délice des sens\n \n- <h5 cla>Entrées</h5>\n+ <h5 class=\"\">Entrées</h5>\n  <a href=\"\" class=\"btn grey\">Tartare de thon\n Assaisonné au yuzu\n 25€\n <a href=\"\" class=\"btn grey\">\n"
+                },
+                {
+                    "date": 1666539627962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \n <H5 class=\"bordered-bottom\">Desserts</H5>\n <a href=\"\" class=\"btn grey\">Mijoté de queue de boeuf \n Et riz sauvage aux zestes de citron\n-44€<a href=\"\"></a>\n+44€<a href=\"></a>\n \n <a href=\"\" class=\"btn grey\">Crème brulée \n Revisitée\n 22€</a>\n"
+                }
+            ],
+            "date": 1666443858911,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    Le délice des sens\n\n Entrées\nTartare de thon\nAssaisonné au yuzu\n25€\n\nBouchée de homard croustillant \nEt sa farandole de petits légumes\n35€\n\nVelouté de cèpes \nAux truffes\n20€\n        \nPlats\nPoulet rôti aux herbes de Provence \nEt sa crème de truffe\n40€\n\nLangouste rôtie \nEt ses légumes de saison\n35€\n\nCôte de boeuf Angus \nEt sa purée de panais\n44€\n\nDesserts\nFarandole de desserts\nDu chef\n18€\n\nCrème brulée \nRevisitée\n22€\n\nTiramisu \nÀ la noisette\n23€\n\n</body>\n</html>"
+        }
+    ]
+}

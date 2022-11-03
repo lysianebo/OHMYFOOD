@@ -1,0 +1,206 @@
+{
+    "sourceFile": "sass/layout/_footer.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 47,
+            "patches": [
+                {
+                    "date": 1666000161282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666000166497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-footer\n\\ No newline at end of file\n+footer{\n+    b\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000172642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n footer{\n-    b\n+    background-color: $;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000178610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n footer{\n-    background-color: $;\n+    background-color: $colo;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000205198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n footer{\n-    background-color: $colo;\n+    background-color: $colo$colour-black;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000258278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n footer{\n-    background-color: $colo$colour-black;\n+    background-color: $colour-black;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000271651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n footer{\n     background-color: $colour-black;\n-    \n+    color: $;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000277092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n footer{\n     background-color: $colour-black;\n-    color: $;\n+    color: $colour-white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000287852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n footer{\n     background-color: $colour-black;\n     color: $colour-white;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000302667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n footer{\n     background-color: $colour-black;\n-    color: $colour-white;\n     \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000310410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n footer{\n     background-color: $colour-black;\n     \n+    \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000320110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n footer{\n     background-color: $colour-black;\n     \n-    \n+    a\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000326395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n footer{\n     background-color: $colour-black;\n     \n-    a\n+    a{}\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000332117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a{}\n+    a{\n+        te\n+    }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000338511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n     a{\n-        te\n+        text-decoration: none;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000410433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n     background-color: $colour-black;\n     \n     a{\n         text-decoration: none;\n+        \n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000417005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n     background-color: $colour-black;\n     \n     a{\n         text-decoration: none;\n-        \n+        color: ;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000423545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n     background-color: $colour-black;\n     \n     a{\n         text-decoration: none;\n-        color: ;\n+        color: $colour-white;\n     }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000434333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a{\n+    a, li{\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000440299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a, li{\n+    a li{\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000453251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a li{\n+    a ul {\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000471448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a ul {\n+    a  {\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000479873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a  {\n+    a \n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000485831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a \n+    a {\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000498187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a {\n+    {\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000517231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    {\n+    a li{\n         text-decoration: none;\n         color: $colour-white;\n     }\n \n"
+                },
+                {
+                    "date": 1666000551542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n footer{\n     background-color: $colour-black;\n     \n-    a li{\n+    a{\n         text-decoration: none;\n-        color: $colour-white;\n-    }\n+        }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000557652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n footer{\n     background-color: $colour-black;\n+\n+    ul\n     \n     a{\n         text-decoration: none;\n         }\n"
+                },
+                {
+                    "date": 1666000578215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,11 @@\n footer{\n     background-color: $colour-black;\n \n-    ul\n+    li{\n+        color: $colour-white;\n+ \n+    }\n     \n     a{\n         text-decoration: none;\n         }\n"
+                },
+                {
+                    "date": 1666000596748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n footer{\n     background-color: $colour-black;\n+    color: $colour-white;\n \n     li{\n         color: $colour-white;\n  \n"
+                },
+                {
+                    "date": 1666000616634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n     }\n     \n     a{\n         text-decoration: none;\n+        color: $colour-white;\n         }\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000758113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,10 @@\n footer{\n     background-color: $colour-black;\n     color: $colour-white;\n \n-    li{\n-        color: $colour-white;\n- \n-    }\n     \n+    \n     a{\n         text-decoration: none;\n         color: $colour-white;\n         }\n"
+                },
+                {
+                    "date": 1666000768616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n footer{\n     background-color: $colour-black;\n     color: $colour-white;\n \n-    \n-    \n     a{\n         text-decoration: none;\n         color: $colour-white;\n         }\n"
+                },
+                {
+                    "date": 1666000780042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n footer{\n     background-color: $colour-black;\n+    \n     color: $colour-white;\n \n     a{\n         text-decoration: none;\n"
+                },
+                {
+                    "date": 1666000833918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n footer{\n     background-color: $colour-black;\n-    \n+\n+    h\n     color: $colour-white;\n \n     a{\n         text-decoration: none;\n"
+                },
+                {
+                    "date": 1666000839673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n footer{\n     background-color: $colour-black;\n \n-    h\n+    h4{}\n     color: $colour-white;\n \n     a{\n         text-decoration: none;\n"
+                },
+                {
+                    "date": 1666000847070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n footer{\n     background-color: $colour-black;\n \n-    h4{}\n+    h4{\n+\n+    \n     color: $colour-white;\n \n     a{\n         text-decoration: none;\n"
+                },
+                {
+                    "date": 1666000856521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n     h4{\n \n     \n-    color: $colour-white;\n+    color: $colour-white;}\n \n     a{\n         text-decoration: none;\n         color: $colour-white;\n"
+                },
+                {
+                    "date": 1666000865740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \n     h4{\n \n     \n-    color: $colour-white;}\n+    color: $colour-white;\n+}\n \n     a{\n         text-decoration: none;\n         color: $colour-white;\n"
+                },
+                {
+                    "date": 1666000874227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n     background-color: $colour-black;\n \n     h4{\n \n-    \n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000886937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-\n+        \n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000896166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-        \n+    padding: ;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000909087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: ;\n+    padding: 0px;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000939936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: 0px;\n+    padding: 4(px;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000953350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: 4(px;\n+    padding: 45px ;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000969313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: 45px ;\n+    padding: 45px 0px 30;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000975148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: px 0px 30;\n+    padding: 3px 0px 30;\n     color: $colour-white;\n }\n \n     a{\n"
+                },
+                {
+                    "date": 1666000980345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n footer{\n     background-color: $colour-black;\n \n     h4{\n-    padding: 30px 0px ;\n+    padding: 30px 0px 4;\n     color: $colour-white;\n }\n \n     a{\n"
+                }
+            ],
+            "date": 1666000161282,
+            "name": "Commit-0",
+            "content": "footer"
+        }
+    ]
+}

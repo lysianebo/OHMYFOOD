@@ -1,0 +1,30 @@
+main{
+    position: relative ;
+} 
+    .image img{
+    height:300px;
+    width: 100%;
+    object-fit: cover;}
+    .menu{
+    position: absolute;
+    top: 250px;
+    background-color: lighten($colour-gray, 10%);
+    border-radius: 30px;
+    width: 100%;
+    z-index: 1;
+
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-weight: 200;
+    }
+    }
+    .bordered-bottom{
+        background-image: linear-gradient(to right, rgb(139, 191, 64) 50%, transparent 50%);
+        background-size: 60px 6px;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+    }
+    
+

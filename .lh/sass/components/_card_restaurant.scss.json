@@ -1,0 +1,390 @@
+{
+    "sourceFile": "sass/components/_card_restaurant.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 93,
+            "patches": [
+                {
+                    "date": 1666004187213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666004197392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.\n\\ No newline at end of file\n+.card_restaurants\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004321651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.card_restaurants\n\\ No newline at end of file\n+.card_restaurants{\n+    ba\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004328610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .card_restaurants{\n-    ba\n+    background-color: $;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004334278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .card_restaurants{\n-    background-color: $;\n+    background-color: $colour-white;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004340787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .card_restaurants{\n     background-color: $colour-white;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004349344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .card_restaurants{\n     background-color: $colour-white;\n-    \n+    h\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004355206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .card_restaurants{\n     background-color: $colour-white;\n-    h\n+    heidg\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004369378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .card_restaurants{\n     background-color: $colour-white;\n-    heidg\n+    height: 200px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004377876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n .card_restaurants{\n     background-color: $colour-white;\n     height: 200px;\n+\n+    i\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004384242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n .card_restaurants{\n     background-color: $colour-white;\n     height: 200px;\n \n-    i\n+    img{\n+        \n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004394574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .card_restaurants{\n     background-color: $colour-white;\n-    height: 200px;\n+   \n \n     img{\n-        \n+\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004403378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-color: $colour-white;\n    \n \n     img{\n-\n+he\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004409769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-color: $colour-white;\n    \n \n     img{\n-he\n+height: 200px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004421577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .card_restaurants{\n     background-color: $colour-white;\n    \n-\n     img{\n-height: 200px;\n+    height: 200px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004430002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurants{\n     background-color: $colour-white;\n    \n-    img{\n+    &__img{\n     height: 200px;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004438502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurants{\n     background-color: $colour-white;\n    \n-    &__img{\n+    img{\n     height: 200px;\n-    }\n+    fi}\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004443993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    fi}\n+    fitc }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004449669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    fitc }\n+    fit }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004455589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    fit }\n+    con }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004482616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    con }\n+    contentcover }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004489908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    contentcover }\n+    cover }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004498629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n-    cover }\n+     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004589640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n+    object-fit: cover;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004601571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n    \n     img{\n     height: 200px;\n     object-fit: cover;\n+    \n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004608549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n    \n     img{\n     height: 200px;\n     object-fit: cover;\n-    \n+    padding: ;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004635409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-.card_restaurants{\n+.card_restaurant{\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n     object-fit: cover;\n-    padding: ;\n+    padding: 20px;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666004835440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .card_restaurant{\n+    \n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n"
+                },
+                {
+                    "date": 1666004846776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card_restaurant{\n-    \n+    wid\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n"
+                },
+                {
+                    "date": 1666004854049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card_restaurant{\n-    wid\n+    width: 90;\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n"
+                },
+                {
+                    "date": 1666004859492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card_restaurant{\n-    width: 90;\n+    width: 90%;\n     background-color: $colour-white;\n    \n     img{\n     height: 200px;\n"
+                },
+                {
+                    "date": 1666005763888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 90%;\n     background-color: $colour-white;\n    \n     img{\n-    height: 200px;\n+    height: 00px;\n     object-fit: cover;\n     padding: 20px;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666007471179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n .card_restaurant{\n     width: 90%;\n+    \n     background-color: $colour-white;\n    \n     img{\n-    height: 00px;\n+    height: 300px;\n     object-fit: cover;\n     padding: 20px;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666007476497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    \n+    je\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666007481817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    je\n+    height\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666007488074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    height\n+    height:\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666007503149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    height:\n+    height:max-content\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666007512282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    height:max-content\n+    height:min-content\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666007518630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 90%;\n-    height:min-content\n+    height:min-content;\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n"
+                },
+                {
+                    "date": 1666009458845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n    \n     img{\n     height: 300px;\n     object-fit: cover;\n-    padding: 20px;\n+    padding: px;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009473541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n+    \n     object-fit: cover;\n-    padding: px;\n+    padding: 5px;\n      }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009547522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,5 @@\n    \n     img{\n     height: 300px;\n     \n-    object-fit: cover;\n-    padding: 5px;\n-     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009561650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n-    \n+    @ind\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009567326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n-    @ind\n+    @include i\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009612328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n     background-color: $colour-white;\n    \n     img{\n     height: 300px;\n-    @include i\n+    @include img_\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009622405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,6 @@\n     height:min-content;\n     background-color: $colour-white;\n    \n     img{\n-    height: 300px;\n-    @include img_\n+    @include img_size\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009637498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n     background-color: $colour-white;\n    \n     img{\n     @include img_size\n+}\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666011755979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n+    \n    \n     img{\n     @include img_size\n }\n"
+                },
+                {
+                    "date": 1666011771042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n     \n+\n    \n     img{\n-    @include img_size\n+    @include img_size;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666011784543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    \n+    border-radius: ;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666011790691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: ;\n+    border-radius: 20;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666011824781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: 20;\n+    border-radius: %;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666011833378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: %;\n+    border-radius: 10%;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666011982741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: 10%;\n+    border-radius: %;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666011999872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 90%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: %;\n+    border-radius: 5p;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012094385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n-    width: 90%;\n+    width: 9%;\n     height:min-content;\n     background-color: $colour-white;\n-    border-radius: 5p;\n+    border-radius: 5px;\n \n    \n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012114942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n .card_restaurant{\n-    width: 9%;\n+    width: 98%;\n     height:min-content;\n     background-color: $colour-white;\n     border-radius: 5px;\n-\n-   \n-    img{\n+img{\n     @include img_size;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012125037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n     width: 98%;\n     height:min-content;\n     background-color: $colour-white;\n     border-radius: 5px;\n-img{\n+    img{\n     @include img_size;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012248052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 98%;\n-    height:min-content;\n+    height: min-content;\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012267061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n+    \n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012272346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n-    \n+    @include f;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012280678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n-    @include f;\n+    @include flexCenter();\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012286741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n-    @include flexCenter();\n+    @include flexCenter(column);\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012305835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .card_restaurant{\n     width: 98%;\n-    height: min-content;\n+    height: 200px;\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012313554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n     border-radius: 5px;\n     img{\n     @include img_size;\n     @include flexCenter(column);\n+    \n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012323756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     border-radius: 5px;\n     img{\n     @include img_size;\n     @include flexCenter(column);\n-    \n+    justify-content: space-between;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012344015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,7 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n-    @include flexCenter(column);\n-    justify-content: space-between;\n+   \n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012357605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n     background-color: $colour-white;\n     border-radius: 5px;\n     img{\n     @include img_size;\n-   \n+    @include flexCenter(column);\n+    justify-content: space-between;\n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012373319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n .card_restaurant{\n     width: 98%;\n-    height: 200px;\n+    height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n+    @include flexCenter(column);\n+    justify-content: space-between;\n     img{\n     @include img_size;\n-    @include flexCenter(column);\n-    justify-content: space-between;\n+   \n }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666012408888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n+    b\n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012422802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n-    b\n+    border\n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012433858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n-    border\n+    border-sh\n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012439036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n-    border-sh\n+    border-shad\n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012447372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px;\n-    border-shad\n+    \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012452618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5px;\n+    border-radius: 5px solid;\n     \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n"
+                },
+                {
+                    "date": 1666012461843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5px solid;\n+    border-radius: 5px solid @;\n     \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n"
+                },
+                {
+                    "date": 1666012467663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5px solid @;\n+    border-radius: 5px solid red;\n     \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n"
+                },
+                {
+                    "date": 1666012476778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n     \n+    \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012520872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n+    pa\n     \n-    \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n     @include img_size;\n"
+                },
+                {
+                    "date": 1666012528049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n-    pa\n+    padding: 10px\n     \n     @include flexCenter(column);\n     justify-content: space-between;\n     img{\n"
+                },
+                {
+                    "date": 1666012609762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n-    padding: 10px\n+    padding: 10px;\n     \n-    @include flexCenter(column);\n+    \n     justify-content: space-between;\n     img{\n     @include img_size;\n    \n"
+                },
+                {
+                    "date": 1666012615672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     border-radius: 5px solid red;\n     padding: 10px;\n     \n     \n-    justify-content: space-between;\n+    \n     img{\n     @include img_size;\n    \n }\n"
+                },
+                {
+                    "date": 1666012622935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n-    padding: 10px;\n+    padding: 20px;\n     \n     \n     \n     img{\n"
+                },
+                {
+                    "date": 1666012634061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card_restaurant{\n-    width: 98%;\n+    width: 96%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1666012641085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .card_restaurant{\n-    width: 96%;\n+    width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5px solid red;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1666012920635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5px solid red;\n+    border-radius: 5px;\n     padding: 20px;\n     \n     \n     \n"
+                },
+                {
+                    "date": 1666012926916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .card_restaurant{\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5px;\n+    border-radius: 5;\n     padding: 20px;\n     \n     \n     \n"
+                },
+                {
+                    "date": 1666013402933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .card_restaurant{\n+    \n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5;\n+    border-radius: 5%;\n     padding: 20px;\n     \n     \n     \n"
+                },
+                {
+                    "date": 1666013423530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,12 @@\n .card_restaurant{\n-    \n+    display: block;\n+    background-color:  $colour-white;\n+    margin: 2%;\n+    position: relative;\n+    width: 45%;\n+    box-shadow: 3px 3px 10px #cccccc;\n+    border-radius: 20px;\n     width: 98%;\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5%;\n"
+                },
+                {
+                    "date": 1666013491169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     position: relative;\n     width: 45%;\n     box-shadow: 3px 3px 10px #cccccc;\n     border-radius: 20px;\n-    width: 98%;\n+\n     height: 300px;\n     background-color: $colour-white;\n     border-radius: 5%;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1666013498461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     display: block;\n     background-color:  $colour-white;\n     margin: 2%;\n     position: relative;\n-    width: 45%;\n+    width: %;\n     box-shadow: 3px 3px 10px #cccccc;\n     border-radius: 20px;\n \n     height: 300px;\n"
+                },
+                {
+                    "date": 1666013557871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,15 @@\n     display: block;\n     background-color:  $colour-white;\n     margin: 2%;\n     position: relative;\n-    width: %;\n+    width: 60%;\n     box-shadow: 3px 3px 10px #cccccc;\n     border-radius: 20px;\n \n     height: 300px;\n     background-color: $colour-white;\n-    border-radius: 5%;\n+    border-radius: 20px;\n     padding: 20px;\n     \n     \n     \n"
+                },
+                {
+                    "date": 1666013580093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .card_restaurant{\n     display: block;\n     background-color:  $colour-white;\n-    margin: %;\n+    margin: 1%;\n     position: relative;\n     width: 60%;\n     box-shadow: 3px 3px 10px #cccccc;\n     border-radius: 20px;\n"
+                },
+                {
+                    "date": 1666013608648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .card_restaurant{\n     display: block;\n     background-color:  $colour-white;\n-    margin: 4%;\n+    margin: %;\n     position: relative;\n     width: 60%;\n     box-shadow: 3px 3px 10px #cccccc;\n     border-radius: 20px;\n"
+                }
+            ],
+            "date": 1666004187213,
+            "name": "Commit-0",
+            "content": "."
+        }
+    ]
+}

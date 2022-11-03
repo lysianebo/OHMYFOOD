@@ -1,0 +1,162 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 36,
+            "patches": [
+                {
+                    "date": 1665990709956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665990748949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n+    \"sass\": \"sass ../base/scss:../public/css --watch\n+    \"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990845730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass ../base/scss:../public/css --watch\n-    \"\n+    \"sass\": sass --watch ./sass/main.scss:./public/css/style.css\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990879414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": sass --watch ./sass/main.scss:./public/css/style.css\n+    \"sass\": sass --watch ./sass/main.scss:./public/css/style.css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990894163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": sass --watch ./sass/main.scss:./public/css/style.css\"\n+    \"sass\": \"sass --watch ./sass\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990899805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass\n+    \"sass\": \"sass --watch ./\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990905231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./\n+    \"sass\": \"sass --watch ./sass\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990912509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass\n+    \"sass\": \"sass --watch ./sass/base\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990919009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/base\n+    \"sass\": \"sass --watch ./sass/base/scss \n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990924324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/base/scss \n+    \"sass\": \"sass --watch ./sass/base/scss : .\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990930734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/base/scss : .\n+    \"sass\": \"sass --watch ./sass/base/scss : ./pu\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990963637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/base/scss : ./pu\n+    \"sass\": \"sass --watch ./sass//scss : ./pub\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990969623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass//scss : ./pub\n+    \"sass\": \"sass --watch ./sass/scss : ./public\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665990977886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/scss : ./public\n+    \"sass\": \"sass --watch ./sass/scss : ./public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991136783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/scss : ./public/css\"\n+    \"sass\": \"sass --watch ./sass/scss : ../public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991517364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch ./sass/scss : ../public/css\"\n+    \"sass\": \"sass --watch .sass/scss : ../public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991536832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch .sass/scss : ../public/css\"\n+    \"sass\": \"sass --watch sass/scss :public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991543409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss :public/css\"\n+    \"sass\": \"sass --watch sass/scss public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991628787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss public/css\"\n+    \"sass\": \"sass --watch sass/scss /public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991707924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss /public/css\"\n+    \"sass\": \"sass --watch sass/scss ./public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991806940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ./public/css\"\n+    \"sass\": \"sass --watch sass/scss ../public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991836221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ../public/css\"\n+    \"sass\": \"sass --watch sass/scss ../public/css \"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991860408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ../public/css \"\n+    \"sass\": \"sass --watch sass/scss ../public/css public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991888041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ../public/css public/css\"\n+    \"sass\": \"sass --watch sass/scss public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991911915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss public/css\"\n+    \"sass\": \"sass --watch sass/scss public/css \"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991917394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss public/css \"\n+    \"sass\": \"sass --watch sass/scss public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665991959444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss public/css\"\n+    \"sass\": \"sass --watch sass/scss /public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665992080479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss /public/css\"\n+    \"sass\": \"sass --watch sass/scss ../public/css/\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665992086392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ../public/css/\"\n+    \"sass\": \"sass --watch sass/scss ../public/css/main.c\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665992146252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss ../public/css/main.c\"\n+    \"sass\": \"sass --watch sass/scss /home/lysiane/Applications/ApplicationsWeb/ohmyfood/public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665992546610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss /home/lysiane/Applications/ApplicationsWeb/ohmyfood/public/css\"\n+    \"sass\": \"sass --watch sass/scss : /home/lysiane/Applications/ApplicationsWeb/ohmyfood/public/css\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1665994828329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass --watch sass/scss : /home/lysiane/Applications/ApplicationsWeb/ohmyfood/public/css\"\n+    \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1666275819735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n+    \"sass\": \"sass ./sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1666275828320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass ./sass/main.scss ../public/css/main.css --watch\"\n+    \"sass\": \"sass ;./sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1666275835013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass ;./sass/main.scss ../public/css/main.css --watch\"\n+    \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1666276331983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n+    //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1666279433198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n+    \n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                }
+            ],
+            "date": 1665990709956,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"ohmyfood\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"sass\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n"
+        }
+    ]
+}

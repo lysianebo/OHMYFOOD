@@ -1,0 +1,18 @@
+{
+    "sourceFile": "sass/components/avoir.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1666254670713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1666254670713,
+            "name": "Commit-0",
+            "content": "/* @mixin button-bg($bg) {\n  background: $bg;\n  &:hover {\n    background:darken($bg,8%);\n    transition: all 0.3s ease;\n  }\n  &:active {\n    background:darken($bg,25%);\n  } \n} */\n\n/* .btn {\n color:white;\n text-decoration:none;\n padding:5px 10px;\n border-radius:3px;\n font-family: 'Poiret One', cursive;\n font-size:2em;\n} */\n/* \n.btn-green {\n   @include button-bg(#2ecc71);\n} */\n\n/* .btn-blue {\n   @include button-bg(#3498db);\n}\n\n.btn-yellow{\n   @include button-bg(#f1c40f);\n}\n\n.btn-red {\n   @include button-bg(#e74c3c);\n} */\n\n/*Other Stylez*/\n.wrap {\n  margin:0 auto;\n  width:800px;\n  text-align:center;\n}\n\n"
+        }
+    ]
+}

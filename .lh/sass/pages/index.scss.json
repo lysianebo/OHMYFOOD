@@ -1,0 +1,146 @@
+{
+    "sourceFile": "sass/pages/index.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 32,
+            "patches": [
+                {
+                    "date": 1665998015951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665998021736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-M\n\\ No newline at end of file\n+main\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665998028057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-main\n\\ No newline at end of file\n+main{\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665999120134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n main{\n-    \n+    disp\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665999125260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n main{\n-    disp\n+    display: grid;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1665999242700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n main{\n     display: grid;\n+    grid\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666000218375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n main{\n     display: grid;\n-    grid\n+    grid-template-columns: 1;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008034160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +0,0 @@\n-main{\n-    display: grid;\n-    grid-template-columns: 1;\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008039984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+.rechercher\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008045163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.rechercher\n\\ No newline at end of file\n+.rechercher{\n+    b\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008054052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .rechercher{\n-    b\n+    background-color: $c;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008068686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .rechercher{\n-    background-color: $c;\n+    background-color: $colo\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008092806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .rechercher{\n-    background-color: $colo\n+    background-color: $colour-light-gray;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008099673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .rechercher{\n     background-color: $colour-light-gray;\n-    \n+    height: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008106346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .rechercher{\n     background-color: $colour-light-gray;\n-    height: ;\n+    height: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008116442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .rechercher{\n     background-color: $colour-light-gray;\n-    height: 100px;\n+    height: 50px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008136308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1666008142372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n }\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008272891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,10 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n }\n-.\n\\ No newline at end of file\n+..Introduction, .Liste_restaurants {\n+    background-color:lighten($colour-light-gray,15%);\n+    display: flex;\n+    flex-direction: column;\n+    justify-content: space-between;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666008279137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n }\n-..Introduction, .Liste_restaurants {\n+\n+.Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n     display: flex;\n     flex-direction: column;\n     justify-content: space-between;\n"
+                },
+                {
+                    "date": 1666008313135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n+    dis\n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666008320300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    dis\n+    display: flex;\n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666008326658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n     display: flex;\n+    align-items: center;\n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666008333653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     background-color: $colour-light-gray;\n     height: 50px;\n     display: flex;\n     align-items: center;\n+    jus\n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666008402306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    display: flex;\n-    align-items: center;\n-    jus\n+    \n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666009313600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n     \n+    \n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666009328411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n+    @include\n     \n-    \n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n"
+                },
+                {
+                    "date": 1666009335698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    @include\n+    @include flexCenter\n     \n }\n \n .Introduction, .Liste_restaurants {\n"
+                },
+                {
+                    "date": 1666009345692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    @include flexCenter\n+    @include flexCenter();\n     \n }\n \n .Introduction, .Liste_restaurants {\n"
+                },
+                {
+                    "date": 1666009365038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    @include flexCenter();\n+    @include flexCenter(co);\n     \n }\n \n .Introduction, .Liste_restaurants {\n"
+                },
+                {
+                    "date": 1666009394292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,11 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n-    @include flexCenter(co);\n+    @include flexCenter(column);\n     \n }\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n-    display: flex;\n-    flex-direction: column;\n-    justify-content: space-between;\n+    @include flexCenter(column);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009706492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .rechercher{\n     background-color: $colour-light-gray;\n     height: 50px;\n     @include flexCenter(column);\n-    }\n+}\n \n .Introduction, .Liste_restaurants {\n     background-color:lighten($colour-light-gray,15%);\n     @include flexCenter(column);\n"
+                },
+                {
+                    "date": 1666012857620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n    \n }\n .fonctionnement{\n     height: 150px;\n-    justify-content: space-ev;\n+    justify-content: space-evenly;\n     @include flexCenter(column);\n }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1665998015951,
+            "name": "Commit-0",
+            "content": "M"
+        }
+    ]
+}

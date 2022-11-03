@@ -1,0 +1,166 @@
+{
+    "sourceFile": "perso/cartes-tournantes/cartes.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 37,
+            "patches": [
+                {
+                    "date": 1666365841354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666365915981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    \n+    <div></div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365922472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    <div></div>\n+    <div class></div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365932717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    <div class></div>\n+    <div class=\"container\">\n+\n+        \n+    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365940305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,10 @@\n </head>\n <body>\n     <div class=\"container\">\n \n-        \n+        <h1>\n+            s\n+        </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365950068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n <body>\n     <div class=\"container\">\n \n         <h1>\n-            s\n+            <span>Les offres dispo</span>\n         </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365962512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n <body>\n     <div class=\"container\">\n \n         <h1>\n-            <span>Les offres dispo</span>\n+            <span>Les offres disponibles</span>\n+            <span>Les offres disponibles</span>\n         </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365981920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"container\">\n \n         <h1>\n             <span>Les offres disponibles</span>\n-            <span>Les offres disponibles</span>\n+            <span>dans votre parking</span>\n         </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365988545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"container\">\n \n         <h1>\n             <span>Les offres disponibles</span>\n-            <span>dans votre parking</span>\n+            <span>dans votre parking cité M</span>\n         </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666365999328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"container\">\n \n         <h1>\n             <span>Les offres disponibles</span>\n-            <span>dans votre parking cité M</span>\n+            <span>dans votre parking cité Mohn</span>\n         </h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366031842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n     <div class=\"container\">\n \n         <h1>\n             <span>Les offres disponibles</span>\n-            <span>dans votre parking cité Mohn</span>\n+            <span>dans votre parking cité Mondiale</span>\n         </h1>\n+        div\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366038071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n         <h1>\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n-        div\n+        <divclas></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366047671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n         <h1>\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n-        <divclas></div>\n+        <div class=\"card-\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366053958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n         <h1>\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n-        <div class=\"card-\"></div>\n+        <div class=\"card-container\"></div>\n+        \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366062659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n         <div class=\"card-container\"></div>\n-        \n+        <div class=\"card-container\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366069495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n         <div class=\"card-container\"></div>\n-        <div class=\"card-container\"></div>\n+        <div class=\"card-w\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366090609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <h1>\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n-        <div class=\"card-container\"></div>\n-        <div class=\"card-w\"></div>\n+        <div class=\"card-container\">\n+        <div class=\"card-wrapper\"></div>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366096117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,7 @@\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\"></div>\n     </div>\n+</div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366121200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n             <span>Les offres disponibles</span>\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n         <div class=\"card-container\">\n-        <div class=\"card-wrapper\"></div>\n+        <div class=\"card-wrapper\">\n+            \n+        </div>\n     </div>\n </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666366131588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n-            \n+            <div cla></div>\n         </div>\n     </div>\n </div>\n </body>\n"
+                },
+                {
+                    "date": 1666366140809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n             <span>dans votre parking cité Mondiale</span>\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n-            <div cla></div>\n+            <div class=\"card\">\n+                \n+            </div>\n         </div>\n     </div>\n </div>\n </body>\n"
+                },
+                {
+                    "date": 1666366149754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n-                \n+                <div clas></div>\n             </div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1666366156049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n-                <div clas></div>\n+                <div class=\"card-front\"></div>\n             </div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1666366164602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\"></div>\n+                <div class=\"card-front\"></div>\n             </div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1666366182927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,12 @@\n         </h1>\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n+                <div class=\"card-front\">\n+                    \n+                </div>\n                 <div class=\"card-front\"></div>\n-                <div class=\"card-front\"></div>\n             </div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1666366189183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n-                    \n+                    <p>vous résid</p>\n                 </div>\n                 <div class=\"card-front\"></div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366207487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n-                    <p>vous résid</p>\n+                    <p>vous résidez à moins d'</p>\n                 </div>\n                 <div class=\"card-front\"></div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366215133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n-                    <p>vous résidez à moins d'</p>\n+                    <p>vous résidez à moins d'1km d'un parking</p>\n                 </div>\n                 <div class=\"card-front\"></div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366259569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,11 @@\n         <div class=\"card-container\">\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n-                    <p>vous résidez à moins d'1km d'un parking</p>\n+                    <p>vous résidez à moins d'1km d'un parking ?</p>\n                 </div>\n-                <div class=\"card-front\"></div>\n+                \n             </div>\n         </div>\n     </div>\n </div>\n"
+                },
+                {
+                    "date": 1666366274322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n+                \n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366288421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div class=\"card-wrapper\">\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n-                \n+                    <div class=\"card-price\"></div>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366302522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n+                    \n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366309916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n-                    \n+                    <span>64</span>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366331158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n-                    <span>64</span>\n+                    <span>64 €</span>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366336345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n-                    <span>64 €</span>\n+                    <span>64 € / </span>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366353818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,10 @@\n             <div class=\"card\">\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n-                    <span>64 € / </span>\n+                    <span>64 € / mois</span>\n+                    \n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366367402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n                     <span>64 € / mois</span>\n-                    i\n+                    <i></i>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1666366380266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n                 <div class=\"card-front\">\n                     <p>vous résidez à moins d'1km d'un parking ?</p>\n                     <div class=\"card-price\"></div>\n                     <span>64 € / mois</span>\n-                    <i class=\"arrow-ico\"></i>\n+                    <i class=\"arrow-icon\"></i>\n                 </div>\n                 \n             </div>\n         </div>\n"
+                }
+            ],
+            "date": 1666365841354,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n</body>\n</html>"
+        }
+    ]
+}

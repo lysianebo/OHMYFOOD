@@ -1,0 +1,62 @@
+{
+    "sourceFile": "sass/layout/_restaurant-menu.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1666534508677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666534515269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.image\n\\ No newline at end of file\n+.image{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666534560590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.image{}\n\\ No newline at end of file\n+.image{\n+    h\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666534571536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .image{\n-    h\n+    height: 50;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666534991119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .image{\n-    height: 50;\n+    height: 10%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666534996710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .image{\n     height: 10%;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666535013653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .image{\n     height: 10%;\n-\n+    object-fit: cover;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666535056355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-.image{\n+.image img{\n     height: 10%;\n     object-fit: cover;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666535068337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .image img{\n-    height: 10%;\n+    height: %;\n     object-fit: cover;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666535079370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .image img{\n-    height: %;\n+    height: 5%;\n     object-fit: cover;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666535100511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .image img{\n-    height:;\n+    height:1;\n     object-fit: cover;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666536013269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n }\n .menu{\n     background-color: gray;\n     border-radius: 40px  0px;\n-    margin: -10;\n+    margin: -10%;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1666534508677,
+            "name": "Commit-0",
+            "content": ".image"
+        }
+    ]
+}

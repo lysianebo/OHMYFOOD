@@ -1,0 +1,190 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 43,
+            "patches": [
+                {
+                    "date": 1665995069805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665995075514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n         <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shrikhand&display=swap\" rel=\"stylesheet\"> -->\n         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\">\n         <!-- <link rel=\"stylesheet\" href=\"css/normalize.css\" /> -->\n-        <link rel=\"stylesheet\" href=\"css/main.css\"/>\n+        <link rel=\"stylesheet\" href=\"publiccss/main.css\"/>\n         <!-- <link rel=\"stylesheet\" href=\"css/media.css\" /> -->\n         <title>Ohmyfood</title>\n \n     </head> \n"
+                },
+                {
+                    "date": 1665995120024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n         <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shrikhand&display=swap\" rel=\"stylesheet\"> -->\n         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\">\n         <!-- <link rel=\"stylesheet\" href=\"css/normalize.css\" /> -->\n-        <link rel=\"stylesheet\" href=\"publiccss/main.css\"/>\n+        <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n         <!-- <link rel=\"stylesheet\" href=\"css/media.css\" /> -->\n         <title>Ohmyfood</title>\n \n     </head> \n@@ -27,11 +27,9 @@\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n \t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n-\t\t\t\t\t<button class=\"rechercher\" type=\"submit\" id=\"rechercher\" name=\"Rechercher\">\n-\t\t\t\t\t\t<span class=\"text\">Rechercher</span>\n-\t\t\t\t\t\t<span class=\"icone\"><i class=\"fas fa-search\"></i></span>\n+\t\t\t\t\t\n \t\t\t\t\t</button>\n \t\t\t\t</div>\n         </form>\n     </header>\n"
+                },
+                {
+                    "date": 1665995134638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,8 @@\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n \t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n-\t\t\t\t\t\n-\t\t\t\t\t</button>\n \t\t\t\t</div>\n         </form>\n     </header>\n     <div class=\"Introduction\">\n"
+                },
+                {
+                    "date": 1665995168122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <form class=\"rechercher\">\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n-\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n+\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"<i class=\"fas fa-map-marker-alt\"></i>Paris, Belleville\">\n \t\t\t\t</div>\n         </form>\n     </header>\n     <div class=\"Introduction\">\n"
+                },
+                {
+                    "date": 1665995193777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <form class=\"rechercher\">\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n-\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"<i class=\"fas fa-map-marker-alt\"></i>Paris, Belleville\">\n+\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n \t\t\t\t</div>\n         </form>\n     </header>\n     <div class=\"Introduction\">\n"
+                },
+                {
+                    "date": 1665995204117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <form class=\"rechercher\">\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n-\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n+\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=<i class=\"fas fa-map-marker-alt\"></i> \"Paris, Belleville\">\n \t\t\t\t</div>\n         </form>\n     </header>\n     <div class=\"Introduction\">\n"
+                },
+                {
+                    "date": 1665995256838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <form class=\"rechercher\">\n             \n \t\t\t\t<div class=\"rechercher\">\n \t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n-\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=<i class=\"fas fa-map-marker-alt\"></i> \"Paris, Belleville\">\n+\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n \t\t\t\t</div>\n         </form>\n     </header>\n     <div class=\"Introduction\">\n"
+                },
+                {
+                    "date": 1665995269997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n     <h3>Le délice des sens</h3>\n <p>Folie-Méricourt</p>\n </div>\n <footer>\n-    <h3>ohmyfood</h3>\n+    <h>ohmyfood</h3>\n     <ul>\n         <li>Proposer un restaurant</li>\n         <li>Devenir partenaire</li>\n         <li>Mention légales</li>\n"
+                },
+                {
+                    "date": 1665995280706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n     <h3>Le délice des sens</h3>\n <p>Folie-Méricourt</p>\n </div>\n <footer>\n-    <h>ohmyfood</h3>\n+    <h4>ohmyfood</h4>\n     <ul>\n         <li>Proposer un restaurant</li>\n         <li>Devenir partenaire</li>\n         <li>Mention légales</li>\n"
+                },
+                {
+                    "date": 1665995306550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n         <!-- <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n         <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n         <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shrikhand&display=swap\" rel=\"stylesheet\"> -->\n-        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\">\n+        <!-- <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\"> -->\n         <!-- <link rel=\"stylesheet\" href=\"css/normalize.css\" /> -->\n         <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n         <!-- <link rel=\"stylesheet\" href=\"css/media.css\" /> -->\n         <title>Ohmyfood</title>\n"
+                },
+                {
+                    "date": 1665996066368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>\n         <btn class=\"button_pink\">Explorer nos restaurants</btn>\n     </div>\n     <div class=\"Fonctionnement\">\n-        Choisissez un restaurant\n+        <i class=\"fas fa-map-marker-alt\"></i>Choisissez un restaurant\n         Composez votre menu\n         Dégustez au restaurant\n     </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996112851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>\n         <btn class=\"button_pink\">Explorer nos restaurants</btn>\n     </div>\n     <div class=\"Fonctionnement\">\n-        <i class=\"fas fa-map-marker-alt\"></i>Choisissez un restaurant\n+        .fa-mobile-screen-button Choisissez un restaurant\n         Composez votre menu\n         Dégustez au restaurant\n     </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996155472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>\n         <btn class=\"button_pink\">Explorer nos restaurants</btn>\n     </div>\n     <div class=\"Fonctionnement\">\n-        .fa-mobile-screen-button Choisissez un restaurant\n+        <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant\n         Composez votre menu\n         Dégustez au restaurant\n     </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996183188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n         <btn class=\"button_pink\">Explorer nos restaurants</btn>\n     </div>\n     <div class=\"Fonctionnement\">\n         <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant\n-        Composez votre menu\n+        <i class=\"fa-sharp fa-solid\"></i>Composez votre menu\n         Dégustez au restaurant\n     </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996267405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,16 @@\n         <h2>Réserver le menu qui vous convient</h2>\n         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>\n         <btn class=\"button_pink\">Explorer nos restaurants</btn>\n     </div>\n-    <div class=\"Fonctionnement\">\n-        <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant\n-        <i class=\"fa-sharp fa-solid\"></i>Composez votre menu\n-        Dégustez au restaurant\n-    </div>\n+    <div class=\"grid__fonctionnement\">\n+        \n+        <button class=\"btn_grey\">\n+         <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n+        <button class=\"btn_grey\">\n+         <i class=\"fa-sharp fa-solid\"></i>Composez votre menu</button>\n+        <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n+     </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n         <h3>La palette du goût</h3>\n         <p>Ménilmontant</p>\n"
+                },
+                {
+                    "date": 1665996683906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-         <i class=\"fa-sharp fa-solid\"></i>Composez votre menu</button>\n+            <i class=\"bi bi-list-stars\"></i></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996689086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"bi bi-list-stars\"></i></i>Composez votre menu</button>\n+            <i class=\"bi bi-list-stars\"></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996708896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"bi bi-list-stars\"></i>Composez votre menu</button>\n+            <i class=\"fa-list-stars\"></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996716331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-list-stars\"></i>Composez votre menu</button>\n+            <i class=\"fa--list-stars\"></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996722190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa--list-stars\"></i>Composez votre menu</button>\n+            <i class=\"fa-solid-list-stars\"></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996735963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid-list-stars\"></i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list-alt></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996744307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list-alt></i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996765599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list></i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list</i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996771713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list</i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-</i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996784097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-</i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-li</i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996810936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-li</i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list-dots</i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996846805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list-dots</i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996870292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,10 @@\n     </div>\n     <div class=\"grid__fonctionnement\">\n         \n         <button class=\"btn_grey\">\n-         <i class=\"fa-solid fa-mobile-screen-button\"></i>Choisissez un restaurant</button> \n+         <i class=\"fa-solid fa-mobile-screen-button\"></i>\n+         Choisissez un restaurant</button> \n         <button class=\"btn_grey\">\n             <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n"
+                },
+                {
+                    "date": 1665996878442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,10 @@\n     <div class=\"grid__fonctionnement\">\n         \n         <button class=\"btn_grey\">\n          <i class=\"fa-solid fa-mobile-screen-button\"></i>\n-         Choisissez un restaurant</button> \n+         Choisissez un restaurant\n+        </button> \n         <button class=\"btn_grey\">\n             <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n"
+                },
+                {
+                    "date": 1665996884577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,10 @@\n     </div>\n     <div class=\"grid__fonctionnement\">\n         \n         <button class=\"btn_grey\">\n-         <i class=\"fa-solid fa-mobile-screen-button\"></i>\n-         Choisissez un restaurant\n+             <i class=\"fa-solid fa-mobile-screen-button\"></i>\n+            Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n             <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n"
+                },
+                {
+                    "date": 1665996895061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,12 @@\n     <div class=\"grid__fonctionnement\">\n         \n         <button class=\"btn_grey\">\n              <i class=\"fa-solid fa-mobile-screen-button\"></i>\n-            Choisissez un restaurant\n+             Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n+            \n             <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996902791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,8 @@\n              <i class=\"fa-solid fa-mobile-screen-button\"></i>\n              Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n-            \n             <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996909517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,10 @@\n              <i class=\"fa-solid fa-mobile-screen-button\"></i>\n              Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list-dots></i>Composez votre menu</button>\n+            <i class=\"fa-solid fa-list-dots></i>\n+            Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996922027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n              <i class=\"fa-solid fa-mobile-screen-button\"></i>\n              Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n-            <i class=\"fa-solid fa-list-dots></i>\n+            <i class=\"fa-solid fa-list-dots\"></i>\n             Composez votre menu</button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n"
+                },
+                {
+                    "date": 1665996935538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,10 @@\n              Choisissez un restaurant\n         </button> \n         <button class=\"btn_grey\">\n             <i class=\"fa-solid fa-list-dots\"></i>\n-            Composez votre menu</button>\n+            Composez votre menu\n+        </button>\n         <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n"
+                },
+                {
+                    "date": 1665996946057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,10 @@\n         <button class=\"btn_grey\">\n             <i class=\"fa-solid fa-list-dots\"></i>\n             Composez votre menu\n         </button>\n-        <button class=\"btn_light-pink\"><i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n+        <button class=\"btn_light-pink\">\n+            <i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n         <h3>La palette du goût</h3>\n"
+                },
+                {
+                    "date": 1665996951220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n             <i class=\"fa-solid fa-list-dots\"></i>\n             Composez votre menu\n         </button>\n         <button class=\"btn_light-pink\">\n-            <i class=\"fa-solid fa-store\"></i> Dégustez au restaurant</button>  \n+            <i class=\"fa-solid fa-store\"></i>Dégustez au restaurant</button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n         <h3>La palette du goût</h3>\n"
+                },
+                {
+                    "date": 1665996959910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,11 @@\n             <i class=\"fa-solid fa-list-dots\"></i>\n             Composez votre menu\n         </button>\n         <button class=\"btn_light-pink\">\n-            <i class=\"fa-solid fa-store\"></i>Dégustez au restaurant</button>  \n+            <i class=\"fa-solid fa-store\"></i>\n+            Dégustez au restaurant\n+        </button>  \n      </div>\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n         <h3>La palette du goût</h3>\n"
+                },
+                {
+                    "date": 1665997609585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n     </head> \n     <body>\n     \n     <header>\n+        \n         <h1>ohmyfood</h1>\n         \n      \n     \n"
+                },
+                {
+                    "date": 1665997620993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,10 @@\n     </head> \n     <body>\n     \n     <header>\n+        <main>        <h1>ohmyfood</h1>\n         \n-        <h1>ohmyfood</h1>\n-        \n      \n     \n \n         <form class=\"rechercher\">\n"
+                },
+                {
+                    "date": 1665997629874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,9 @@\n <div class=\"Restaurant\">\n     <h3>Le délice des sens</h3>\n <p>Folie-Méricourt</p>\n </div>\n+\n <footer>\n     <h4>ohmyfood</h4>\n     <ul>\n         <li>Proposer un restaurant</li>\n"
+                },
+                {
+                    "date": 1665997757686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"Liste_Restaurants\"></div>\n     <div class=\"Restaurant\">\n         <h3>La palette du goût</h3>\n         <p>Ménilmontant</p>\n-        \n+        <i class=\"fa-regular fa-heart\"></i>\n     </div>\n     <div class=\"Restaurant\">\n         <h3>La note enchantée</h3>\n         <p>Charonne</p>\n"
+                },
+                {
+                    "date": 1666003461595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n                 <p>Ménilmontant</p>\n         <i class=\"fa-regular fa-heart\"></i>\n     </a> \n     </div>\n-    <div class=card_restaurant\" href=\"./La_note_enchantée.html\">\n+    <div class=\"card_restaurant\" href=\"./La_note_enchantée.html\">\n         <img src=\"public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg\" alt=\"La note enchantée\">\n         \n         <div class=\"description\">\n             <h3>La note enchantée</h3>\n"
+                }
+            ],
+            "date": 1665995069805,
+            "name": "Commit-0",
+            "content": "<html>\n    <!DOCTYPE html>\n    <html lang=\"fr\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <!-- <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shrikhand&display=swap\" rel=\"stylesheet\"> -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css\">\n        <!-- <link rel=\"stylesheet\" href=\"css/normalize.css\" /> -->\n        <link rel=\"stylesheet\" href=\"css/main.css\"/>\n        <!-- <link rel=\"stylesheet\" href=\"css/media.css\" /> -->\n        <title>Ohmyfood</title>\n\n    </head> \n    <body>\n    \n    <header>\n        <h1>ohmyfood</h1>\n        \n     \n    \n\n        <form class=\"rechercher\">\n            \n\t\t\t\t<div class=\"rechercher\">\n\t\t\t\t\t<i class=\"fas fa-map-marker-alt\"></i>\n\t\t\t\t\t<input type=\"text\" id=\"Ville\" name=\"Ville\" placeholder=\"Paris, Belleville\">\n\t\t\t\t\t<button class=\"rechercher\" type=\"submit\" id=\"rechercher\" name=\"Rechercher\">\n\t\t\t\t\t\t<span class=\"text\">Rechercher</span>\n\t\t\t\t\t\t<span class=\"icone\"><i class=\"fas fa-search\"></i></span>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n        </form>\n    </header>\n    <div class=\"Introduction\">\n\n        <h2>Réserver le menu qui vous convient</h2>\n        <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>\n        <btn class=\"button_pink\">Explorer nos restaurants</btn>\n    </div>\n    <div class=\"Fonctionnement\">\n        Choisissez un restaurant\n        Composez votre menu\n        Dégustez au restaurant\n    </div>\n<div class=\"Liste_Restaurants\"></div>\n    <div class=\"Restaurant\">\n        <h3>La palette du goût</h3>\n        <p>Ménilmontant</p>\n    </div>\n    <div class=\"Restaurant\">\n        <h3>La note enchantée</h3>\n        <p>Charonne</p>\n    </div>\n<div class=\"Restaurant\">\n    <h3>A la française</h3>\n<p>Cité Rouge</p>\n</div>\n<div class=\"Restaurant\">\n    <h3>Le délice des sens</h3>\n<p>Folie-Méricourt</p>\n</div>\n<footer>\n    <h3>ohmyfood</h3>\n    <ul>\n        <li>Proposer un restaurant</li>\n        <li>Devenir partenaire</li>\n        <li>Mention légales</li>\n        <li>Contact</li>\n    </ul>\n</footer>\n</body> \n</html>"
+        }
+    ]
+}

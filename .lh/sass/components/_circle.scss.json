@@ -1,0 +1,78 @@
+{
+    "sourceFile": "sass/components/_circle.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1667145421106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667145432622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n .purple-circle{\n     border-radius: 100px ;\n     background-color: $colour-primary;\n     color: $colour-white;\n-\n-    font-size: 15px;\n+font-size: 15px;\n     font-weight: 600;\n     padding: 3px 9px;\n     margin-right: 30; \n     width: fit-content;   \n"
+                },
+                {
+                    "date": 1667145439067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .purple-circle{\n-    border-radius: 100px ;\n+    border-radius: 50;\n     background-color: $colour-primary;\n     color: $colour-white;\n-font-size: 15px;\n+    font-size: 15px;\n     font-weight: 600;\n     padding: 3px 9px;\n     margin-right: 30; \n     width: fit-content;   \n"
+                },
+                {
+                    "date": 1667145452365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .purple-circle{\n-    border-radius: 50;\n+    border-radius: 50%;\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-size: 15px;\n     font-weight: 600;\n-    padding: 3px 9px;\n+    padding: 6px 9px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145463580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-size: 15px;\n     font-weight: 600;\n-    padding: 6px 9px;\n+    padding: 6px 18px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145468799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-size: 15px;\n     font-weight: 600;\n-    padding: 6px 18px;\n+    padding: 6px 12px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145482921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-size: 15px;\n     font-weight: 600;\n-    padding: 6px 12px;\n+    padding: 4px 10px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145496312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .purple-circle{\n     border-radius: 50%;\n     background-color: $colour-primary;\n     color: $colour-white;\n-    font-size: 15px;\n+    font-size: px;\n     font-weight: 600;\n-    padding: 4px 10px;\n+    padding: 5px 10px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145515018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .purple-circle{\n     border-radius: 50%;\n     background-color: $colour-primary;\n     color: $colour-white;\n-    font-size: px;\n-    font-weight: 600;\n+    \n+font-weight: 600;\n     padding: 5px 10px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145530293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n .purple-circle{\n     border-radius: 50%;\n     background-color: $colour-primary;\n     color: $colour-white;\n-    \n-font-weight: 600;\n+    font-weight: 600;\n     padding: 5px 10px;\n-    margin-right: 30; \n+    margin-right: -30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145536628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-weight: 600;\n     padding: 5px 10px;\n-    margin-right: -30; \n+    margin-right: -30px; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145548371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-weight: 600;\n     padding: 5px 10px;\n-    margin-right: -30px; \n+    margin-: -30px; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145565214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-weight: 600;\n     padding: 5px 10px;\n-    margin-: -30px; \n+    margin-right: -30px; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145574485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .purple-circle{\n     border-radius: 50%;\n     background-color: $colour-primary;\n     color: $colour-white;\n-    font-weight: 600;\n+    \n+font-weight: 600;\n     padding: 5px 10px;\n-    margin-right: -30px; \n+    margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667145581094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     background-color: $colour-primary;\n     color: $colour-white;\n     font-size: 15px;\n     font-weight: 600;\n-    padding: 4px 10px;\n+    padding: px 10px;\n     margin-right: 30; \n     width: fit-content;   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667480105867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     color: $colour-white;\n     font-weight: 600;\n     padding: 4px 10px;\n     margin-right: 30px; \n-    positions;\n+    position;\n     left: 5%;\n     @include flexCenter(column);\n \n  \n"
+                }
+            ],
+            "date": 1667145421106,
+            "name": "Commit-0",
+            "content": ".purple-circle{\n    border-radius: 100px ;\n    background-color: $colour-primary;\n    color: $colour-white;\n\n    font-size: 15px;\n    font-weight: 600;\n    padding: 3px 9px;\n    margin-right: 30; \n    width: fit-content;   \n}"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "sourceFile": "sass/utils/_variables.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1666015657427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666015883408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n $colour-primary: #9356DC;\n $colour-secondary: #FF79DA;\n-$colour-tertiary: #9E2D0;\n+$colour-tertiary: #99E2D0;\n $colour-light-gray:  #CCC;\n-$colour-dark-grey: darken(#CCC,10);\n+$colour-dark-grey: darken(#CCC,10%);\n $colour-white: #FFFFFF;\n $colour-black: #000000;\n \n $small: 768px !default;\n"
+                },
+                {
+                    "date": 1666267203595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n $colour-primary: #9356DC;\n $colour-secondary: #FF79DA;\n $colour-tertiary: #99E2D0;\n-$colour-light-gray:  #CCC;\n+$colour-lightgray:  #CCC;\n $colour-dark-grey: darken(#CCC,10%);\n $colour-white: #FFFFFF;\n $colour-black: #000000;\n \n"
+                },
+                {
+                    "date": 1666269210488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$colour-primary: #9356DC;\n+$colour-primary : #9356DC;\n $colour-secondary: #FF79DA;\n $colour-tertiary: #99E2D0;\n $colour-lightgray:  #CCC;\n $colour-dark-grey: darken(#CCC,10%);\n"
+                },
+                {
+                    "date": 1666269215684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n $colour-primary : #9356DC;\n-$colour-secondary: #FF79DA;\n-$colour-tertiary: #99E2D0;\n-$colour-lightgray:  #CCC;\n-$colour-dark-grey: darken(#CCC,10%);\n+$colour-secondary : #FF79DA;\n+$colour-tertiary : #99E2D0;\n+$colour-lightgray :  #CCC;\n+$colour-dark-grey : darken(#CCC,10%);\n $colour-white: #FFFFFF;\n $colour-black: #000000;\n \n $small: 768px !default;\n"
+                },
+                {
+                    "date": 1666278715512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n $colour-tertiary : #99E2D0;\n $colour-lightgray :  #CCC;\n-$colour-dark-grey : darken(#CCC,10%);\n-$colour-white: #FFFFFF;\n-$colour-black: #000000;\n+$colour-darkgrey : darken(#CCC,10%);\n+$colour-white : #FFFFFF;\n+$colour-black : #000000;\n \n $small: 768px !default;\n $medium: 997px!default;\n"
+                },
+                {
+                    "date": 1666279307086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n $colour-tertiary : #99E2D0;\n $colour-lightgray :  #CCC;\n-$colour-darkgrey : darken(#CCC,10%);\n+\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n $small: 768px !default;\n"
+                },
+                {
+                    "date": 1666279314308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n $colour-tertiary : #99E2D0;\n-$colour-lightgray :  #CCC;\n-\n+$colour-gray :  #CCC;\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n $small: 768px !default;\n"
+                },
+                {
+                    "date": 1666450512364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n-$colour-tertiary : #99E2D0;\n+$colour_tertiary : #99E2D0;\n $colour-gray :  #CCC;\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n"
+                },
+                {
+                    "date": 1666450538981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n-$colour_tertiary : #99E2D0;\n+$color_tertiary : #99E2D0;\n $colour-gray :  #CCC;\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n"
+                },
+                {
+                    "date": 1666450562522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n-$color_tertiary : #99E2D0;\n+$colortertiary : #99E2D0;\n $colour-gray :  #CCC;\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n"
+                },
+                {
+                    "date": 1666451115918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $colour-primary : #9356DC;\n $colour-secondary : #FF79DA;\n-$colotertiary : #99E2D0;\n+$coloutertiary : #99E2D0;\n $colour-gray :  #CCC;\n $colour-white : #FFFFFF;\n $colour-black : #000000;\n \n"
+                }
+            ],
+            "date": 1666015657427,
+            "name": "Commit-0",
+            "content": "$colour-primary: #9356DC;\n$colour-secondary: #FF79DA;\n$colour-tertiary: #9E2D0;\n$colour-light-gray:  #CCC;\n$colour-dark-grey: darken(#CCC,10);\n$colour-white: #FFFFFF;\n$colour-black: #000000;\n\n$small: 768px !default;\n$medium: 997px!default;\n"
+        }
+    ]
+}

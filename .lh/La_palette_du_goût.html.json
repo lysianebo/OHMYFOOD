@@ -1,0 +1,42 @@
+{
+    "sourceFile": "La_palette_du_goût.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1666531827525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666531848885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n </head>\n <body>\n     <h1>La palette du goût</h1>\n \n-    <h5 >Entrées</h5>\n+     \n+     <h5 >Entrées</h5>\n     <a href=\"\" class=\"btn grey\">Fricassée d'escargot\n     Au piment d'Espelette \n     25€</a>\n     \n"
+                },
+                {
+                    "date": 1666531856263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,9 @@\n </head>\n <body>\n     <h1>La palette du goût</h1>\n \n-     \n-     <h5 >Entrées</h5>\n+    <h5 class=\"bordered-bottom\">Entrées</h5>\n     <a href=\"\" class=\"btn grey\">Fricassée d'escargot\n     Au piment d'Espelette \n     25€</a>\n     \n"
+                },
+                {
+                    "date": 1666531864424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     Assaisonné à la truffe sur lit de caviar\n     20€</a>\n     \n     \n-  <h5>Plats</h5>\n+  <h5 class=\"bordered-bottom\">Plats</h5>\n     <a href=\"\" class=\"btn grey\">Filet de boeuf aux herbes\n     Accompagné de sa ribambelle de légumes\n     40€</a>\n     \n@@ -36,9 +36,9 @@\n     <a href=\"\" class=\"btn grey\">Filet de turbot\n     Aux agrumes\n     44€</a>\n             \n-   <h5> Desserts </h5>\n+   <h5 > Desserts </h5>\n     <a href=\"\" class=\"btn grey\">Paris-Brest\n     Revisité\n     18€</a>\n     \n"
+                },
+                {
+                    "date": 1666531883717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,18 +36,18 @@\n     <a href=\"\" class=\"btn grey\">Filet de turbot\n     Aux agrumes\n     44€</a>\n             \n-   <h5 > Desserts </h5>\n+   <h5 class=\"bordered-bottom\"> Desserts </h5>\n     <a href=\"\" class=\"btn grey\">Paris-Brest\n     Revisité\n     18€</a>\n     \n     <a href=\"\" class=\"btn grey\">Macaron au chocolat d'exception \n     Et glace à la vanille de Madagascar\n     22€</a>\n     \n-    <a href=\"\" class=\"btn grey\"></a>Mousse au chocolat \n+    <a href=\"\" class=\"btn grey\">Mousse au chocolat \n     Au piment d'Espelette et à la truffe noire\n     23€  </a>\n        \n </body>\n"
+                },
+                {
+                    "date": 1666532069630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,7 +48,7 @@\n     \n     <a href=\"\" class=\"btn grey\">Mousse au chocolat \n     Au piment d'Espelette et à la truffe noire\n     23€  </a>\n-       \n+    <a href=\"\" class=\"btn pink\">Commander</a>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666532960952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n     <title>Document</title>\n </head>\n+\n <body>\n     <h1>La palette du goût</h1>\n \n     <h5 class=\"bordered-bottom\">Entrées</h5>\n"
+                }
+            ],
+            "date": 1666531827525,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n    <title>Document</title>\n</head>\n<body>\n    <h1>La palette du goût</h1>\n\n    <h5 >Entrées</h5>\n    <a href=\"\" class=\"btn grey\">Fricassée d'escargot\n    Au piment d'Espelette \n    25€</a>\n    \n    <a href=\"\" class=\"btn grey\">Foie gras de canard mi-cuit\n    Et ses copeaux de truffe noire\n    35€</a>\n    \n    <a href=\"\" class=\"btn grey\">Oeuf au plat\n    Assaisonné à la truffe sur lit de caviar\n    20€</a>\n    \n    \n  <h5>Plats</h5>\n    <a href=\"\" class=\"btn grey\">Filet de boeuf aux herbes\n    Accompagné de sa ribambelle de légumes\n    40€</a>\n    \n    <a href=\"\" class=\"btn grey\">Parmentier de queue de boeuf\n    À la truffe noire sur sa purée de panais\n    35€</a>\n    \n    <a href=\"\" class=\"btn grey\">Filet de turbot\n    Aux agrumes\n    44€</a>\n            \n   <h5> Desserts </h5>\n    <a href=\"\" class=\"btn grey\">Paris-Brest\n    Revisité\n    18€</a>\n    \n    <a href=\"\" class=\"btn grey\">Macaron au chocolat d'exception \n    Et glace à la vanille de Madagascar\n    22€</a>\n    \n    <a href=\"\" class=\"btn grey\"></a>Mousse au chocolat \n    Au piment d'Espelette et à la truffe noire\n    23€  </a>\n       \n</body>\n</html>"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "sourceFile": "sass/utils/mixin.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1666009258837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1666009507394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,7 @@\n     display: flex;\n     flex-direction:$direction;\n     justify-content: center; \n     align-items: center; \n-   }\n\\ No newline at end of file\n+   }\n+\n+   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009514576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n     justify-content: center; \n     align-items: center; \n    }\n \n-   \n\\ No newline at end of file\n+@mixin\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009521923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n     justify-content: center; \n     align-items: center; \n    }\n \n-@mixin\n\\ No newline at end of file\n+@mixin img{\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009589372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n     justify-content: center; \n     align-items: center; \n    }\n \n-@mixin img{\n-    \n+@mixin img-{\n+    object-fit: cover;\n+    padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009598884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n     justify-content: center; \n     align-items: center; \n    }\n \n-@mixin img-{\n+@mixin img_size{\n     object-fit: cover;\n     padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009655856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     align-items: center; \n    }\n \n @mixin img_size{\n+    \n     object-fit: cover;\n     padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009661536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n     align-items: center; \n    }\n \n @mixin img_size{\n-    \n+    width: 100;\n     object-fit: cover;\n     padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009676617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     align-items: center; \n    }\n \n @mixin img_size{\n-    width: 100;\n+    width: 100%;\n+    he\n     object-fit: cover;\n     padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666009683554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n    }\n \n @mixin img_size{\n     width: 100%;\n-    he\n+    height: 200px;\n     object-fit: cover;\n     padding: 5px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666010129836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,6 @@\n     width: 100%;\n     height: 200px;\n     object-fit: cover;\n     padding: 5px;\n+    bor\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666010142211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n     width: 100%;\n     height: 200px;\n     object-fit: cover;\n     padding: 5px;\n-    bor\n+    border-radius: 5;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666010149227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n     width: 100%;\n     height: 200px;\n     object-fit: cover;\n     padding: 5px;\n-    border-radius: 50% ;\n+    border-radius: 50% 0;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1666016116030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n     object-fit: cover;\n     padding: 5px;\n     border-radius: 5% 5% 0 0;\n }\n-@mixin ce, {\n+@mixin ce {\n     \n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1666009258837,
+            "name": "Commit-0",
+            "content": "@mixin flexCenter($direction){\n    display: flex;\n    flex-direction:$direction;\n    justify-content: center; \n    align-items: center; \n   }"
+        }
+    ]
+}

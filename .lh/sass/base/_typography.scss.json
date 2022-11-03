@@ -1,0 +1,118 @@
+{
+    "sourceFile": "sass/base/_typography.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1665989455803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1665989469833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n //}\n ul{\n-    list-style-type: none;\n+    list-style: none;\n     text-decoration: none;\n  \n }\n span {\n"
+                },
+                {
+                    "date": 1665990410456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n //}\n ul{\n-    list-style: none;\n+    list-style-type: none;\n     text-decoration: none;\n  \n }\n span {\n"
+                },
+                {
+                    "date": 1665990425490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n //}\n-ul{\n+{\n     list-style-type: none;\n     text-decoration: none;\n  \n }\n"
+                },
+                {
+                    "date": 1665990481126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n //}\n-{\n+ul{\n     list-style-type: none;\n     text-decoration: none;\n  \n }\n"
+                },
+                {
+                    "date": 1665991061071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 40px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n"
+                },
+                {
+                    "date": 1665991158825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 40px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n"
+                },
+                {
+                    "date": 1665991571885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 40px;   \n+    font-size: 50px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n"
+                },
+                {
+                    "date": 1665991669326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 50px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n"
+                },
+                {
+                    "date": 1665991732017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 50px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 50px;\n"
+                },
+                {
+                    "date": 1665991934276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     font-size: 50px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n-   // font-size: 50px;\n+   // font-size: 40px;\n //}\n ul{\n     list-style-type: none;\n     text-decoration: none;\n"
+                },
+                {
+                    "date": 1665992009189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 50px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665992015659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 40px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665992185663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 40px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665992200743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 30px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665992573244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 30px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665993573576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 40px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665993719180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 40px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665994375185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 40px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665994552119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 40px;   \n+    font-size: 0px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665994772802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 40px;   \n }\n //i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n"
+                },
+                {
+                    "date": 1665995928698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n h4{\n     font-family: Shrikhand, sans-serif;\n     font-size: 40px;   \n }\n-//i{\n+i{\n    // font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n //}\n ul{\n"
+                },
+                {
+                    "date": 1665995934075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     font-family: Shrikhand, sans-serif;\n     font-size: 40px;   \n }\n i{\n-   // font-family: Font Awesome 6 Free;\n+   font-family: Font Awesome 6 Free;\n    // font-size: 40px;\n //}\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1665995939608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     font-size: 40px;   \n }\n i{\n    font-family: Font Awesome 6 Free;\n-   // font-size: 40px;\n+   font-size: 40px;\n //}\n ul{\n     list-style-type: none;\n     text-decoration: none;\n"
+                },
+                {
+                    "date": 1665995956177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     font-size: 40px;   \n }\n i{\n    font-family: Font Awesome 6 Free;\n-   font-size: px;\n+   font-size: 1px;\n }\n ul{\n     list-style-type: none;\n     text-decoration: none;\n"
+                },
+                {
+                    "date": 1666000685971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     line-height: 1.1;\n }\n h4{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 0px;   \n+    font-size: 30px;   \n }\n i{\n    font-family: Font Awesome 6 Free;\n    font-size: 15px;\n"
+                }
+            ],
+            "date": 1665989455803,
+            "name": "Commit-0",
+            "content": "body{\n    font-family: Roboto, sans-serif;\n    font-size: 16px;\n}\nh1{\n\n    font-family: Shrikhand, sans-serif;\n    font-size: 50px;\n    font-weight: 700;\n    line-height: 1.1;\n}\nh4{\n    font-family: Shrikhand, sans-serif;\n    font-size: 40px;   \n}\n//i{\n   // font-family: Font Awesome 6 Free;\n   // font-size: 50px;\n//}\nul{\n    list-style-type: none;\n    text-decoration: none;\n \n}\nspan {\n    font-family: Roboto, sans-serif;\n    font-size: 50px;\n}\n "
+        }
+    ]
+}
