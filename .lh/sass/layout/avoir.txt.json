@@ -1,0 +1,18 @@
+{
+    "sourceFile": "sass/layout/avoir.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1668094965704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1668094965704,
+            "name": "Commit-0",
+            "content": "transition: transform 330ms ease-out-in ;\n        @for $i from 1 through 10 {\n            &:nth-chilld(#$i){\n                color: red;\n                  \n        }\n        }"
+        }
+    ]
+}

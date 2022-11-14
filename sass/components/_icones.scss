@@ -12,14 +12,13 @@
    }
 }
 //heart-----------------
-.description i {
+.description .restaurant_name, .fa-heart {
     font-size: 22px;
     position: absolute;
-    top: 0;
-    right: 1rem;
-   
- }
-.description .fa {
+    top: 2px;
+    right: 10px;
+}
+.description .restaurant_name, .heart .fa {
     opacity: 0;
     transform: scale(1);
     background: linear-gradient($colour-secondary,$colour-primary);
@@ -28,11 +27,28 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
- :hover .fa{
+ .fa:hover{
     opacity: 1;
-    transform: scale(1.1);
-    animation: fill 10.3s ease-in-out;
+    transform: scale(1.5); 
 }
+.fa-arrow-left-long{
+    color: $colour-black;
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.fa-check-circle{
+    font-size: 30px;
+    color: white;
+    &:hover{
+    animation: rotate 1s linear;
+    }
+}
+    
+    
+
 
 
        

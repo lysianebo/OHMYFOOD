@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 37,
             "patches": [
                 {
                     "date": 1665990709956,
@@ -152,6 +152,10 @@
                 {
                     "date": 1666279433198,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    //\"sass\": \"sass ../sass/main.scss ../public/css/main.css --watch\"\n+    \n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
+                },
+                {
+                    "date": 1668438728932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \n+   \"sass\" : \"sudo sass sass/main.scss ../public/css/main.css --watch\"\n   },\n   \"author\": \"\",\n   \"license\": \"ISC\"\n }\n"
                 }
             ],
             "date": 1665990709956,

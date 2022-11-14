@@ -1,66 +1,59 @@
-
-@import '../utils/variables';
 @import '../utils/mixin';
+@import '../utils/variables';
 @import '../components/loader';
 
 main{
-    form{
-        @include flexCenter(row);
-       height: 55px;
-        background-color: darken($colour-gray, 5);
-        border: none;
-        box-shadow: inset 0px 10px 5px -6px darken($colour-gray, 20);
-        margin: auto;
-        margin-bottom: 0;
-     }       
-        
-    input, label {
-        border: none;
-        background-color: transparent;
-        font-size: large;
-        font-weight: 600;
-      }
-    input{
-        width: 150px;
-    }
-  }
- .introduction, .liste_restaurants{
-    background-color: $colour-gray;
-    }
-.introduction{
-    @include flexCenter(column);
-    padding: 40px 0px;
-
-    .introduction__titre{
-        width: 75%;
-        text-align: center;
-        margin-bottom: 30px;        
-    }
-    }
-    
-.trois-etapes{
-    @include flexCenter(column);
-    position: relative;
-    
-    &a{
+  form{
     @include flexCenter(row);
-        justify-content: space-evenly;
-       
-      }
+    height: 55px;
+    background-color: darken($colour-gray, 5);
+    border: none;
+    box-shadow: inset 0px 10px 5px -6px darken($colour-gray, 20);
+    margin: auto;
+    margin-bottom: 0;
+    }       
+  input, label {
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    font-weight: 600;
   }
-  .liste_restaurants{
-  .liste_cards{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 30px;
-        @include media;
-   
-  .description{
-      position: relative;
-      padding-bottom: 15px;
-    h3, p{
-      line-height: 10px;
-        }
-      }
-   }
+  input{
+    width: 150px;
+  }
+}
+  .introduction, .liste_restaurants{
+    background-color: $colour-gray;
+    padding: 40px 0px;
     }
+  .introduction{
+    @include flexCenter(column);
+  
+
+  .introduction__titre{
+    width: 75%;
+    text-align: center;
+    margin-bottom: 30px;        
+    }
+}
+  .trois-etapes{
+    @include flexCenter(row);
+    flex-flow: row wrap;
+    position: relative;
+    a{
+      @include flexCenter(row);
+        justify-content: space-evenly;
+    }
+  }
+.liste_restaurants{
+  .liste_cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    @include media{
+      grid-template-columns: repeat(2,1fr);
+      }
+    }
+}
+    
+  

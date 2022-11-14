@@ -9,21 +9,23 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-family: Shrikhand, sans-serif;
-  font-size: 40px;
+  font-size: 250%;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
+  padding: 20px;
 }
 
-h2, h3, p {
-  padding-left: 20px;
+h2 {
+  padding: 20px;
+  font-size: 150%;
 }
 
 h4 {
@@ -31,10 +33,12 @@ h4 {
   font-size: 30px;
 }
 
+h3, p {
+  padding-left: 20px;
+}
+
 i {
   font-family: Font Awesome 6 Free;
-  font-size: 20px;
-  width: 25px;
 }
 
 ul {
@@ -49,7 +53,9 @@ a {
 
 h5 {
   text-transform: uppercase;
-  padding-bottom: 10px;
+  font-size: 130%;
+  font-weight: 100;
+  padding: 30px;
 }
 
 h6 {
@@ -57,6 +63,24 @@ h6 {
   font-weight: 700;
 }
 
+@keyframes loading {
+  from {
+    opacity: 0;
+    transform: scale 0;
+  }
+  to {
+    opacity: 1;
+    transform: scale 1.5;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .loader-section {
   z-index: 1;
   position: fixed;
@@ -232,6 +256,7 @@ main input {
 
 .introduction, .liste_restaurants {
   background-color: #f3f3f3;
+  padding: 40px 0px;
 }
 
 .introduction {
@@ -239,7 +264,6 @@ main input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
 }
 .introduction .introduction__titre {
   width: 75%;
@@ -249,12 +273,13 @@ main input {
 
 .trois-etapes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   position: relative;
 }
-.trois-etapesa {
+.trois-etapes a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -265,24 +290,25 @@ main input {
 .liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 20px;
 }
 @media (min-width: 768px) {
   .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.liste_restaurants .liste_cards .description {
-  position: relative;
-  padding-bottom: 15px;
-}
-.liste_restaurants .liste_cards .description h3, .liste_restaurants .liste_cards .description p {
-  line-height: 10px;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 footer, footer a {
   background-color: #000000;
   color: #FFFFFF;
+  position: sticky;
+  top: 100vh;
 }
 footer h4, footer ul, footer a h4, footer a ul {
   margin: 0px;
@@ -298,36 +324,98 @@ footer i, footer a i {
   padding-right: 20px;
 }
 
+.image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 15px;
+  border-radius: 0;
+}
+
 main {
+  margin-top: -80px;
+  background-color: #f3f3f3;
+  border-radius: 50px 50px 0 0;
+  width: 100%;
+}
+main .restaurant_name {
+  font-size: 70%;
   position: relative;
 }
-
-.image img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.menu {
+main .restaurant_name .heart {
   position: absolute;
-  top: 250px;
-  background-color: white;
-  border-radius: 30px;
-  width: 100%;
-  z-index: 1;
+  top: 28%;
+  right: 5%;
 }
-.menu h1 {
-  font-size: 20px;
+main .restaurant_name .heart .fa-heart {
+  font-size: 28px;
 }
-.menu p {
-  font-weight: 200;
+main a.commander {
+  width: 300px;
 }
 
-.bordered-bottom {
-  background-image: linear-gradient(to right, rgb(139, 191, 64) 50%, transparent 50%);
-  background-size: 60px 6px;
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu .btn {
+    margin: 0 0 20px 0;
+    width: 90%;
+  }
+}
+.menu .bordered-bottom {
+  background-image: linear-gradient(to right, rgb(143, 228, 215) 50%, transparent 50%);
+  background-size: 100px 6px;
   background-repeat: no-repeat;
-  background-position: 0% 100%;
+  background-position: 30px 75%;
+}
+.menu .detail {
+  height: 65px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+  transition: padding-right 400ms ease-in-out;
+}
+.menu .detail p {
+  font-weight: 200;
+  padding-left: 0px;
+}
+.menu .detail h6 {
+  width: 100%;
+}
+.menu .detail h6, .menu .detail p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .detail h6:hover, .menu .detail p:hover {
+  width: 150px;
+  transform: translate(-30px);
+}
+.menu .detail .valid {
+  display: flex;
+  flex-direction: colums;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  height: 100%;
+  width: 60px;
+  opacity: 0;
+}
+.menu .detail .valid:hover {
+  white-space: nowrap;
+  opacity: 1;
+  transition: all 1s;
+  display: flex;
+  flex-direction: row;
+  transform: translate(-50px);
 }
 
 .restaurant_card {
@@ -338,23 +426,36 @@ main {
   width: 90%;
   box-shadow: rgba(24, 24, 24, 0.35) 0px 5px 15px;
   border-radius: 15px;
-  padding: 0px;
+  padding-bottom: 20px;
+  position: relative;
 }
 .restaurant_card img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
+  padding-bottom: 15px;
 }
 .restaurant_card .green_card {
   background-color: #99E2D0;
   color: #2c9c81;
   font-weight: 700;
   position: absolute;
-  right: 3%;
-  top: 1%;
-  padding: 5px;
+  right: 2%;
+  top: 5%;
+  padding: 10px;
   border-radius: 5%;
+}
+.restaurant_card .description {
+  position: relative;
+}
+.restaurant_card .description h3, .restaurant_card .description p {
+  line-height: 25px;
+}
+.restaurant_card .description h3 .heart, .restaurant_card .description p .heart {
+  position: absolute;
+  top: 0%;
+  right: 2%;
 }
 
 .btn {
@@ -363,7 +464,7 @@ main {
   padding: 15px;
   font-weight: bold;
   width: fit-content;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .btn.pink {
   background: linear-gradient(to bottom right, #FF79DA, 45%, #9356DC);
@@ -374,9 +475,10 @@ main {
 }
 .btn.pink.commander {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 .btn.pink:hover {
   background: linear-gradient(-170deg, #ff60d3 30%, #8641d8 100%);
@@ -400,30 +502,16 @@ main {
   background-color: #f2eafb;
   box-shadow: 5px 7px 8px rgb(210, 210, 210);
 }
-
-.detail {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-start;
-  position: relative;
+.grey.detail {
+  background-color: #FFFFFF;
 }
-.detailh6, .detail p {
-  padding: 0%;
-  margin: 0%;
+.grey.detail :hover {
+  background-color: none;
 }
-.detailh6span, .detail pspan {
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-}
-.detailh6span.ligne2, .detail pspan.ligne2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 768px) {
+  .grey {
+    width: 30%;
+  }
 }
 
 .fonctionnement i {
@@ -439,14 +527,14 @@ main {
   color: #9356DC;
 }
 
-.description i {
+.description .restaurant_name, .fa-heart {
   font-size: 22px;
   position: absolute;
-  top: 0;
-  right: 1rem;
+  top: 2px;
+  right: 10px;
 }
 
-.description .fa {
+.description .restaurant_name, .heart .fa {
   opacity: 0;
   transform: scale(1);
   background: linear-gradient(#FF79DA, #9356DC);
@@ -456,10 +544,26 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-:hover .fa {
+.fa:hover {
   opacity: 1;
-  transform: scale(1.1);
-  animation: fill 10.3s ease-in-out;
+  transform: scale(1.5);
+}
+
+.fa-arrow-left-long {
+  color: #000000;
+  font-size: 30px;
+  padding: 20px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.fa-check-circle {
+  font-size: 30px;
+  color: white;
+}
+.fa-check-circle:hover {
+  animation: rotate 1s linear;
 }
 
 .purple-circle {

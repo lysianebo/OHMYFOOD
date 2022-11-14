@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1666975562192,
@@ -52,6 +52,10 @@
                 {
                     "date": 1667142186284,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n  .description{\n     position: relative;\n     padding-bottom: 15px;\n }\n-  .description i {\n+.description i {\n     font-size: 22px;\n     position: absolute;\n     top: 30%;\n     right: 1rem;\n"
+                },
+                {
+                    "date": 1668015424119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fa-check-circle{\n     background-color: $colour-tertiary;\n     color: white;\n     font-size: 50px;\n- padding: ();\n+ padding: (p);\n     \n     \n }\n \n"
                 }
             ],
             "date": 1666975562192,

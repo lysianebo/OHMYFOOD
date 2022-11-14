@@ -1,10 +1,18 @@
-footer, footer a{
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+ footer, footer a{
     background-color: $colour-black;
     color: $colour-white;
+    position: sticky;
+    top: 100vh;
+
 
  h4, ul{
-  margin: 0px;
- padding: 20px 0 10px 40px;
+   margin: 0px;
+   padding: 20px 0 10px 40px;
    line-height: 1.7;
     }
  ul{

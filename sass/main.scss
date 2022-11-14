@@ -2,8 +2,8 @@
 @import 'base/base';
 @import 'base/fonts';
 @import 'base/typography';
-//@import 'loader'
-//@import 'utils/mixin';
+//@import './components/loader';
+//@import './utils/mixin';
 @import 'pages/index';
 @import 'layout/footer';
 @import 'layout/restaurant-menu';
@@ -11,3 +11,4 @@
 @import 'components/buttons';
 @import 'components/icones';
 @import'components/circle';
+@import 'utils/maps';

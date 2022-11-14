@@ -1,30 +1,91 @@
+.image img{
+    @include img_size;
+    border-radius: 0;
+}
 main{
-    position: relative ;
-} 
-    .image img{
-    height:300px;
-    width: 100%;
-    object-fit: cover;}
+        margin-top: -80px;
+        background-color: $colour-gray;
+        border-radius: 50px 50px 0 0;
+        width: 100%;
+    .restaurant_name{
+        font-size: 70%;
+        position:relative;
+        .heart{
+            position:absolute;
+            top: 28%;
+            right: 5%;
+            .fa-heart{
+                font-size: 28px;
+            }
+        }    
+    }    
+     a.commander{
+        width: 300px;
+    }
+    }
     .menu{
-    position: absolute;
-    top: 250px;
-    background-color: lighten($colour-gray, 10%);
-    border-radius: 30px;
-    width: 100%;
-    z-index: 1;
+        @include media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .btn{
+            margin: 0 0 20px 0;
+            width: 90%;
+        }
+        }
+        .bordered-bottom{
+            background-image: linear-gradient(to right, rgb(143, 228, 215) 50%, transparent 50%);
+            background-size: 100px 6px;
+            background-repeat: no-repeat;
+            background-position: 30px 75%;
+        }
+        .detail{
+            height: 65px;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            position: relative;
+            transition: padding-right 400ms ease-in-out;
+            p{
+                font-weight: 200;
+                padding-left: 0px;
+            }
+            h6{
+                width: 100%;
+            }
+            h6, p{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            
+            &:hover{
+            width: 150px;
+            transform: translate(-30px);
+            }}
+            
+        .valid {
+            @include flexCenter(colums);
+            position: absolute;
+            top:0px;
+            right: 0px;
+            background-color: $colour-tertiary;
+            border-radius: 0 15px 15px 0;
+            height: 100%;
+            width: 60px;
+            opacity: 0;
+            
 
-    h1{
-        font-size: 20px;
+    &:hover {
+        white-space: nowrap;
+                opacity: 1;
+                transition: all 1s;  
+                display: flex;
+                flex-direction: row;
+                transform: translate(-50px);
+
     }
-    p{
-        font-weight: 200;
+    }
+   
     }
     }
-    .bordered-bottom{
-        background-image: linear-gradient(to right, rgb(139, 191, 64) 50%, transparent 50%);
-        background-size: 60px 6px;
-        background-repeat: no-repeat;
-        background-position: 0% 100%;
-    }
+        
     
-

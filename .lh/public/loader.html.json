@@ -1,0 +1,114 @@
+{
+    "sourceFile": "public/loader.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1667717517335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667717613574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n  top: 0;\n  left: 0;\n   width: 15px;\n   height: 15px;\n+  \n   background: #042104;\n   box-shadow: 0 0 10px #00ff0a,\n   0 0 20px #00ff0a,\n   0 0 40px #00ff0a,\n"
+                },
+                {
+                    "date": 1667717621833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n  top: 0;\n  left: 0;\n   width: 15px;\n   height: 15px;\n-  \n+  border-radius: 50;\n   background: #042104;\n   box-shadow: 0 0 10px #00ff0a,\n   0 0 20px #00ff0a,\n   0 0 40px #00ff0a,\n"
+                },
+                {
+                    "date": 1667717648300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n+  animation: ;\n   \n  }\n  section .loader{\n   position: relative;\n@@ -42,9 +43,9 @@\n  top: 0;\n  left: 0;\n   width: 15px;\n   height: 15px;\n-  border-radius: 50;\n+  border-radius: 50%;\n   background: #042104;\n   box-shadow: 0 0 10px #00ff0a,\n   0 0 20px #00ff0a,\n   0 0 40px #00ff0a,\n"
+                },
+                {
+                    "date": 1667717656186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n-  animation: ;\n+  animation: animate;\n   \n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717671289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n-  animation: animate;\n+  animation: animateBg;\n   \n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717676392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n-  animation: animateBg;\n+  animation: animateBg 10s ;\n   \n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717688277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n-  animation: animateBg 10s ;\n+  animation: animateBg 10s linear infi;\n   \n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717702403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,12 @@\n   justify-content: center;\n   align-items: center;\n   min-height: 100vh;\n   background: #042104;\n-  animation: animateBg 10s linear infi;\n+  animation: animateBg 10s linear infinite;\n   \n  }\n+ \n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717710749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   background: #042104;\n   animation: animateBg 10s linear infinite;\n   \n  }\n- \n+ @keyframes\n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717716248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   background: #042104;\n   animation: animateBg 10s linear infinite;\n   \n  }\n- @keyframes\n+ @keyframes a\n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717724602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   background: #042104;\n   animation: animateBg 10s linear infinite;\n   \n  }\n- @keyframes a\n+ @keyframes animateBg\n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717736219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n   background: #042104;\n   animation: animateBg 10s linear infinite;\n   \n  }\n- @keyframes animateBg\n+ @keyframes animateBg{}\n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717742793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,11 @@\n   background: #042104;\n   animation: animateBg 10s linear infinite;\n   \n  }\n- @keyframes animateBg{}\n+ @keyframes animateBg{\n+    0%\n+ }\n  section .loader{\n   position: relative;\n   width: 120px;\n   height: 120px;\n"
+                },
+                {
+                    "date": 1667717754685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n   \n  }\n  @keyframes animateBg{\n     0%\n+    \n  }\n  section .loader{\n   position: relative;\n   width: 120px;\n"
+                },
+                {
+                    "date": 1667717761945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,11 @@\n   \n  }\n  @keyframes animateBg{\n     0%\n-    \n+    {\n+        filter\n+    }\n  }\n  section .loader{\n   position: relative;\n   width: 120px;\n"
+                },
+                {
+                    "date": 1667717768601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n  }\n  @keyframes animateBg{\n     0%\n     {\n-        filter\n+        filter:hue-rotate(0)\n     }\n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717775993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n  }\n  @keyframes animateBg{\n     0%\n     {\n-        filter:hue-rotate(0)\n+        filter:hue-rotate(0deg);\n     }\n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717807650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     0%\n     {\n         filter:hue-rotate(0deg);\n     }\n+    \n  }\n  section .loader{\n   position: relative;\n   width: 120px;\n"
+                },
+                {
+                    "date": 1667717813925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     0%\n     {\n         filter:hue-rotate(0deg);\n     }\n+    100%\n     \n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717820131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,11 @@\n     {\n         filter:hue-rotate(0deg);\n     }\n     100%\n-    \n+    {\n+        fil\n+    }\n  }\n  section .loader{\n   position: relative;\n   width: 120px;\n"
+                },
+                {
+                    "date": 1667717829252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         filter:hue-rotate(0deg);\n     }\n     100%\n     {\n-        fil\n+        filter:\n     }\n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717834635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         filter:hue-rotate(0deg);\n     }\n     100%\n     {\n-        filter:\n+        filter: hue-rotate()\n     }\n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667717845115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         filter:hue-rotate(0deg);\n     }\n     100%\n     {\n-        filter: hue-rotate(360)\n+        filter: hue-rotate(360d)\n     }\n  }\n  section .loader{\n   position: relative;\n"
+                },
+                {
+                    "date": 1667719428981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n   }\n  @keyframes animate{\n     0%\n     {\n-        transform;\n+        transform:;\n     }\n     100%\n     {\n         filter: hue-rotate(360deg);\n"
+                }
+            ],
+            "date": 1667717517335,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n       \n\n<style>\n\n *{\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n }\n section{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n  background: #042104;\n  \n }\n section .loader{\n  position: relative;\n  width: 120px;\n  height: 120px;\n  }\n  \n  section .loader span{\n  position: absolute;\n top: 0;\n left: 0;\n  width: 100%;\n  height: 100%;\n  transform: rotate(calc(18deg * var(--i)));\n  }\n  \n  section .loader span::before{\n   content: '';\n  position: absolute;\n top: 0;\n left: 0;\n  width: 15px;\n  height: 15px;\n  background: #042104;\n  box-shadow: 0 0 10px #00ff0a,\n  0 0 20px #00ff0a,\n  0 0 40px #00ff0a,\n  0 0 60px #00ff0a,\n  0 0 80px #00ff0a,\n  0 0 100px #00ff0a;\n  }\n \n</style>\n    \n    \n    <title>Booki</title>\n \n</head>\n\n<body>Loading...\n  <div class=\"loader\">\n  <span style=--i:1;></span>\n   <span style=--i:2;></span>\n   <span style=--i:3;></span>\n   <span style=--i:4;></span>\n   <span style=--i:5;></span>\n   <span style=--i:6;></span>\n   <span style=--i:7;></span>\n   <span style=--i:8;></span>\n   <span style=--i:9;></span>\n   <span style=--i:10;></span>\n   <span style=--i:11;></span>\n   <span style=--i:12;></span>\n   <span style=--i:13;></span>\n   <span style=--i:14;></span>\n   <span style=--i:15;></span>\n   <span style=--i:16;></span>\n   <span style=--i:17;></span>\n   <span style=--i:18;></span>\n   <span style=--i:19;></span>\n   <span style=--i:20;></span>\n   </div>\n</body>\n</html>"
+        }
+    ]
+}
