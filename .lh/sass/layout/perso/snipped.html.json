@@ -1,0 +1,214 @@
+{
+    "sourceFile": "sass/layout/perso/snipped.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 49,
+            "patches": [
+                {
+                    "date": 1668533173726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668533211088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,61 @@\n-!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title>Document</title>\n+</head>\n+<body>\n+    <div class=\"container\">\n+        <div class=\"card\">\n+          <div class=\"part1\">\n+            <h3>\n+              Tartare de poulpe acidulé\n+            </h3>\n+            <p>\n+              aux zests d'orange\n+            </p>\n+          </div>\n+          <div class=\"part2\">\n+              25€\n+          </div>\n+           <div class=\"snipped\">\n+              <i class=\"fas fa-check-circle\"></i>\n+          </div>\n+        </div>\n+        <div class=\"card\">\n+          <div class=\"part1\">\n+            <H3>\n+              Tartare de poulpe acidulé\n+            </H3>\n+            <p>\n+              aux zests d'orange\n+            </p>\n+          </div>\n+          <div class=\"part2\">\n+              25€\n+          </div>\n+          <div class=\"snipped\">\n+              <i class=\"fas fa-check-circle\"></i>\n+          </div>\n+        </div>\n+         <div class=\"card\">\n+          <div class=\"part1\">\n+            <H3>\n+              Tartare de poulpe acidulé\n+            </H3>\n+            <p>\n+              aux zests d'orange\n+            </p>\n+          </div>\n+          <div class=\"part2\">\n+              25€\n+          </div>\n+          <div class=\"snipped\">\n+              <i class=\"fas fa-check-circle\"></i>\n+          </div>\n+        </div>\n+      </div>\n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668533335667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n+\n     <title>Document</title>\n </head>\n <body>\n     <div class=\"container\">\n"
+                },
+                {
+                    "date": 1668533347209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n+    <link rel=\"stylesheet\" href=\"snipped.css\"/>\n \n     <title>Document</title>\n </head>\n <body>\n"
+                },
+                {
+                    "date": 1668570323612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,6 +58,11 @@\n               <i class=\"fas fa-check-circle\"></i>\n           </div>\n         </div>\n       </div>\n+\n+\n+\n+\n+      \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668570329369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,10 +59,18 @@\n           </div>\n         </div>\n       </div>\n \n+      <div class=\"menu\">\n+        <div class=\"entrées\">\n+            <h5 class=\"bordered-bottom\">Entrées</h5>\n+            <div class=\"detail btn grey\">\n+                <h6>Ravioles de foie gras</h6>\n+                <p>Accompagnés de leur crème à la truffe</p>\n+                <span class=\"prix\">25€\n+                <span class=\"valid\"><i class=\"fas fa-check-circle\"></i></span></span>\n+            </div>\n \n \n \n-      \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668570718853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n \n       <div class=\"menu\">\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n-            <div class=\"detail btn grey\">\n+            <div class=\"detail\">\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valid\"><i class=\"fas fa-check-circle\"></i></span></span>\n"
+                },
+                {
+                    "date": 1668570729375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n             <div class=\"detail\">\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n-                <span class=\"valid\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n \n \n \n"
+                },
+                {
+                    "date": 1668573326742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,9 @@\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n+            \n \n \n \n </body>\n"
+                },
+                {
+                    "date": 1668573340236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,18 @@\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n-            \n+            <div class=\"menu\">\n+                <div class=\"entrées\">\n+                    <h5 class=\"bordered-bottom\">Entrées</h5>\n+                    <div class=\"detail\">\n+                        <h6>Ravioles de foie gras</h6>\n+                        <p>Accompagnés de leur crème à la truffe</p>\n+                        <span class=\"prix\">25€\n+                        <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                    </div>\n+                    \n \n \n \n </body>\n"
+                },
+                {
+                    "date": 1668573345984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,17 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n-                    \n+                    <div class=\"menu\">\n+                        <div class=\"entrées\">\n+                            <h5 class=\"bordered-bottom\">Entrées</h5>\n+                            <div class=\"detail\">\n+                                <h6>Ravioles de foie gras</h6>\n+                                <p>Accompagnés de leur crème à la truffe</p>\n+                                <span class=\"prix\">25€\n+                                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                            </div>\n \n \n \n </body>\n"
+                },
+                {
+                    "date": 1668573450803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,8 +77,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n+                    \n                     <div class=\"menu\">\n                         <div class=\"entrées\">\n                             <h5 class=\"bordered-bottom\">Entrées</h5>\n                             <div class=\"detail\">\n"
+                },
+                {
+                    "date": 1668573461847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,10 +77,15 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n+                    <div class=\"detail\">\n+                        <h6>Ravioles de foie gras</h6>\n+                        <p>Accompagnés de leur crème à la truffe</p>\n+                        <span class=\"prix\">25€\n+                        <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                    </div>\n                     \n-                    <div class=\"menu\">\n                         <div class=\"entrées\">\n                             <h5 class=\"bordered-bottom\">Entrées</h5>\n                             <div class=\"detail\">\n                                 <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573478359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n-            <div class=\"menu\">\n+            \n                 <div class=\"entrées\">\n                     <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573489696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n             \n-                <div class=\"entrées\">\n+<div class=\"entrées\">\n                     <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573502407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,11 +67,10 @@\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-            </div>\n-            \n-<div class=\"entrées\">\n+        </div>\n+            <div class=\"entrées\">\n                     <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573527051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n             <div class=\"detail\">\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n-                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n         </div>\n             <div class=\"entrées\">\n                     <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n"
+                },
+                {
+                    "date": 1668573556387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,12 @@\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n             <div class=\"detail\">\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n-                <span class=\"prix\">25€\n+                <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n         </div>\n-            <div class=\"entrées\">\n+        <div class=\"entrées\">\n                     <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573566375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n         </div>\n         <div class=\"entrées\">\n-                    <h5 class=\"bordered-bottom\">Entrées</h5>\n+            <h5 class=\"bordered-bottom\">Entrées</h5>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573586032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,12 +67,13 @@\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n+                \n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n-                    <div class=\"detail\">\n+                <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n"
+                },
+                {
+                    "date": 1668573591583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n-                \n+                <div></div>\n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n"
+                },
+                {
+                    "date": 1668573613479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,18 +67,18 @@\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n-                <div></div>\n+            </div>\n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-                    </div>\n+                </div>\n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573623399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,8 +77,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n+                \n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573648031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n-                \n+            </div>    \n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573653972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n-            </div>    \n+        </div>    \n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573663202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n           </div>\n         </div>\n       </div>\n \n-      <div class=\"menu\">\n+    <div class=\"menu\">\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n             <div class=\"detail\">\n                 <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573695871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,14 +71,9 @@\n             </div>\n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n-                <div class=\"detail\">\n-                        <h6>Ravioles de foie gras</h6>\n-                        <p>Accompagnés de leur crème à la truffe</p>\n-                        <span class=\"prix\">25€\n-                        <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-                </div>\n+                \n         </div>    \n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573702351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,9 @@\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n             </div>\n+            \n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 \n"
+                },
+                {
+                    "date": 1668573722285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,14 +68,19 @@\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€</span>\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span>\n             </div>\n-            \n+            <div class=\"detail\">\n+                <h6>Ravioles de foie gras</h6>\n+                <p>Accompagnés de leur crème à la truffe</p>\n+                <span class=\"prix\">25€\n+                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n         </div>\n+        </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 \n-        </div>    \n+            \n                     <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573728745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,10 +78,9 @@\n         </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 \n-            \n-                    <div class=\"detail\">\n+            <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n"
+                },
+                {
+                    "date": 1668573750866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,14 +73,13 @@\n                 <h6>Ravioles de foie gras</h6>\n                 <p>Accompagnés de leur crème à la truffe</p>\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+            </div>\n         </div>\n-        </div>\n         <div class=\"entrées\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n-                \n-            <div class=\"detail\">\n+                <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n"
+                },
+                {
+                    "date": 1668573765562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,10 +83,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n-                    \n-                        <div class=\"entrées\">\n+                    <div class=\"entrées\">\n                             <h5 class=\"bordered-bottom\">Entrées</h5>\n                             <div class=\"detail\">\n                                 <h6>Ravioles de foie gras</h6>\n                                 <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573772207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,11 +84,11 @@\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n                     <div class=\"entrées\">\n-                            <h5 class=\"bordered-bottom\">Entrées</h5>\n-                            <div class=\"detail\">\n-                                <h6>Ravioles de foie gras</h6>\n+                        <h5 class=\"bordered-bottom\">Entrées</h5>\n+                        <div class=\"detail\">\n+                            <h6>Ravioles de foie gras</h6>\n                                 <p>Accompagnés de leur crème à la truffe</p>\n                                 <span class=\"prix\">25€\n                                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                             </div>\n"
+                },
+                {
+                    "date": 1668573779363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,11 +87,11 @@\n                     <div class=\"entrées\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n-                                <p>Accompagnés de leur crème à la truffe</p>\n-                                <span class=\"prix\">25€\n-                                <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                            <p>Accompagnés de leur crème à la truffe</p>\n+                            <span class=\"prix\">25€\n+                            <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                             </div>\n \n \n \n"
+                },
+                {
+                    "date": 1668573795232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,10 +90,10 @@\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n                             <span class=\"prix\">25€\n                             <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-                            </div>\n+                        </div>\n \n+                    </div>\n \n-\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668573807801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n-                    <div class=\"entrées\">\n+                    <div class=\"de\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573826104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,17 +75,17 @@\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n         </div>\n-        <div class=\"entrées\">\n+        <div class=\"\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                     </div>\n-                    <div class=\"de\">\n+                    <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573840890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,16 +75,16 @@\n                 <span class=\"prix\">25€\n                 <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n             </div>\n         </div>\n-        <div class=\"\">\n+        <div class=\"plats\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n                         <h6>Ravioles de foie gras</h6>\n                         <p>Accompagnés de leur crème à la truffe</p>\n                         <span class=\"prix\">25€\n                         <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-                    </div>\n+                </div>\n                     <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573847425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,12 +78,12 @@\n         </div>\n         <div class=\"plats\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n-                        <h6>Ravioles de foie gras</h6>\n-                        <p>Accompagnés de leur crème à la truffe</p>\n-                        <span class=\"prix\">25€\n-                        <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                    <h6>Ravioles de foie gras</h6>\n+                    <p>Accompagnés de leur crème à la truffe</p>\n+                    <span class=\"prix\">25€\n+                    <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n                     <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n"
+                },
+                {
+                    "date": 1668573864243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,8 +83,9 @@\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n+                \n                     <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573872953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n-                \n+            </div>\n                     <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n"
+                },
+                {
+                    "date": 1668573881827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,10 +83,10 @@\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n-            </div>\n-                    <div class=\"dessert\">\n+        </div>\n+        <div class=\"dessert\">\n                         <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n"
+                },
+                {
+                    "date": 1668573887328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n         </div>\n         <div class=\"dessert\">\n-                        <h5 class=\"bordered-bottom\">Entrées</h5>\n+            <h5 class=\"bordered-bottom\">Entrées</h5>\n                         <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n                             <span class=\"prix\">25€\n"
+                },
+                {
+                    "date": 1668573892993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,9 @@\n                 </div>\n         </div>\n         <div class=\"dessert\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n-                        <div class=\"detail\">\n+                <div class=\"detail\">\n                             <h6>Ravioles de foie gras</h6>\n                             <p>Accompagnés de leur crème à la truffe</p>\n                             <span class=\"prix\">25€\n                             <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n"
+                },
+                {
+                    "date": 1668573898360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,10 +87,10 @@\n         </div>\n         <div class=\"dessert\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n-                            <h6>Ravioles de foie gras</h6>\n-                            <p>Accompagnés de leur crème à la truffe</p>\n+                    <h6>Ravioles de foie gras</h6>\n+                        <p>Accompagnés de leur crème à la truffe</p>\n                             <span class=\"prix\">25€\n                             <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                         </div>\n \n"
+                },
+                {
+                    "date": 1668573904880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,10 +88,10 @@\n         <div class=\"dessert\">\n             <h5 class=\"bordered-bottom\">Entrées</h5>\n                 <div class=\"detail\">\n                     <h6>Ravioles de foie gras</h6>\n-                        <p>Accompagnés de leur crème à la truffe</p>\n-                            <span class=\"prix\">25€\n+                    <p>Accompagnés de leur crème à la truffe</p>\n+                    <span class=\"prix\">25€\n                             <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                         </div>\n \n                     </div>\n"
+                },
+                {
+                    "date": 1668573910180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,10 +90,10 @@\n                 <div class=\"detail\">\n                     <h6>Ravioles de foie gras</h6>\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n-                            <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n-                        </div>\n+                    <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n+                </div>\n \n                     </div>\n \n </body>\n"
+                },
+                {
+                    "date": 1668573915918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,8 @@\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n+</div>\n \n-                    </div>\n-\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668573933907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n                     <p>Accompagnés de leur crème à la truffe</p>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n-                \n+            \n </div>\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668584263430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n                 <div class=\"detail\">\n                     <div class=\"part11\">\n                     <h6>Ravioles de foie gras</h6>\n                     <p>Accompagnés de leur crème à la truffe</p>\n-                    \n+                </div>\n                     <span class=\"prix\">25€\n                     <span class=\"valider\"><i class=\"fas fa-check-circle\"></i></span></span>\n                 </div>\n         </div>\n"
+                }
+            ],
+            "date": 1668533173726,
+            "name": "Commit-0",
+            "content": "!"
+        }
+    ]
+}

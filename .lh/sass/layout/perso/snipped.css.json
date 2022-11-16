@@ -1,0 +1,142 @@
+{
+    "sourceFile": "sass/layout/perso/snipped.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1668533267063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668571547593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-  \n\\ No newline at end of file\n+///  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571556989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-///  \n\\ No newline at end of file\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571562366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-  \n\\ No newline at end of file\n+***************  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571568628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-***************  \n\\ No newline at end of file\n+/* ***************   */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571582538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-/* ***************   */\n\\ No newline at end of file\n+/* ***************ty   */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571596748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,5 +82,5 @@\n   \n   .card:hover .part1 {\n     width: 180px;\n   }\n-/* ***************ty   */\n\\ No newline at end of file\n+/* ***************typography   */\n"
+                },
+                {
+                    "date": 1668571779343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,4 +83,16 @@\n   .card:hover .part1 {\n     width: 180px;\n   }\n /* ***************typography   */\n+\n+h5 {\n+    text-transform: uppercase;\n+    font-size: 130%;\n+    font-weight: 100;\n+    padding: 30px;\n+}\n+h6{\n+    font-size: 18px;\n+    font-weight: 700;\n+   \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668571870280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n+\n+\n+\n @keyframes slidein {\n     from { transform: translate(0,10px);opacity:0 }\n     to   { transform: translate(0,0px);opacity:1 }\n   }\n"
+                },
+                {
+                    "date": 1668571929724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css');\n \n \n-\n @keyframes slidein {\n     from { transform: translate(0,10px);opacity:0 }\n     to   { transform: translate(0,0px);opacity:1 }\n   }\n@@ -87,8 +89,9 @@\n     width: 180px;\n   }\n /* ***************typography   */\n \n+\n h5 {\n     text-transform: uppercase;\n     font-size: 130%;\n     font-weight: 100;\n"
+                },
+                {
+                    "date": 1668571976795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,10 +88,14 @@\n   .card:hover .part1 {\n     width: 180px;\n   }\n /* ***************typography   */\n+body{\n+    font-family: Roboto, sans-serif;\n+    font-size: 16px;\n+    margin:0;\n+    padding: 0;\n \n-\n h5 {\n     text-transform: uppercase;\n     font-size: 130%;\n     font-weight: 100;\n@@ -100,5 +104,5 @@\n h6{\n     font-size: 18px;\n     font-weight: 700;\n    \n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1668571999718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     font-family: Roboto, sans-serif;\n     font-size: 16px;\n     margin:0;\n     padding: 0;\n-\n+}\n h5 {\n     text-transform: uppercase;\n     font-size: 130%;\n     font-weight: 100;\n@@ -105,4 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572014344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-}\n\\ No newline at end of file\n+carte\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572026564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,4 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-carte\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572039588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,4 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572050242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-.\n\\ No newline at end of file\n+***************** bouton detail\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572056441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-***************** bouton detail\n\\ No newline at end of file\n+***************** bouton detail *********\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572066175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,5 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-***************** bouton detail *********\n\\ No newline at end of file\n+/* ***************** bouton detail ********* */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668572078403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,6 @@\n     font-size: 18px;\n     font-weight: 700;\n    \n }\n-/* ***************** bouton detail ********* */\n\\ No newline at end of file\n+/* ***************** bouton detail ********* */\n+\n"
+                },
+                {
+                    "date": 1668572161542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,5 +106,12 @@\n     font-weight: 700;\n    \n }\n /* ***************** bouton detail ********* */\n+.btn {\n+    display: inline-block;\n+    margin: auto;\n+    padding: 15px;\n+    font-weight: bold;\n+    width: fit-content;\n+    border-radius: 15px;\n \n"
+                },
+                {
+                    "date": 1668572169650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,5 +113,5 @@\n     padding: 15px;\n     font-weight: bold;\n     width: fit-content;\n     border-radius: 15px;\n-\n+}\n"
+                },
+                {
+                    "date": 1668572179078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,9 +106,9 @@\n     font-weight: 700;\n    \n }\n /* ***************** bouton detail ********* */\n-.btn {\n+.detail {\n     display: inline-block;\n     margin: auto;\n     padding: 15px;\n     font-weight: bold;\n"
+                },
+                {
+                    "date": 1668572246660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,5 +113,6 @@\n     padding: 15px;\n     font-weight: bold;\n     width: fit-content;\n     border-radius: 15px;\n+    \n }\n"
+                },
+                {
+                    "date": 1668572259573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,6 +113,29 @@\n     padding: 15px;\n     font-weight: bold;\n     width: fit-content;\n     border-radius: 15px;\n-    \n+    position: relative;\n+       \n+        width: 90%;\n+        margin: auto;\n+        margin-bottom: 30px;\n+        background-color: lighten($colour-gray, 2);\n+        color: $colour-black;\n+        box-shadow: 2px 3px 5px 4px $colour-gray;\n+        \n+        &:hover{\n+            background-color: lighten($colour-primary, 35);\n+            box-shadow: 5px 7px 8px rgb(210, 210, 210);\n+            \n+        }\n+        &.detail{\n+            background-color: $colour-white;\n+            :hover{\n+                background-color: none;\n+            }\n+        }\n+        @include media{\n+            width: 30%;\n+        }\n+        }\n }\n"
+                },
+                {
+                    "date": 1668572271273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n     display: inline-block;\n     margin: auto;\n     padding: 15px;\n     font-weight: bold;\n-    width: fit-content;\n+   \n     border-radius: 15px;\n     position: relative;\n        \n         width: 90%;\n"
+                },
+                {
+                    "date": 1668572338997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,10 +107,9 @@\n    \n }\n /* ***************** bouton detail ********* */\n .detail {\n-    display: inline-block;\n-    margin: auto;\n+    \n     padding: 15px;\n     font-weight: bold;\n    \n     border-radius: 15px;\n"
+                },
+                {
+                    "date": 1668572349022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,11 +107,10 @@\n    \n }\n /* ***************** bouton detail ********* */\n .detail {\n+    padding: 15px;\n     \n-    padding: 15px;\n-    font-weight: bold;\n    \n     border-radius: 15px;\n     position: relative;\n        \n"
+                },
+                {
+                    "date": 1668572357998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,14 +108,11 @@\n }\n /* ***************** bouton detail ********* */\n .detail {\n     padding: 15px;\n-    \n-   \n     border-radius: 15px;\n     position: relative;\n-       \n-        width: 90%;\n+    width: 90%;\n         margin: auto;\n         margin-bottom: 30px;\n         background-color: lighten($colour-gray, 2);\n         color: $colour-black;\n"
+                },
+                {
+                    "date": 1668572367385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,8 @@\n     padding: 15px;\n     border-radius: 15px;\n     position: relative;\n     width: 90%;\n-        margin: auto;\n         margin-bottom: 30px;\n         background-color: lighten($colour-gray, 2);\n         color: $colour-black;\n         box-shadow: 2px 3px 5px 4px $colour-gray;\n"
+                },
+                {
+                    "date": 1668572381043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,10 +111,10 @@\n     padding: 15px;\n     border-radius: 15px;\n     position: relative;\n     width: 90%;\n-        margin-bottom: 30px;\n-        background-color: lighten($colour-gray, 2);\n+    margin-bottom: 30px;\n+        background-color: gre;\n         color: $colour-black;\n         box-shadow: 2px 3px 5px 4px $colour-gray;\n         \n         &:hover{\n"
+                },
+                {
+                    "date": 1668572397106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n     border-radius: 15px;\n     position: relative;\n     width: 90%;\n     margin-bottom: 30px;\n-        background-color: ;\n+        background-color: w;\n         color: $colour-black;\n         box-shadow: 2px 3px 5px 4px $colour-gray;\n         \n         &:hover{\n"
+                },
+                {
+                    "date": 1668572960612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     width: 250px;\n     transition: width 1s;\n   }\n   \n-  .part1h3 {\n+  .part1 h3 {\n     overflow: hidden;\n     white-space: nowrap;\n     text-overflow: ellipsis;\n   }\n"
+                }
+            ],
+            "date": 1668533267063,
+            "name": "Commit-0",
+            "content": "@keyframes slidein {\n    from { transform: translate(0,10px);opacity:0 }\n    to   { transform: translate(0,0px);opacity:1 }\n  }\n  \n  .container>.card {\n    margin-bottom: 10px;\n  }\n  .container>.card:nth-child(1) {\n    margin-bottom: 10px;\n    animation: slidein 1s ease-in;\n  }\n  .container>.card:nth-child(2) {\n    margin-bottom: 10px;\n    animation: slidein 1s ease-in 0.33s;\n  }\n  .container>.card:nth-child(3) {\n    margin-bottom: 10px;\n    animation: slidein 1s ease-in 0.66s;\n  }\n  .card {\n    height: 80px;\n    width: 300px;\n    padding-left: 10px;\n    border: 1px solid black;\n    border-radius: 15px;\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n  }\n  \n  .part1 {\n    width: 250px;\n    transition: width 1s;\n  }\n  \n  .part1>h3 {\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n  }\n  \n  .part1>p {\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n  }\n  \n  .part2 {\n    width: 100px;\n    text-align: center;\n    z-index: 5;\n  }\n  \n  .snipped {\n    display: flex;\n    border-top-right-radius: 15px;\n    border-bottom-right-radius: 15px;\n    background-color: green;\n    width: 0px;\n    opacity: 0;\n    height: 100%;\n    justify-content: center;\n    align-items: center;\n    transition: width 5s, opacity 1s;\n  }\n  \n  .fa-check-circle {\n    color: white;\n    font-size: 20px;\n    transition: transform 1.5s;\n  }\n  \n  .card:hover .snipped {\n    width: 100px;\n    opacity: 1;\n  }\n  \n  .card:hover .fa-check-circle {\n    transform: rotate(360deg);\n  }\n  \n  .card:hover .part1 {\n    width: 180px;\n  }\n  "
+        }
+    ]
+}

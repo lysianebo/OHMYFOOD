@@ -70,7 +70,7 @@ h6 {
   }
   to {
     opacity: 1;
-    transform: scale 1.5;
+    transform: scale 1;
   }
 }
 @keyframes rotate {
@@ -79,6 +79,16 @@ h6 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes loading_menus {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 .loader-section {
@@ -337,7 +347,6 @@ main {
   margin-top: -80px;
   background-color: #f3f3f3;
   border-radius: 50px 50px 0 0;
-  width: 100%;
 }
 main .restaurant_name {
   font-size: 70%;
@@ -351,73 +360,123 @@ main .restaurant_name .heart {
 main .restaurant_name .heart .fa-heart {
   font-size: 28px;
 }
-main a.commander {
+
+a.commander {
   width: 300px;
 }
 
-@media (min-width: 768px) {
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .menu .btn {
-    margin: 0 0 20px 0;
-    width: 90%;
-  }
+.dish p {
+  width: 350px;
+  font-weight: 200;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.menu .bordered-bottom {
+
+h5 {
+  text-transform: uppercase;
+  font-size: 130%;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.bordered-bottom {
   background-image: linear-gradient(to right, rgb(143, 228, 215) 50%, transparent 50%);
   background-size: 100px 6px;
   background-repeat: no-repeat;
   background-position: 30px 75%;
 }
-.menu .detail {
-  height: 65px;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  position: relative;
-  transition: padding-right 400ms ease-in-out;
-}
-.menu .detail p {
-  font-weight: 200;
-  padding-left: 0px;
-}
-.menu .detail h6 {
-  width: 100%;
-}
-.menu .detail h6, .menu .detail p {
+
+.dish h6 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 15px;
+  margin-top: 30px;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden;
-}
-.menu .detail h6:hover, .menu .detail p:hover {
-  width: 150px;
-  transform: translate(-30px);
-}
-.menu .detail .valid {
-  display: flex;
-  flex-direction: colums;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  background-color: #99E2D0;
-  border-radius: 0 15px 15px 0;
-  height: 100%;
-  width: 60px;
-  opacity: 0;
-}
-.menu .detail .valid:hover {
-  white-space: nowrap;
-  opacity: 1;
-  transition: all 1s;
-  display: flex;
-  flex-direction: row;
-  transform: translate(-50px);
 }
 
+/* ***************** bouton detail ********* */
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2px 3px 5px 4px #f3f3f3;
+  height: 75px;
+  overflow: hidden;
+}
+
+.course:hover {
+  box-shadow: 5px 7px 8px #f3f3f3;
+}
+
+.course:hover .dish {
+  width: 300px;
+}
+
+.course:hover .validate {
+  width: 100px;
+  opacity: 1;
+}
+
+.course .fa-check-circle {
+  color: white;
+  font-size: 30px;
+  transition: transform 1.5s;
+}
+
+.course:hover .fa-check-circle {
+  transform: rotate(360deg);
+}
+
+.dish {
+  transition: width 1s;
+}
+
+.prix {
+  width: 50px;
+  text-align: center;
+  z-index: 5;
+  padding-bottom: 15px;
+}
+
+.validate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #99E2D0;
+  width: 0px;
+  opacity: 0;
+  height: 100%;
+  margin-left: 5px;
+  transition: width 1s, opacity 1s;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    /* flex-flow: row wrap;
+    justify-content: space-between ; */
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+}
 .restaurant_card {
   background-color: #FFFFFF;
   margin: auto;
@@ -502,15 +561,14 @@ main a.commander {
   background-color: #f2eafb;
   box-shadow: 5px 7px 8px rgb(210, 210, 210);
 }
-.grey.detail {
+.grey.course {
   background-color: #FFFFFF;
-}
-.grey.detail :hover {
-  background-color: none;
+  padding: 0;
+  width: 350px;
 }
 @media (min-width: 768px) {
   .grey {
-    width: 30%;
+    width: auto;
   }
 }
 
