@@ -404,6 +404,7 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 4%;
 }
 
 .course {
@@ -416,6 +417,7 @@ h5 {
   box-shadow: 2px 3px 5px 4px #f3f3f3;
   height: 75px;
   overflow: hidden;
+  animation: loading_menus 1.5s;
 }
 
 .course:hover {
