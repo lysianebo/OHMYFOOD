@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1668596632584,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668624251744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,8 @@\n             }   \n             .course:hover.dish{\n                 width: 250px; \n                     }\n-                \n             .course:hover .validate {\n                         width: 100px;\n                         opacity: 1;\n                     }\n"
                 }
             ],
             "date": 1668596632584,

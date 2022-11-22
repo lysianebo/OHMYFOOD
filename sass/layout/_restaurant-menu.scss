@@ -1,52 +1,62 @@
+header{
+    display: flex;
+    justify-content: center;
+    
+}
 .image img{
     @include img_size;
-    border-radius: 0;
+    border-radius: 0px;
+    height: 300px;
 }
-main{
-    margin-top: -80px;
+.main2{
+    margin-top: -60px;
+    padding-bottom: 30px;
+    padding: 20px;
     background-color: $colour-gray;
-    border-radius: 50px 50px 0 0;
-       
+    border-radius: 50px 50px 0 0 ;
+    position: relative;
+
     .restaurant_name{
-        font-size: 70%;
-        position:relative;
+        display: flex;
+        justify-content: center;
+        font-size: 60%;
+     
+       
+        
+   
         .heart{
-            position:absolute;
-            top: 28%;
-            right: 5%;
             .fa-heart{
-                font-size: 28px;
+            font-size: 24px;
+            padding: 35px;
+         
             }
         }    
     } 
 }
-
-     a.commander{
+a.commander{
         width: 300px;
     }
     .dish p{
-  width: 350px;
-    font-weight: 200;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+       font-weight: 200;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
 
 }
 h5 {
     text-transform: uppercase;
     font-size: 130%;
     font-weight: 100;
-    
+    padding-left: 60px;
     padding-bottom: 30px;
-    
 }
 .bordered-bottom{
     background-image: linear-gradient(to right, rgb(143, 228, 215) 50%, transparent 50%);
     background-size: 100px 6px;
     background-repeat: no-repeat;
-    background-position: 30px 75%;
+    background-position: 63px 75%;
 }
 .dish h6{
     font-size: 18px;
@@ -63,52 +73,50 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 4%;
-   }
+}
 .course {
+    opacity: 0;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 20px 5px;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 2px 3px 5px 4px $colour-gray;
+    box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 75px;
     overflow: hidden;
-    animation: loading_menus 1.5s;
+    @include anime;
 }    
-   .course:hover{
-    box-shadow: 5px 7px 8px $colour-gray;
+.course:hover .dish{
+    width: 200px; 
+} 
+.course:hover .validate {
+    width: 100px;
+    opacity: 1;
+}
+.course .fa-check-circle {
+    color: white;
+    font-size: 30px;
+    transition: transform 1.5s;
+   
+    :hover .fa-check-circle {
+    transform: rotate(360deg);
     }
-    .course:hover .dish {
-        width: 300px; 
-      } 
-    
-      .course:hover .validate {
-        width: 100px;
-        opacity: 1;
-    }
-    .course .fa-check-circle {
-        color: white;
-        font-size: 30px;
-        transition: transform 1.5s;
-    }
-    .course:hover .fa-check-circle {
-        transform: rotate(360deg);
-    }
-    .dish {
-        transition: width 1s;
-        }
-      
-    .prix{
-            width: 50px;
-            text-align: center;
-            z-index: 5;
-            padding-bottom: 15px;
-          }
-    .validate {
-        display: flex;
-        justify-content: center;
+}
+.dish {
+    transition: width 1s;
+    width: 350px;
+}
+.prix{
+    width: 100px;
+    text-align: right;
+    //z-index: 5;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.validate {
+    display: flex;
+    justify-content: center;
         align-items: center;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -116,22 +124,14 @@ h5 {
         width: 0px;
         opacity: 0;
         height: 100%;
-        margin-left: 5px;
+        margin-left: 2px;
         transition: width 1s, opacity 1s;
-      }
-
-
-
+}
 @media (min-width: 768px) {
     .menu{
-        /* flex-flow: row wrap;
-        justify-content: space-between ; */
         display: grid;
         width: 100%;
         margin: auto;
         grid-template-columns: repeat(3,1fr);
-        gap:50px;
-        
-        }
-       
+    }
 }

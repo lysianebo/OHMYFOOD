@@ -12,32 +12,30 @@
    }
 }
 //heart-----------------
-.description .restaurant_name, .fa-heart {
+.description .restaurant_name, .fa-heart{
     font-size: 22px;
     position: absolute;
-    top: 2px;
-    right: 10px;
+    top: 5px;
+    right: 20px;
+    transition: 200ms;
 }
-.description .restaurant_name, .heart .fa {
+.description .restaurant_name, .fa.fa-heart {
     opacity: 0;
-    transform: scale(1);
+    width: 0;
+   &:hover{
+    opacity: 1;
+    transform: scale(1.5);
     background: linear-gradient($colour-secondary,$colour-primary);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
 }
- .fa:hover{
-    opacity: 1;
-    transform: scale(1.5); 
 }
-.fa-arrow-left-long{
-    color: $colour-black;
+header .fa-arrow-left-long{
+    color: $colour-black ;
     font-size: 30px;
-    padding: 20px;
-    position: absolute;
-    left: 0px;
-    top: 10px;
+    margin-right: 50px;
 }
 .fa-check-circle{
     font-size: 30px;

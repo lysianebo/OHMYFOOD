@@ -6,7 +6,7 @@
    }
 @mixin img_size{
     width: 100%;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
     padding-bottom: 15px;
@@ -17,14 +17,18 @@
     margin-right: auto;
 }
 
-@mixin media {
-    @media (min-width: 768px) {
+@mixin media_mobile{
+    @media (min-width: 767px) {
         @content;
     }
-} 
+}
+@mixin media_tablet{
+    @media(min-width:992px) {@content;
+    }
+}
 @mixin anime{
-    animation: loading 2s;
-    animation-direction: reverse;
+    animation: loading_menus 5s;
+    animation-fill-mode: forwards;
     @for $i from 1 through 10 {
                 &:nth-child(#{$i}){
                     animation-delay :100ms * $i;
@@ -33,14 +37,14 @@
 }
 
 
-@keyframes loading {
+@keyframes scale {
     from {
         opacity: 0;
-        transform : scale (0);
+        transform : scale(0);
     }
 to {
    opacity: 1;
-    transform : scale (1);
+    transform : scale(1);
 }
 }
 
@@ -54,13 +58,19 @@ to {
     
 }
 @keyframes loading_menus {
-    from {
-      transform: translateY(200px);
-      opacity: 0;
+    0% {
+        opacity: 0;
+        
+      transform: translateY(500px);
+     
     }
-    to {
+    50% {
+        opacity: 0.5;
+          transform: translateY(0);
+         }
+   100% {
+    opacity: 1;
       transform: translateY(0);
-      opacity: 1;
-    }
+     }
   }
 

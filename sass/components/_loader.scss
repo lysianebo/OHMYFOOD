@@ -26,12 +26,9 @@
     
 }
 .loader-section{
-    
     height: 500px;
     line-height: 500px;
     @include flexCenter(row);
-   
-   
 }
   .loader{
     width: 50px;

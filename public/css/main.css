@@ -63,14 +63,14 @@ h6 {
   font-weight: 700;
 }
 
-@keyframes loading {
+@keyframes scale {
   from {
     opacity: 0;
-    transform: scale 0;
+    transform: scale(0);
   }
   to {
     opacity: 1;
-    transform: scale 1;
+    transform: scale(1);
   }
 }
 @keyframes rotate {
@@ -82,13 +82,17 @@ h6 {
   }
 }
 @keyframes loading_menus {
-  from {
-    transform: translateY(200px);
+  0% {
     opacity: 0;
+    transform: translateY(500px);
   }
-  to {
+  50% {
+    opacity: 0.5;
     transform: translateY(0);
+  }
+  100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 .loader-section {
@@ -259,14 +263,15 @@ main input, main label {
   background-color: transparent;
   font-size: large;
   font-weight: 600;
+  padding: 10px;
 }
 main input {
-  width: 150px;
+  width: 170px;
 }
 
 .introduction, .liste_restaurants {
   background-color: #f3f3f3;
-  padding: 40px 0px;
+  padding-bottom: 40px;
 }
 
 .introduction {
@@ -276,12 +281,28 @@ main input {
   align-items: center;
 }
 .introduction .introduction__titre {
-  width: 75%;
+  width: 90%;
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 40px;
 }
 
-.trois-etapes {
+.fonctionnement {
+  padding: 30px 0px;
+}
+@media (min-width: 992px) {
+  .fonctionnement {
+    margin: 2% 2%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+    margin: auto;
+  }
+  .fonctionnement .grey {
+    width: 30%;
+  }
+}
+.fonctionnement .trois-etapes {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -289,76 +310,93 @@ main input {
   flex-flow: row wrap;
   position: relative;
 }
-.trois-etapes a {
+.fonctionnement .trois-etapes a {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
 }
-
-.liste_restaurants .liste_cards {
+.fonctionnement .liste_restaurants {
+  padding-top: 40px !important;
+}
+.fonctionnement .liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
 }
-@media (min-width: 768px) {
-  .liste_restaurants .liste_cards {
+@media (min-width: 767px) {
+  .fonctionnement .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+@media (min-width: 992px) {
+  .fonctionnement .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+    font-size: 80%;
+  }
 }
 
 footer, footer a {
   background-color: #000000;
   color: #FFFFFF;
-  position: sticky;
-  top: 100vh;
 }
 footer h4, footer ul, footer a h4, footer a ul {
-  margin: 0px;
+  margin: 0;
   padding: 20px 0 10px 40px;
   line-height: 1.7;
 }
-footer ul, footer a ul {
-  padding-top: 0px;
+footer ul, footer h4, footer a ul, footer a h4 {
+  padding: 10px 20px;
 }
-footer i, footer a i {
+@media (min-width: 767px) {
+  footer ul, footer h4, footer a ul, footer a h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+    text-align: center;
+  }
+  footer ul li, footer h4 li, footer a ul li, footer a h4 li {
+    padding: 0 20px;
+  }
+}
+
+i {
   font-size: 15px;
   width: 30px;
-  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }
 
 .image img {
   width: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
   padding-bottom: 15px;
-  border-radius: 0;
+  border-radius: 0px;
+  height: 300px;
 }
 
-main {
-  margin-top: -80px;
+.main2 {
+  margin-top: -60px;
+  padding-bottom: 30px;
+  padding: 20px;
   background-color: #f3f3f3;
   border-radius: 50px 50px 0 0;
-}
-main .restaurant_name {
-  font-size: 70%;
   position: relative;
 }
-main .restaurant_name .heart {
-  position: absolute;
-  top: 28%;
-  right: 5%;
+.main2 .restaurant_name {
+  display: flex;
+  justify-content: center;
+  font-size: 60%;
 }
-main .restaurant_name .heart .fa-heart {
-  font-size: 28px;
+.main2 .restaurant_name .heart .fa-heart {
+  font-size: 24px;
+  padding: 35px;
 }
 
 a.commander {
@@ -366,7 +404,6 @@ a.commander {
 }
 
 .dish p {
-  width: 350px;
   font-weight: 200;
   padding-left: 15px;
   padding-bottom: 15px;
@@ -379,6 +416,7 @@ h5 {
   text-transform: uppercase;
   font-size: 130%;
   font-weight: 100;
+  padding-left: 60px;
   padding-bottom: 30px;
 }
 
@@ -386,7 +424,7 @@ h5 {
   background-image: linear-gradient(to right, rgb(143, 228, 215) 50%, transparent 50%);
   background-size: 100px 6px;
   background-repeat: no-repeat;
-  background-position: 30px 75%;
+  background-position: 63px 75%;
 }
 
 .dish h6 {
@@ -404,28 +442,55 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 4%;
 }
 
 .course {
+  opacity: 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin: 20px 5px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: 2px 3px 5px 4px #f3f3f3;
+  box-shadow: 4px 4px 5px #d4d4d4;
   height: 75px;
   overflow: hidden;
-  animation: loading_menus 1.5s;
+  animation: loading_menus 5s;
+  animation-fill-mode: forwards;
 }
-
-.course:hover {
-  box-shadow: 5px 7px 8px #f3f3f3;
+.course:nth-child(1) {
+  animation-delay: 100ms;
+}
+.course:nth-child(2) {
+  animation-delay: 200ms;
+}
+.course:nth-child(3) {
+  animation-delay: 300ms;
+}
+.course:nth-child(4) {
+  animation-delay: 400ms;
+}
+.course:nth-child(5) {
+  animation-delay: 500ms;
+}
+.course:nth-child(6) {
+  animation-delay: 600ms;
+}
+.course:nth-child(7) {
+  animation-delay: 700ms;
+}
+.course:nth-child(8) {
+  animation-delay: 800ms;
+}
+.course:nth-child(9) {
+  animation-delay: 900ms;
+}
+.course:nth-child(10) {
+  animation-delay: 1000ms;
 }
 
 .course:hover .dish {
-  width: 300px;
+  width: 200px;
 }
 
 .course:hover .validate {
@@ -438,20 +503,20 @@ h5 {
   font-size: 30px;
   transition: transform 1.5s;
 }
-
-.course:hover .fa-check-circle {
+.course .fa-check-circle :hover .fa-check-circle {
   transform: rotate(360deg);
 }
 
 .dish {
   transition: width 1s;
+  width: 350px;
 }
 
 .prix {
-  width: 50px;
-  text-align: center;
-  z-index: 5;
+  width: 100px;
+  text-align: right;
   padding-bottom: 15px;
+  padding-right: 20px;
 }
 
 .validate {
@@ -464,19 +529,16 @@ h5 {
   width: 0px;
   opacity: 0;
   height: 100%;
-  margin-left: 5px;
+  margin-left: 2px;
   transition: width 1s, opacity 1s;
 }
 
 @media (min-width: 768px) {
   .menu {
-    /* flex-flow: row wrap;
-    justify-content: space-between ; */
     display: grid;
     width: 100%;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
   }
 }
 .restaurant_card {
@@ -487,12 +549,11 @@ h5 {
   width: 90%;
   box-shadow: rgba(24, 24, 24, 0.35) 0px 5px 15px;
   border-radius: 15px;
-  padding-bottom: 20px;
-  position: relative;
+  padding-bottom: 15px;
 }
 .restaurant_card img {
   width: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
   padding-bottom: 15px;
@@ -511,12 +572,7 @@ h5 {
   position: relative;
 }
 .restaurant_card .description h3, .restaurant_card .description p {
-  line-height: 25px;
-}
-.restaurant_card .description h3 .heart, .restaurant_card .description p .heart {
-  position: absolute;
-  top: 0%;
-  right: 2%;
+  line-height: 1.5;
 }
 
 .btn {
@@ -524,7 +580,6 @@ h5 {
   margin: auto;
   padding: 15px;
   font-weight: bold;
-  width: fit-content;
   border-radius: 15px;
 }
 .btn.pink {
@@ -566,12 +621,6 @@ h5 {
 .grey.course {
   background-color: #FFFFFF;
   padding: 0;
-  width: 350px;
-}
-@media (min-width: 768px) {
-  .grey {
-    width: auto;
-  }
 }
 
 .fonctionnement i {
@@ -590,13 +639,18 @@ h5 {
 .description .restaurant_name, .fa-heart {
   font-size: 22px;
   position: absolute;
-  top: 2px;
-  right: 10px;
+  top: 5px;
+  right: 20px;
+  transition: 200ms;
 }
 
-.description .restaurant_name, .heart .fa {
+.description .restaurant_name, .fa.fa-heart {
   opacity: 0;
-  transform: scale(1);
+  width: 0;
+}
+.description .restaurant_name:hover, .fa.fa-heart:hover {
+  opacity: 1;
+  transform: scale(1.5);
   background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -604,18 +658,10 @@ h5 {
   -webkit-text-fill-color: transparent;
 }
 
-.fa:hover {
-  opacity: 1;
-  transform: scale(1.5);
-}
-
-.fa-arrow-left-long {
+header .fa-arrow-left-long {
   color: #000000;
   font-size: 30px;
-  padding: 20px;
-  position: absolute;
-  left: 0px;
-  top: 10px;
+  margin-right: 50px;
 }
 
 .fa-check-circle {

@@ -6,15 +6,10 @@
     width: 90%;
     box-shadow: rgba(24, 24, 24, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    padding-bottom: 20px;
-    position : relative;
-    
-   
+    padding-bottom: 15px; 
 img{
     @include img_size;
 }
-   
-
 .green_card{
     background-color: $colour-tertiary;
     color: darken($colour-tertiary, 35%);
@@ -25,17 +20,10 @@ img{
     padding: 10px;
     border-radius: 5%;
     }
-
-    .description{
+.description{
         position: relative;
         
       h3, p{
-        line-height: 25px;
-          
-.heart{
-    position: absolute;
-    top: 0%;
-    right: 2%;
-}
+        line-height: 1.5;
 }
 }}

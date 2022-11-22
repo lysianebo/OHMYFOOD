@@ -1,11 +1,11 @@
-@keyframes loading {
+@keyframes scale {
   from {
     opacity: 0;
-    transform: scale 0;
+    transform: scale(0);
   }
   to {
     opacity: 1;
-    transform: scale 1;
+    transform: scale(1);
   }
 }
 @keyframes rotate {
@@ -17,13 +17,17 @@
   }
 }
 @keyframes loading_menus {
-  from {
-    transform: translateY(200px);
+  0% {
     opacity: 0;
+    transform: translateY(500px);
   }
-  to {
+  50% {
+    opacity: 0.5;
     transform: translateY(0);
+  }
+  100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 .loader-section {
@@ -194,14 +198,15 @@ main input, main label {
   background-color: transparent;
   font-size: large;
   font-weight: 600;
+  padding: 10px;
 }
 main input {
-  width: 150px;
+  width: 170px;
 }
 
 .introduction, .liste_restaurants {
   background-color: #f3f3f3;
-  padding: 40px 0px;
+  padding-bottom: 40px;
 }
 
 .introduction {
@@ -211,12 +216,28 @@ main input {
   align-items: center;
 }
 .introduction .introduction__titre {
-  width: 75%;
+  width: 90%;
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 40px;
 }
 
-.trois-etapes {
+.fonctionnement {
+  padding: 30px 0px;
+}
+@media (min-width: 992px) {
+  .fonctionnement {
+    margin: 2% 2%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+    margin: auto;
+  }
+  .fonctionnement .grey {
+    width: 30%;
+  }
+}
+.fonctionnement .trois-etapes {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -224,21 +245,29 @@ main input {
   flex-flow: row wrap;
   position: relative;
 }
-.trois-etapes a {
+.fonctionnement .trois-etapes a {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
 }
-
-.liste_restaurants .liste_cards {
+.fonctionnement .liste_restaurants {
+  padding-top: 40px !important;
+}
+.fonctionnement .liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
 }
-@media (min-width: 768px) {
-  .liste_restaurants .liste_cards {
+@media (min-width: 767px) {
+  .fonctionnement .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .fonctionnement .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+    font-size: 80%;
   }
 }/*# sourceMappingURL=index.css.map */

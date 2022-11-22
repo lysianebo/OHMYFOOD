@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1666255924168,
@@ -24,6 +24,10 @@
                 {
                     "date": 1667132419531,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,4 @@\n-/* Error: Can't find stylesheet to import.\n- *   ,\n- * 1 | @import 'utils/variables';\n- *   |         ^^^^^^^^^^^^^^^^^\n- *   '\n- *   sass/main.scss 1:9  root stylesheet */\n \n body::before {\n   font-family: \"Source Code Pro\", \"SF Mono\", Monaco, Inconsolata, \"Fira Mono\",\n       \"Droid Sans Mono\", monospace, monospace;\n"
+                },
+                {
+                    "date": 1668783341287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -569,9 +569,9 @@\n .grey:hover {\n   background-color: #f2eafb;\n   box-shadow: 5px 7px 8px rgb(210, 210, 210);\n }\n-.grey.course {\n+.course {\n   background-color: #FFFFFF;\n   width: 1000px;\n }\n \n"
                 }
             ],
             "date": 1666255924168,

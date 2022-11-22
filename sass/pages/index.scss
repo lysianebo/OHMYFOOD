@@ -17,43 +17,62 @@ main{
     background-color: transparent;
     font-size: large;
     font-weight: 600;
+   padding: 10px;
   }
   input{
-    width: 150px;
+    width: 170px;
   }
 }
   .introduction, .liste_restaurants{
     background-color: $colour-gray;
-    padding: 40px 0px;
+    padding-bottom: 40px;
     }
   .introduction{
     @include flexCenter(column);
-  
-
-  .introduction__titre{
-    width: 75%;
+   .introduction__titre{
+    width: 90%;
     text-align: center;
-    margin-bottom: 30px;        
+    padding-bottom: 40px;     
     }
 }
-  .trois-etapes{
+.fonctionnement{
+  padding: 30px 0px;
+@include media_tablet{
+  margin: 2% 2%;
+  h2{
+    text-align: center;
+    margin: auto;
+  }
+  .grey{
+    width: 30%;
+  }
+  } 
+ .trois-etapes{
+    background-color: $colour-white;
+   
     @include flexCenter(row);
     flex-flow: row wrap;
     position: relative;
     a{
       @include flexCenter(row);
         justify-content: space-evenly;
+       
     }
   }
 .liste_restaurants{
+  padding-top: 40px!important;
   .liste_cards{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    @include media{
-      grid-template-columns: repeat(2,1fr);
+    @include media_mobile{
+     grid-template-columns: repeat(2,1fr);
+     }
+     @include media_tablet{
+       grid-template-columns: repeat(4,1fr);
+        padding-bottom: 20px;
+        font-size: 80%;
       }
     }
 }
     
-  
+}
