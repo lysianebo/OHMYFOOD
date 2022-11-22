@@ -317,20 +317,20 @@ main input {
   align-items: center;
   justify-content: space-evenly;
 }
-.fonctionnement .liste_restaurants {
+
+.liste_restaurants {
   padding-top: 40px !important;
 }
-.fonctionnement .liste_restaurants .liste_cards {
-  display: grid;
+.liste_restaurants .liste_cards {
   grid-template-columns: 1fr;
 }
 @media (min-width: 767px) {
-  .fonctionnement .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 992px) {
-  .fonctionnement .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 80%;

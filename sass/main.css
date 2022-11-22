@@ -326,13 +326,11 @@ main input {
 }
 @media (min-width: 767px) {
   .fonctionnement .liste_restaurants .liste_cards {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 992px) {
   .fonctionnement .liste_restaurants .liste_cards {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 80%;

@@ -59,10 +59,11 @@ main{
        
     }
   }
+}
 .liste_restaurants{
   padding-top: 40px!important;
   .liste_cards{
-    display: grid;
+    //display: grid;
     grid-template-columns: 1fr;
     @include media_mobile{
      grid-template-columns: repeat(2,1fr);
@@ -75,4 +76,3 @@ main{
     }
 }
     
-}
