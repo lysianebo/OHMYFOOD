@@ -1,3 +1,7 @@
+
+
+//**** Mixins for Layout ***
+
 @mixin flexCenter($direction){
     display: flex;
     flex-direction:$direction;
@@ -16,25 +20,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+//**** Mixins Media Querys ***
 
-@mixin media_mobile{
-    @media (min-width: 767px) {
+@mixin media_tablet{
+    @media screen and (min-width:map-get($breakpoints, tablet)){
         @content;
     }
 }
-@mixin media_tablet{
-    @media(min-width:992px) {@content;
+@mixin media_desktop{
+    @media screen and (min-width:map-get($breakpoints, desktop)){
+        @content;
     }
 }
-@mixin anime{
-    animation: loading_menus 5s;
-    animation-fill-mode: forwards;
-    @for $i from 1 through 10 {
-                &:nth-child(#{$i}){
-                    animation-delay :100ms * $i;
-                }
-}
-}
+
+//**** Keyframes ***
 
 
 @keyframes scale {
@@ -58,6 +57,7 @@ to {
     
 }
 @keyframes loading_menus {
+    
     0% {
         opacity: 0;
         
@@ -71,6 +71,18 @@ to {
    100% {
     opacity: 1;
       transform: translateY(0);
+     
+      
      }
   }
 
+@keyframes loader{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+  }
+
+ 

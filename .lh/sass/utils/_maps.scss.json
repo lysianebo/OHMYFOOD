@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1667518364602,
@@ -28,6 +28,58 @@
                 {
                     "date": 1667518685826,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n         tablet: 767px,\n         desktop: 992px,\n-        large: 1600px,\n+        large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549302610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n-)\n\\ No newline at end of file\n+);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549580463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n-);\n\\ No newline at end of file\n+)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549590376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$breakpoints: (\n+$breakpoints: \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549598602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$breakpoints: \n+$breakpoints: {}\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549604680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$breakpoints: {}\n+$breakpoints: {\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549621935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: {\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n-)\n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549643499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$breakpoints: {\n+$breakpoints: \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549648587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$breakpoints: \n+$breakpoints: (\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669549653857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n-}\n\\ No newline at end of file\n+)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669620583691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n $breakpoints: (\n+        \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669620593519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n $breakpoints: (\n-        \n+        mobile:\n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669621313699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n $breakpoints: (\n-        mobile:\n+        \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669621320075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n $breakpoints: (\n-        \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1667518364602,

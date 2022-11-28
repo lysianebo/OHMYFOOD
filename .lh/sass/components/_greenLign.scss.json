@@ -1,0 +1,110 @@
+{
+    "sourceFile": "sass/components/_greenLign.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1669307778198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669481294974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n-    background-position: 20px 75%;\n+    background-position: 0px 75%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669481330274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n-    background-position: 0px 75%;\n+    background-position: 50px 75%;\n+    pad\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669481335661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    pad\n+    padding-top: 20;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669481351798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    padding-top: 20;\n+   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488389867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n+    \n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488395299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    \n+    padding-bottom: ;\n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488401904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    padding-bottom: ;\n+    padding-bottom: 30px;;\n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488416013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    padding-bottom: 30px;;\n+    padding-bottom: 0px;\n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488427767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-    padding-bottom: 0px;\n+  mar-bottom: 50px;\n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488437760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n-  mar-bottom: 50px;\n+ \n    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669488445797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,5 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 50px 75%;\n- \n-   \n-}\n\\ No newline at end of file\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573255032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n-    background-position: 50px 75%;\n+    background-position: 0px 75%;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573266887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n-    background-position: 0px 75%;\n+    background-position: 20px 75%;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573322849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n-    background-position: 20px 75%;\n+    background-position: 10px 75%;\n+    mar\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573329902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 10px 75%;\n-    mar\n+    margin-bottom: 30px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573347325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 6px;\n     background-repeat: no-repeat;\n     background-position: 10px 75%;\n-    margin-bottom: 30px;\n+    margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573516484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n-    background-size: 80px 6px;\n+    background-size: 80px 5px;\n     background-repeat: no-repeat;\n     background-position: 10px 75%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573543337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 10px 75%;\n+    background-position: 10px 5%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573551842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 10px 5%;\n+    background-position: 10px 55%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573565215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 10px 55%;\n+    background-position: 10px %;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573583117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 10px %;\n+    background-position: 15px 60%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573595105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 15px 60%;\n+    background-position: 20px 60%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669573603040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 20px 60%;\n+    background-position: 15px 60%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1669307778198,
+            "name": "Commit-0",
+            "content": ".bordered-bottom{\n    background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n    background-size: 80px 6px;\n    background-repeat: no-repeat;\n    background-position: 20px 75%;\n}"
+        }
+    ]
+}

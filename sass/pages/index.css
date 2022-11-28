@@ -30,150 +30,7 @@
     transform: translateY(0);
   }
 }
-.loader-section {
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(241, 189, 247, 0.5);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  animation: 100ms ease-in loading 1.5s both;
-}
-
-.loader {
-  font-size: 40px;
-  font-family: Shrikhand;
-  text-align: center;
-  background-color: rgb(177, 41, 185);
-}
-
-.section {
-  height: 500px;
-  line-height: 500px;
-  background-color: rgb(75, 71, 215);
-}
-
-.loader-section {
-  height: 500px;
-  line-height: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-
-.loader-quart {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  border: 6px solid #9356DC;
-}
-
-.loader-quart::after {
-  position: absolute;
-  top: -10;
-  left: -10px;
-  bottom: -6px;
-  right: -2px;
-  content: "";
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  border: 10px solid transparent;
-  border-top: 10px solid #FF79DA;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.section2 {
-  background-image: rgb(75, 71, 215);
-  border-radius: 50px;
-  border: 10px solid transparent;
-  border-top: #9356DC;
-  border-bottom: #f3f3f3;
-}
-
-.loader-double {
-  border-radius: 50px;
-  border: 1px solid transparent;
-  border-top: #9356DC;
-  border-bottom: #f3f3f3;
-}
-
-.loader-double::after {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  bottom: 5px;
-  right: 5px;
-  content: "";
-  border-radius: 50px;
-  border: 6px solid transparent;
-  border-top: solid #FF79DA;
-  border-bottom: solid #FF79DA;
-  opacity: 0.8;
-  animation: spinreverse 4s linear infinite;
-}
-
-.loader-double::after {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  bottom: 10px;
-  right: 10px;
-  content: "";
-  border-radius: 50px;
-  border: 6px solid transparent;
-  border-top: solid #9356DC;
-  border-bottom: solid #FF79DA;
-  opacity: 0.8;
-  animation: spinreverse 4s linear infinite;
-}
-
-@keyframes spinreverse {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-.section3 {
-  background-color: cadetblue;
-  height: 200px;
-}
-
-.loader-circles {
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid transparent;
-  border-top: #fff;
-  animation: spinreverse 5s linear infinite;
-  color: white;
-}
-
-@keyframes loading {
+@keyframes loader {
   0% {
     transform: scale(1);
   }
@@ -181,6 +38,37 @@
     transform: scale(0);
   }
 }
+.loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(231, 222, 241, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 100ms loader 4s both;
+}
+.loader span {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: rotate(calc(18deg * var(--i)));
+}
+.loader span::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, #9356DC, 30%, #FF79DA);
+  animation-delay: 1s;
+  animation: rotate 5s;
+}
+
 main form {
   display: flex;
   flex-direction: row;
@@ -224,7 +112,7 @@ main input {
 .fonctionnement {
   padding: 30px 0px;
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 767px) {
   .fonctionnement {
     margin: 2% 2%;
   }
@@ -245,26 +133,24 @@ main input {
   flex-flow: row wrap;
   position: relative;
 }
-.fonctionnement .trois-etapes a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
+.fonctionnement .trois-etapes p {
+  width: 300px;
+  padding-left: 40px;
 }
 
 .liste_restaurants {
-  padding-top: 40px !important;
+  padding-top: 20px;
 }
 .liste_restaurants .liste_cards {
+  display: grid;
   grid-template-columns: 1fr;
 }
-@media (min-width: 767px) {
+@media screen and (min-width: 767px) {
   .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .liste_restaurants .liste_cards {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;

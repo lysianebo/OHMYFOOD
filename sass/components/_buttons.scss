@@ -6,15 +6,15 @@
     border-radius: 15px;
 &.pink {
     background: linear-gradient(to bottom right, $colour-secondary, 45%, $colour-primary);
-    color: white;
+    color: $colour-white;
     border-radius: 50px;
-    box-shadow: 2px 2px 2px 2px $colour-secondary;
+    box-shadow: 4px 4px 3px 2px colour-secondary;
     &.commander{
         @include flexCenter(row);
         margin-bottom: 40px;
        }
     &:hover{
-        background: linear-gradient(-170deg, darken(rgba(255,121,218,1), 5%) 30%, darken(rgba(147,86,220,1), 5%) 100%); 
+        background: linear-gradient(-170deg, darken($colour-secondary, 5%) 30%, darken($colour-primary, 5%) 100%); 
         box-shadow: 1px 2px 5px 2px  darken($colour-gray,30%);              
         }
        box-shadow: 5px 7px 8px rgb(210, 210, 210);
@@ -23,21 +23,14 @@
 .grey {
     position: relative;
     @include flexCenter(row);
-    width: 90%;
+    width: 85%;
     margin: auto;
     margin-bottom: 30px;
     background-color: lighten($colour-gray, 2);
     color: $colour-black;
     box-shadow: 2px 3px 5px 4px $colour-gray;
-   
-        
-    &:hover{
+   &:hover{
         background-color: lighten($colour-primary, 35);
         box-shadow: 5px 7px 8px rgb(210, 210, 210);
     }
-    &.course{
-        background-color: $colour-white;
-        padding: 0;
-       
-    }
-    }
+   }

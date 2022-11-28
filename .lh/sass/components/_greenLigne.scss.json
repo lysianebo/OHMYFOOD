@@ -1,0 +1,18 @@
+{
+    "sourceFile": "sass/components/_greenLigne.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1669307401310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1669307401310,
+            "name": "Commit-0",
+            "content": ".bordered-bottom{\n    background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n    background-size: 80px 6px;\n    background-repeat: no-repeat;\n    background-position: 20px 75%;\n}"
+        }
+    ]
+}

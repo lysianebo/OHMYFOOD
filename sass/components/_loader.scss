@@ -1,136 +1,35 @@
- .loader-section{
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color:rgba(241, 189, 247, 0.5);
-    @include flexCenter(row);
-    animation: 100ms ease-in loading 1.5s both;  
-  
-}
-
 .loader{
-    font-size: 40px;
-    font-family: Shrikhand;
-    text-align: center;
-    background-color: rgb(177, 41, 185);
-   
-    
-}
-.section{
-    height: 500px;
-    line-height: 500px;
-    background-color: rgb(75, 71, 215);
-    
-}
-.loader-section{
-    height: 500px;
-    line-height: 500px;
-    @include flexCenter(row);
-}
-  .loader{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-   
-}
-.loader-quart{
-    width: 50px;
-    height: 50px;
-   border-radius: 50px;
-    border: 6px solid $colour-primary;
-}
-.loader-quart::after{
-    position: absolute;
-    top: -10;
-    left: -10px;
-    bottom: -6px;
-    right: -2px;
-    content: '';
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: 10px solid transparent;
-    border-top: 10px solid $colour-secondary;
-    animation:spin 2s linear infinite;
-}
-@keyframes spin{
-    0%{ transform:rotate(0deg);}
-    100%{ transform: rotate(360deg);}
-}
-//-----------------------------
-.section2{
-    background-image : rgb(75, 71, 215);
-    border-radius: 50px;
-    border: 10px solid transparent;
-    border-top: $colour-primary;
-    border-bottom: $colour-gray;
-    
- 
-}
-.loader-double{
-    border-radius: 50px;
-    border: 1px solid transparent;
-    border-top: $colour-primary;
-    border-bottom: $colour-gray;
-}
-.loader-double::after{
-    position: absolute;
-    top: 5px;
-    left:  5px;
-    bottom:5px;
-    right: 5px;
-    content: '';
-    border-radius: 50px;
-    border: 6px solid transparent;
-    border-top: solid $colour-secondary;
-    border-bottom: solid $colour-secondary;
-    opacity: 0.8;
-    animation:spinreverse 4s linear infinite;
-}
-.loader-double::after{
-    position: absolute;
-    top: 10px;
-    left:  10px;
-    bottom:10px;
-    right: 10px;
-    content: '';
-    border-radius: 50px;
-    border: 6px solid transparent;
-    border-top: solid $colour-primary;
-    border-bottom: solid $colour-secondary;
-    opacity: 0.8;
-    animation:spinreverse 4s linear infinite;
-}
-@keyframes spinreverse{
-    0%{transform:rotate(0deg);}
-    100%{transform: rotate(-360deg);}
-}
-//------------------------------
-.section3{
-    background-color: cadetblue;
-    height: 200px;
-}
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(231, 222, 241, 0.5);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  animation: 100ms loader 4s both;
 
-
-.loader-circles{
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    border: 1px solid transparent;
-    border-top: #fff;
-    animation:spinreverse 5s linear infinite;
-    color: white;
+span{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  //width: 50px;
+  //height: 50px;
+  transform: rotate(calc(18deg * var(--i)));
+&::before{
+  content: "";
+  position: absolute;
+ //top: 50%;
+  //right: 50%;
+  width: 30px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to  right bottom, $colour-primary, 30%, $colour-secondary);
+  animation-delay: 1s;
+  animation: rotate 5s;
   }
-  @keyframes loading{
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(0);
-    }
+}
 }

@@ -1,49 +1,62 @@
-.fonctionnement i {
+i{
+    font-size: 20px;
+ 
+    
+    }
+//Icônes fonctionnement-----------------
+.fonctionnement i{
    font-size: 22px;
    color: darken($colour-gray, 30);
-  
-    &.fa-mobile-screen{
+padding-left: 20px;
+  &.fa-mobile-screen{
          font-size: 28px;
-         padding-right: 0px;
-         padding-left: 0px;
-         }
-   &:hover{
+    }
+  &:hover{
     color: $colour-primary;
    }
 }
 //heart-----------------
-.description .restaurant_name, .fa-heart{
+.heart .far, .fas{
+    @include flexCenter(column);
     font-size: 22px;
     position: absolute;
     top: 5px;
     right: 20px;
-    transition: 200ms;
-}
-.description .restaurant_name, .fa.fa-heart {
-    opacity: 0;
-    width: 0;
+    transition: 400ms ease-in-out;
+} 
+.heart .fas.fa-heart{
+   opacity: 0;
+   background: linear-gradient(360deg, $colour-primary 0%,$colour-secondary 100%);
+    background-clip: text;
+    
+   -webkit-text-fill-color: transparent; 
    &:hover{
     opacity: 1;
-    transform: scale(1.5);
-    background: linear-gradient($colour-secondary,$colour-primary);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    font-size: 23px;
+    animation: fadeIn 0.5s;    
 }
 }
 header .fa-arrow-left-long{
     color: $colour-black ;
     font-size: 30px;
-    margin-right: 50px;
+    //margin-right: 80px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    
 }
 .fa-check-circle{
+    position: inherit;
     font-size: 30px;
     color: white;
+    transform: rotate(360deg);
     &:hover{
-    animation: rotate 1s linear;
+    animation: rotate 0.5s linear;
     }
 }
+
+
     
     
 

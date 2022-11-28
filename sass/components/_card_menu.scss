@@ -1,0 +1,69 @@
+.course {
+    width: 360px;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 4px 4px 5px  darken($colour-gray,12);
+    height: 65px;
+    overflow: hidden;
+    
+    
+&:hover {
+        .dish {
+            transition: width 1s;
+            min-width: 200px;
+            padding-right: 10px;
+        }
+        .validate{
+            width: 100px;  
+            opacity: 1;
+        }
+        .fa-check-circle {
+            transform: rotate(360deg);
+        }
+         
+
+    }
+}
+.dish{
+    width: 360px;
+    justify-content: space-between;
+    //margin-right: 20px;
+}
+    .dish p, h6{
+        padding-left: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      
+    
+    }
+    .dish p {
+    padding-bottom: 15px;
+    }
+    .prix{
+       width: 100px;
+        text-align: right;
+        z-index: 5;
+        padding: 0 20px 15px 20px;
+       
+    }
+    .validate {
+        @include flexCenter(colum);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color:$colour-tertiary;
+        width: 0px;
+        opacity: 0;
+        height: 100%;
+        transition: width 1s, opacity 1s;
+        .fa-check-circle {
+            color: white;
+            font-size: 30px;
+            transition: transform 1.5s
+            ;
+        }
+    }
