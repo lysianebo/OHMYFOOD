@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 33,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1666531827525,
@@ -140,6 +140,26 @@
                 {
                     "date": 1669815676458,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n+    <link rel=\"stylesheet\" href=\"public/css/main.css\">\n     <title>Ohmyfood menu restaurant La palette du goût</title>\n </head>\n <header>\n     <h1><a href=\"index.html\">\n"
+                },
+                {
+                    "date": 1669816523168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n     </a>ohmyfood</h1>\n </header>\n-<body>\n+\n     <div class=\"image\">\n         <img src=\"public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg\" alt=\"restaurant La palette du goût\">\n     </div>\n     <div class=\"main2\">\n"
+                },
+                {
+                    "date": 1669816531063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\">\n     <title>Ohmyfood menu restaurant La palette du goût</title>\n </head>\n+<body>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n     </a>ohmyfood</h1>\n"
+                },
+                {
+                    "date": 1669816557864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n     <link rel=\"stylesheet\" href=\"public/css/main.css\">\n     <title>Ohmyfood menu restaurant La palette du goût</title>\n </head>\n <body>\n-<header>\n-    <h1><a href=\"index.html\">\n-        <i class=\"fa fa-arrow-left-long\"></i>\n-    </a>ohmyfood</h1>\n-</header>\n+    <header>\n+        <h1><a href=\"index.html\">\n+            <i class=\"fa fa-arrow-left-long\"></i>\n+        </a>ohmyfood</h1>\n+    </header>\n \n     <div class=\"image\">\n         <img src=\"public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg\" alt=\"restaurant La palette du goût\">\n     </div>\n"
+                },
+                {
+                    "date": 1669816586138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,9 @@\n         <h1><a href=\"index.html\">\n             <i class=\"fa fa-arrow-left-long\"></i>\n         </a>ohmyfood</h1>\n     </header>\n-\n-    <div class=\"image\">\n+<div class=\"image\">\n         <img src=\"public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg\" alt=\"restaurant La palette du goût\">\n     </div>\n     <div class=\"main2\">\n         <div class=\"restaurant_name\">\n"
+                },
+                {
+                    "date": 1669816607890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <h1><a href=\"index.html\">\n             <i class=\"fa fa-arrow-left-long\"></i>\n         </a>ohmyfood</h1>\n     </header>\n-<div class=\"image\">\n+    <div class=\"image\">\n         <img src=\"public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg\" alt=\"restaurant La palette du goût\">\n     </div>\n     <div class=\"main2\">\n         <div class=\"restaurant_name\">\n@@ -45,9 +45,9 @@\n                 <div class=\"course\">\n                     <div class=\"dish\">\n                         <h6>Oeuf au plat</h6>\n                         <p>Assaisonné à la truffe sur lit de caviar</p>\n-                    </div>                          <span class=\"prix\">20€</span>\n+                    </div>                <span class=\"prix\">20€</span>\n                     <span class=\"validate\"><i class=\"fas fa-check-circle\"></i></span>\n                 </div>\n             </div>\n             <div class=\"plats\">\n"
                 }
             ],
             "date": 1666531827525,
