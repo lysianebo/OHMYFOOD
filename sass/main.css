@@ -483,7 +483,7 @@ header a {
 }
 .main2 .restaurant_name {
   font-size: 65%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .main2 .restaurant_name .heart .fas {
   position: absolute;
