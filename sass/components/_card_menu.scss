@@ -10,6 +10,9 @@
     height: 65px;
     overflow: hidden;
     &:hover {
+        .fa-check-circle {
+           animation: rotate 1s;
+        }
         .dish {
             transition: width 1s;
             min-width: 200px;
@@ -19,15 +22,12 @@
             width: 100px;  
             opacity: 1;
         }
-        .fa-check-circle {
-            transform: rotate(360deg);
-        }
+       
      }
 }
 .dish{
     width: 360px;
     justify-content: space-between;
-    //margin-right: 20px;
 }
     .dish p, h6{
         padding-left: 15px;
@@ -56,6 +56,5 @@
         .fa-check-circle {
             color: white;
             font-size: 30px;
-            transition: transform 1.5s;
         }
     }
