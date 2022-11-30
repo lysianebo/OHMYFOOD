@@ -46,7 +46,7 @@
         padding: 0 20px 15px 20px;
     }
     .validate {
-        @include flexCenter(colum);
+        @include flexCenter(column);
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         background-color:$colour-tertiary;
