@@ -9,9 +9,10 @@
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 65px;
     overflow: hidden;
+    transition: 100ms ease-in-out;
     &:hover {
         .fa-check-circle {
-           animation: rotate 1s;
+           animation: rotate 0.5s;
         }
         .dish {
             transition: width 1s;
