@@ -8,7 +8,7 @@
     background: linear-gradient(to bottom right, $colour-secondary, 45%, $colour-primary);
     color: $colour-white;
     border-radius: 50px;
-    box-shadow: 4px 4px 3px 2px colour-secondary;
+    box-shadow: 4px 4px 3px 2px $colour-secondary;
     &.commander{
         @include flexCenter(row);
         margin-bottom: 40px;

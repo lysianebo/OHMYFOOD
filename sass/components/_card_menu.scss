@@ -9,9 +9,7 @@
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 65px;
     overflow: hidden;
-    
-    
-&:hover {
+    &:hover {
         .dish {
             transition: width 1s;
             min-width: 200px;
@@ -24,9 +22,7 @@
         .fa-check-circle {
             transform: rotate(360deg);
         }
-         
-
-    }
+     }
 }
 .dish{
     width: 360px;
@@ -38,8 +34,6 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-      
-    
     }
     .dish p {
     padding-bottom: 15px;
@@ -49,7 +43,6 @@
         text-align: right;
         z-index: 5;
         padding: 0 20px 15px 20px;
-       
     }
     .validate {
         @include flexCenter(colum);
@@ -63,7 +56,6 @@
         .fa-check-circle {
             color: white;
             font-size: 30px;
-            transition: transform 1.5s
-            ;
+            transition: transform 1.5s;
         }
     }

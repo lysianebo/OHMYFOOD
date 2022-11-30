@@ -1,50 +1,49 @@
 i{
-    font-size: 20px;
- 
-    
-    }
+    font-size: 24px;
+ }
+
 //Icônes fonctionnement-----------------
 .fonctionnement i{
-   font-size: 22px;
-   color: darken($colour-gray, 30);
-padding-left: 20px;
+   color: darken($colour-gray, 30); 
+   padding-left: 15px;
   &.fa-mobile-screen{
-         font-size: 28px;
+      font-size: 28px;
     }
   &:hover{
     color: $colour-primary;
    }
 }
-//heart-----------------
-.heart .far, .fas{
-    @include flexCenter(column);
-    font-size: 22px;
+//Heart-----------------
+   
+.heart .fas{
     position: absolute;
-    top: 5px;
     right: 20px;
-    transition: 400ms ease-in-out;
-} 
-.heart .fas.fa-heart{
-   opacity: 0;
-   background: linear-gradient(360deg, $colour-primary 0%,$colour-secondary 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-   &:hover{
-    opacity: 1;
-    font-size: 23px;
-    animation: fadeIn 0.5s;    
-}
-}
+    top: 3px;
+    font-weight: 100;
+  }
+   .heart:hover .fas{
+        font-weight: 600;
+        background: linear-gradient(360deg, $colour-primary 0%,$colour-secondary 100%);
+        -webkit-background-clip: text ;
+        background-clip: text ;
+        -webkit-text-fill-color: transparent;
+        animation: fill-heart 2s; 
+         }
+
+ //Arrow-----------------  
+
 header .fa-arrow-left-long{
     color: $colour-black ;
     font-size: 30px;
-    //margin-right: 80px;
     width: 100px;
     padding: 0;
     margin: 0;
     text-align: left;
     
 }
+
+ //Check-----------------  
+ 
 .fa-check-circle{
     position: inherit;
     font-size: 30px;

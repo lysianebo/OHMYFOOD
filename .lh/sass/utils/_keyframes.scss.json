@@ -1,0 +1,98 @@
+{
+    "sourceFile": "sass/utils/_keyframes.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1669799708283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669799718298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-//**** Keyframes ***\n+\n @keyframes fadeIn {\n     from {\n       opacity: 0;\n      \n"
+                },
+                {
+                    "date": 1669799724670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-\n @keyframes fadeIn {\n     from {\n       opacity: 0;\n      \n"
+                },
+                {
+                    "date": 1669800041330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n @keyframes fadeIn {\n     from {\n       opacity: 0;\n-     \n-    }\n+     }\n     25% {\n         opacity: 0.4;\n         \n       }\n"
+                },
+                {
+                    "date": 1669800049396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,15 +3,13 @@\n       opacity: 0;\n      }\n     25% {\n         opacity: 0.4;\n-        \n-      }\n+        }\n     50% {\n       opacity: 0.8;\n       font-weight: 600;\n-      \n-    }\n+      }\n     100% {\n       opacity: 1;\n       font-weight: 900;\n     }\n"
+                },
+                {
+                    "date": 1669800055011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n       font-weight: 900;\n     }\n }\n @keyframes fill-heart {\n-    \n     0% {\n         height: 1%;\n     }\n     100% {\n"
+                },
+                {
+                    "date": 1669800069771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,11 +21,9 @@\n     100% {\n       height: 100%;\n       }\n     }\n-  \n-\n-@keyframes scale {\n+  @keyframes scale {\n     from {\n         opacity: 0;\n         transform : scale(0);\n     }\n"
+                },
+                {
+                    "date": 1669800078813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     100% {\n       height: 100%;\n       }\n     }\n-  @keyframes scale {\n+    @keyframes scale {\n     from {\n         opacity: 0;\n         transform : scale(0);\n     }\n"
+                },
+                {
+                    "date": 1669800103372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     100% {\n       height: 100%;\n       }\n     }\n-    @keyframes scale {\n+@keyframes scale {\n     from {\n         opacity: 0;\n         transform : scale(0);\n     }\n@@ -39,9 +39,8 @@\n     }\n     to {\n         transform: rotate(360deg);\n     }\n-    \n }\n @keyframes loading_menus {\n     \n     0% {\n"
+                },
+                {
+                    "date": 1669800115088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,13 +41,11 @@\n         transform: rotate(360deg);\n     }\n }\n @keyframes loading_menus {\n-    \n     0% {\n         opacity: 0;\n-        \n-      transform: translateY(500px);\n+        transform: translateY(500px);\n      \n     }\n     40% {\n         opacity: 0.7;\n"
+                },
+                {
+                    "date": 1669800126578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,19 +44,16 @@\n @keyframes loading_menus {\n     0% {\n         opacity: 0;\n         transform: translateY(500px);\n-     \n     }\n     40% {\n         opacity: 0.7;\n           transform: translateY(0);\n          }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n-     \n-      \n      }\n   }\n \n @keyframes loader{\n"
+                },
+                {
+                    "date": 1669800135174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,8 @@\n     opacity: 1;\n       transform: translateY(0);\n      }\n   }\n-\n @keyframes loader{\n     0%{\n         transform: scale(1);\n     }\n"
+                },
+                {
+                    "date": 1669803002780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         opacity: 0;\n         transform: translateY(500px);\n     }\n     40% {\n-        opacity: 0.7;\n+        opacity: 0.;\n           transform: translateY(0);\n          }\n    100% {\n     opacity: 1;\n"
+                },
+                {
+                    "date": 1669803026703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,10 @@\n     0% {\n         opacity: 0;\n         transform: translateY(500px);\n     }\n-    40% {\n-        opacity: 0.;\n+    0% {\n+        opacity: 0.5;\n           transform: translateY(0);\n          }\n    100% {\n     opacity: 1;\n"
+                },
+                {
+                    "date": 1669803053054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,12 +45,9 @@\n     0% {\n         opacity: 0;\n         transform: translateY(500px);\n     }\n-    0% {\n-        opacity: 0.5;\n-          transform: translateY(0);\n-         }\n+    \n    100% {\n     opacity: 1;\n       transform: translateY(0);\n      }\n"
+                },
+                {
+                    "date": 1669803065405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,12 @@\n     0% {\n         opacity: 0;\n         transform: translateY(500px);\n     }\n-    \n+    50% {\n+        opacity: 0.5;\n+          transform: translateY(0);\n+         }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n      }\n"
+                },
+                {
+                    "date": 1669803083424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n         transform: translateY(500px);\n     }\n     50% {\n         opacity: 0.5;\n-          transform: translateY(0);\n+          transform: translateY(250);\n          }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n"
+                },
+                {
+                    "date": 1669803117550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n         transform: translateY(500px);\n     }\n     50% {\n         opacity: 0.5;\n-          transform: translateY(250);\n+          transform: translateY(150);\n          }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n"
+                },
+                {
+                    "date": 1669803128118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n         transform: translateY(500px);\n     }\n     50% {\n         opacity: 0.5;\n-          transform: translateY(150);\n+          transform: translateY(00);\n          }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n"
+                },
+                {
+                    "date": 1669803141342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,10 @@\n         opacity: 0;\n         transform: translateY(500px);\n     }\n     50% {\n-        opacity: 0.5;\n-          transform: translateY(00);\n+        opacity: 0.;\n+          transform: translateY(0);\n          }\n    100% {\n     opacity: 1;\n       transform: translateY(0);\n"
+                },
+                {
+                    "date": 1669803150314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         opacity: 0;\n         transform: translateY(500px);\n     }\n     50% {\n-        opacity: 0.;\n+        opacity: 0.5;\n           transform: translateY(0);\n          }\n    100% {\n     opacity: 1;\n"
+                }
+            ],
+            "date": 1669799708283,
+            "name": "Commit-0",
+            "content": "//**** Keyframes ***\n@keyframes fadeIn {\n    from {\n      opacity: 0;\n     \n    }\n    25% {\n        opacity: 0.4;\n        \n      }\n    50% {\n      opacity: 0.8;\n      font-weight: 600;\n      \n    }\n    100% {\n      opacity: 1;\n      font-weight: 900;\n    }\n}\n@keyframes fill-heart {\n    \n    0% {\n        height: 1%;\n    }\n    100% {\n      height: 100%;\n      }\n    }\n  \n\n@keyframes scale {\n    from {\n        opacity: 0;\n        transform : scale(0);\n    }\nto {\n   opacity: 1;\n    transform : scale(1);\n}\n}\n\n@keyframes rotate {\n    from {\n        transform: rotate(0deg);\n    }\n    to {\n        transform: rotate(360deg);\n    }\n    \n}\n@keyframes loading_menus {\n    \n    0% {\n        opacity: 0;\n        \n      transform: translateY(500px);\n     \n    }\n    40% {\n        opacity: 0.7;\n          transform: translateY(0);\n         }\n   100% {\n    opacity: 1;\n      transform: translateY(0);\n     \n      \n     }\n  }\n\n@keyframes loader{\n    0%{\n        transform: scale(1);\n    }\n    100%{\n        transform: scale(0);\n    }\n  }\n\n "
+        }
+    ]
+}

@@ -6,9 +6,9 @@
   height: 100%;
   width: 100%;
   background-color:rgba(231, 222, 241, 0.5);
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: 100ms loader 4s both;
 
 span{
@@ -16,14 +16,10 @@ span{
   margin: auto;
   top: 50%;
   left: 50%;
-  //width: 50px;
-  //height: 50px;
   transform: rotate(calc(18deg * var(--i)));
 &::before{
   content: "";
   position: absolute;
- //top: 50%;
-  //right: 50%;
   width: 30px;
   height: 150px;
   border-radius: 50%;

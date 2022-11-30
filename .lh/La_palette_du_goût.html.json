@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 32,
             "patches": [
                 {
                     "date": 1666531827525,
@@ -100,6 +100,42 @@
                 {
                     "date": 1669506615124,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n                 </div>\n                 <div class=\"course\">\n                     <div class=\"dish\">\n                         <h6>Macaron au chocolat d'exception</h6>\n-                        <p> Et glace à la vanille de Madagascar</p>\n+                        <p>Et glace à la vanille de Madagascar</p>\n                     </div>\n                     <span class=\"prix\">22€</span>\n                     <span class=\"validate\"><i class=\"fas fa-check-circle\"></i></span>\n                 </div>\n"
+                },
+                {
+                    "date": 1669757933873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,20 +8,8 @@\n     <title>La palette du goût</title>\n <!-- Code injected by Five-server -->\n   <script async data-id=\"five-server\" data-file=\"/home/lysiane/Applications/ApplicationsWeb/OHMYFOOD/La_note_enchantée.html\" data-inject-body=\"true\" type=\"application/javascript\" src=\"/fiveserver.js\"></script>\n \n-<!-- <style>\n-    .menu{\n-        display: flex;\n-        justify-content: space-evenly;\n-        @media screen and (min-width: 500px) and (max-width: 1058px)\n-.menu {\n-  flex-direction: column;\n-  align-items: center;\n-}\n-    }\n-</style>   -->\n-\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669757944964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n     <div class=\"main2\">\n         <div class=\"restaurant_name\">\n             <h1>La palette du goût</h1>\n             <div class=\"heart\">\n-                <i class=\"far fa-heart\"></i>\n                 <i class=\"fas fa-heart\"></i>\n             </div>\n         </div>\n         <div class=\"menu\">\n"
+                },
+                {
+                    "date": 1669802559254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang=\"en\">\n+<html lang=\"fr\">\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+                },
+                {
+                    "date": 1669802621163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,10 @@\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n     <title>La palette du goût</title>\n-<!-- Code injected by Five-server -->\n-  <script async data-id=\"five-server\" data-file=\"/home/lysiane/Applications/ApplicationsWeb/OHMYFOOD/La_note_enchantée.html\" data-inject-body=\"true\" type=\"application/javascript\" src=\"/fiveserver.js\"></script>\n \n+\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669802628247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,8 @@\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n     <title>La palette du goût</title>\n-\n-\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669802634673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n-    <title>La palette du goût</title>\n+    <title>OhmyLa palette du goût</title>\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669802641008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n-    <title>OhmyLa palette du goût</title>\n+    <title>Ohmyfood menu La palette du goût</title>\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669802653906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n-    <title>Ohmyfood menu La palette du goût</title>\n+    <title>Ohmyfood rest La palette du goût</title>\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
+                },
+                {
+                    "date": 1669802662868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <link rel=\"stylesheet\" href=\"public/css/main.css\"/>\n-    <title>Ohmyfood rest La palette du goût</title>\n+    <title>Ohmyfood menu restaurant La palette du goût</title>\n </head>\n <header>\n     <h1><a href=\"index.html\">\n         <i class=\"fa fa-arrow-left-long\"></i>\n"
                 }
             ],
             "date": 1666531827525,

@@ -17,28 +17,24 @@ header{
         border-radius: 50px 50px 0 0 ;
         position: relative;
     .restaurant_name{
-        display: flex;
-        justify-content: center;
-        font-size: 60%;
-        .fa-heart{
-        font-size: 24px;
-        padding-top: 35px;
+            font-size: 65%;
+        .heart .fas{
+            position: absolute;
+            top: 35px;
+            right: 25px;
+           font-size: 28px;
         }
     } 
-
 .menu{
     position: relative;
-    margin: 2%;
     display: flex;
     flex-direction: column;
-align-items: center;
-
-
-.entrées div{
+    align-items: center;
+div, .entrées{
     animation : loading_menus 3s;
     animation-fill-mode: forwards;
   }
-  .plats div{
+.plats div{
      animation : loading_menus 6s;
      animation-fill-mode: forwards;
   }
@@ -46,7 +42,6 @@ align-items: center;
     animation : loading_menus 9s;
     animation-fill-mode: forwards;
 }
-
 @include media_tablet{
     flex-wrap: wrap;
     flex-direction: row;
@@ -57,5 +52,6 @@ align-items: center;
 }
 a.commander{
     width: 300px;
+    margin: 50px auto;
 }
 }
