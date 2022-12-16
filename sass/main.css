@@ -79,7 +79,7 @@ a {
 }
 @keyframes fill-heart {
   0% {
-    height: 1%;
+    height: 0%;
   }
   100% {
     height: 100%;
@@ -125,6 +125,10 @@ a {
     transform: scale(0);
   }
 }
+html {
+  --i: 100;
+}
+
 .loader {
   z-index: 1;
   position: fixed;
@@ -326,18 +330,18 @@ i {
 
 .heart .fas {
   position: absolute;
-  right: 20px;
-  top: 3px;
+  right: 10px;
+  top: 0px;
   font-weight: 100;
+  font-size: 28px;
 }
-
-.heart:hover .fas {
+.heart .fas:hover {
   font-weight: 600;
-  background: linear-gradient(360deg, #9356DC 0%, #FF79DA 100%);
-  -webkit-background-clip: text;
+  background: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 2s;
+  animation: fill-heart 1s;
 }
 
 header .fa-arrow-left-long {
@@ -485,11 +489,16 @@ header a {
   font-size: 65%;
   margin-bottom: 30px;
 }
+.main2 .restaurant_name h1 {
+  width: 300px;
+  margin: auto;
+}
 .main2 .restaurant_name .heart .fas {
-  position: absolute;
   top: 35px;
   right: 30px;
-  font-size: 28px;
+}
+.main2 .restaurant_name .heart .fas:hover {
+  animation: fill-heart 5s;
 }
 .main2 .menu {
   position: relative;
