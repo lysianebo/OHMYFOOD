@@ -1,8 +1,0 @@
-transition: transform 330ms ease-out-in ;
-        @for $i from 1 through 10 {
-            &:nth-chilld(#$i){
-                color: red;
-                  
-        }
-        }
-        
