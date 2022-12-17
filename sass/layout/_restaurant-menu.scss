@@ -1,6 +1,6 @@
 header{
-    a {
-        font-size: 30px;
+    position: relative;
+    a{
         position: absolute;
         left: 10px;
     }
@@ -11,17 +11,13 @@ header{
     height: 300px;
 }
 .main2{
-        margin-top: -60px;
-        padding: 20px 0px;
-        background-color: $colour-gray;
-        border-radius: 50px 50px 0 0 ;
-        position: relative;
+    margin-top: -60px;
+    padding: 20px 0px;
+    background-color: $colour-gray;
+    border-radius: 50px 50px 0 0 ;
+    position: relative;
     .restaurant_name{
-        font-size: 65%;
-        margin-bottom: 30px;
-    //    flex-flow: row nowrap;
-    //     align-items: center;
-    //     justify-content: center;
+        font-size: 62%;
         h1{
             width: 300px;
             margin: auto;
@@ -30,37 +26,38 @@ header{
             top: 35px;
             right: 30px;
         &:hover{
-            animation: fill-heart 5s;  
+            animation: fill-heart 10s;  
         }
         }
-} 
-.menu{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-div, .entrées{
-    animation : loading_menus 3s;
-    animation-fill-mode: forwards;
-  }
-.plats div{
-     animation : loading_menus 6s;
-     animation-fill-mode: forwards;
-  }
-  .desserts div{
-    animation : loading_menus 9s;
-    animation-fill-mode: forwards;
-}
-@include media_tablet{
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-}
-a.commander{
-    width: 300px;
-    margin: 50px auto;
-}
+    } 
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 90%;
+        margin: auto;
+        .entrées .course{
+            animation : loading_menus 3s;
+            animation-fill-mode: forwards;
+        }
+        .plats .course{
+            animation : loading_menus 6s;
+            animation-fill-mode: forwards;
+        }
+        .desserts .course{
+            animation : loading_menus 9s;
+            animation-fill-mode: forwards;
+        }
+        @include media_tablet{
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+    }
+    a.commander{
+        width: 300px;
+        margin: 50px auto;
+    }
 }

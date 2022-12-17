@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 22,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1667500297611,
@@ -96,6 +96,22 @@
                 {
                     "date": 1669800497974,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n  \n    *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n-    //border: 1px solid rgb(48, 162, 116);\n+    //border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267280570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n- \n-   *{ box-sizing:    border-box;\n+ *{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267289515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n- *{ box-sizing:    border-box;\n+*{ box-sizing:    border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267300663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-*{ box-sizing:    border-box;\n+*{ box-sizing:border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267311236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-*{ box-sizing:border-box;\n+*{ box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n     //border: 1px solid red;\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1667500297611,

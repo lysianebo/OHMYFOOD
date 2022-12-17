@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1669307778198,
@@ -100,6 +100,22 @@
                 {
                     "date": 1669573603040,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bordered-bottom{\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n-    background-position: 20px 60%;\n+    background-position: 15px 60%;\n     margin-bottom: 25px;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267753022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n     background-position: 15px 60%;\n     margin-bottom: 25px;\n- }\n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671277022691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n     background-position: 15px 60%;\n-    margin-bottom: 25px;\n+    margin-bottom: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671277030937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n     background-position: 15px 60%;\n-    margin-bottom: 20px;\n+    margin-bottom: 2px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671277038767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background-image: linear-gradient(to right,$colour-tertiary 50%, transparent 50%);\n     background-size: 80px 5px;\n     background-repeat: no-repeat;\n     background-position: 15px 60%;\n-    margin-bottom: 2px;\n+    margin-bottom: 10px;\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1669307778198,

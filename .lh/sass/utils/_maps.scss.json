@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1667518364602,
@@ -80,6 +80,10 @@
                 {
                     "date": 1669621320075,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n $breakpoints: (\n-        \n         tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671269791363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablet: 767px,\n+tablet: 767px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1667518364602,

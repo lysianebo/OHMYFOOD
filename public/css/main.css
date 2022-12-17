@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,8 +11,9 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: auto;
   padding: 0;
+  max-width: 1400px;
 }
 
 h1 {
@@ -43,7 +44,8 @@ h5 {
   font-size: 130%;
   font-weight: 100;
   padding-left: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 22px;
+  margin-top: 20px;
 }
 
 h6 {
@@ -221,7 +223,7 @@ html {
 }
 
 .dish {
-  width: 360px;
+  width: 380px;
   justify-content: space-between;
 }
 
@@ -266,7 +268,7 @@ html {
   background-size: 80px 5px;
   background-repeat: no-repeat;
   background-position: 15px 60%;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -333,7 +335,7 @@ i {
   right: 10px;
   top: 0px;
   font-weight: 100;
-  font-size: 28px;
+  font-size: 26px;
 }
 .heart .fas:hover {
   font-weight: 600;
@@ -341,15 +343,14 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 1s;
+  animation: fill-heart 2s;
 }
 
 header .fa-arrow-left-long {
   color: #000000;
   font-size: 30px;
   width: 100px;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
   text-align: left;
 }
 
@@ -360,7 +361,7 @@ header .fa-arrow-left-long {
   transform: rotate(360deg);
 }
 .fa-check-circle:hover {
-  animation: rotate 0.5s linear;
+  animation: rotate 1s linear;
 }
 
 .purple-circle {
@@ -427,14 +428,15 @@ main input {
   .fonctionnement .grey {
     width: 30%;
   }
+  .fonctionnement .trois-etapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .fonctionnement .trois-etapes {
   background-color: #FFFFFF;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   position: relative;
 }
 .fonctionnement .trois-etapes p {
@@ -462,8 +464,10 @@ main input {
   }
 }
 
+header {
+  position: relative;
+}
 header a {
-  font-size: 30px;
   position: absolute;
   left: 10px;
 }
@@ -486,8 +490,7 @@ header a {
   position: relative;
 }
 .main2 .restaurant_name {
-  font-size: 65%;
-  margin-bottom: 30px;
+  font-size: 62%;
 }
 .main2 .restaurant_name h1 {
   width: 300px;
@@ -498,23 +501,24 @@ header a {
   right: 30px;
 }
 .main2 .restaurant_name .heart .fas:hover {
-  animation: fill-heart 5s;
+  animation: fill-heart 10s;
 }
 .main2 .menu {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 90%;
+  margin: auto;
 }
-.main2 .menu div, .main2 .menu .entrées {
+.main2 .menu .entrées .course {
   animation: loading_menus 3s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .plats div {
+.main2 .menu .plats .course {
   animation: loading_menus 6s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .desserts div {
+.main2 .menu .desserts .course {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
@@ -522,7 +526,7 @@ header a {
   .main2 .menu {
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-around;
     align-items: flex-start;
   }

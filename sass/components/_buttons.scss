@@ -20,7 +20,7 @@
        box-shadow: 5px 7px 8px rgb(210, 210, 210);
     }
 }
-.grey {
+.grey{
     position: relative;
     @include flexCenter(row);
     width: 85%;
@@ -33,4 +33,4 @@
         background-color: lighten($colour-primary, 35);
         box-shadow: 5px 7px 8px rgb(210, 210, 210);
     }
-   }
+}

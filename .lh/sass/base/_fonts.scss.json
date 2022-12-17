@@ -1,0 +1,38 @@
+{
+    "sourceFile": "sass/base/_fonts.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1671266441163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671266449444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n  \n @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css;\n\\ No newline at end of file\n+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671266455327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n  \n @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);\n\\ No newline at end of file\n+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css');\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671266466074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n  \n @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css');\n\\ No newline at end of file\n+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671266472703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n  \n @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);\n\\ No newline at end of file\n+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671267218780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,3 @@\n- \n-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671266441163,
+            "name": "Commit-0",
+            "content": " \n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');\n@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css;"
+        }
+    ]
+}
