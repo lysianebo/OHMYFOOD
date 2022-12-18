@@ -513,7 +513,7 @@ header a {
 .main2 .restaurant_name .heart .fas {
   top: 35px;
   right: 30px;
-  animation: fill-heart all 1s ease-in-out;
+  animation: fill-heart 1s ease-in-out;
 }
 
 .menu {
