@@ -11,39 +11,39 @@
                 },
                 {
                     "date": 1666021407380,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    \n-    À la française\n+    <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n+    hÀ la française\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Document</title>\n </head>\n <body>\n-    \n-    À la française\n+    <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n+    hÀ la française\n \n entrees\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
                 },
                 {
                     "date": 1666021415175,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    hÀ la française\n+    <h1></h1>À la française\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    hÀ la française\n+    <h1></h1>À la française\n \n entrees\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
                 },
                 {
                     "date": 1666021422850,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    <h1></h1>À la française\n+    <h1>À la française</h1>\n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Document</title>\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n-    <h1></h1>À la française\n+    <h1>À la française</h1>\n \n entrees\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
                 },
                 {
                     "date": 1666021462417,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n+    \n \n Entrées\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n+    \n \n entrees\n Tartare de poulpe acidulé\n Aux zestes d'orange\n"
                 },
                 {
                     "date": 1666021479712,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,12 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n-    \n+    <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n+\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,12 @@\n </head>\n <body>\n     <img src=\"public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg\" alt=\"A la française\">\n     <h1>À la française</h1>\n-    \n+    <i class=\"fa-regular fa-heart\"></i>\n \n entrees\n+\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
                 },
                 {
                     "date": 1666021486210,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n-\n+but\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n entrees\n-\n+but\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
                 },
                 {
                     "date": 1666021500429,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n Entrées\n-but\n+<button>Tartare de poulpe acidulé\n+    Aux zestes d'orange\n+    25€</button>\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n     <h1>À la française</h1>\n     <i class=\"fa-regular fa-heart\"></i>\n \n entrees\n-but\n+<button>Tartare de poulpe acidulé\n+    Aux zestes d'orange\n+    25€</button>\n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
                 },
                 {
                     "date": 1666021523466,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n Entrées\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n+    \n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n entrees\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n+    \n Tartare de poulpe acidulé\n Aux zestes d'orange\n 25€\n \n"
                 },
                 {
                     "date": 1666021533601,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,11 @@\n Entrées\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n-    \n-Tartare de poulpe acidulé\n-Aux zestes d'orange\n-25€\n \n+\n+\n Velouté de légumes d'antan\n Carotte, panais, topinambour\n 35€\n \n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,11 @@\n entrees\n <button>Tartare de poulpe acidulé\n     Aux zestes d'orange\n     25€</button>\n-    \n-Tartare de poulpe acidulé\n-Aux zestes d'orange\n-25€\n \n+\n+\n Velouté de légumes d'antan\n Carotte, panais, topinambour\n 35€\n \n"
                 },
                 {
                     "date": 1666021545256,
@@ -112,7 +112,7 @@
             ],
             "date": 1666021370185,
             "name": "Commit-0",
-            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n    À la française\n\nEntrées\nTartare de poulpe acidulé\nAux zestes d'orange\n25€\n\nVelouté de légumes d'antan\nCarotte, panais, topinambour\n35€\n\nSoupe à l'oignon\nRevisitée\n20€\n\nPlats\nCoquilles Saint-Jacques\nAccompagnées d'une purée de panais\n40€\n\nMagret de canard\nEt parmentier de pommes de terre\n35€\n\nPigeonneau d’Ille-et-Vilaine\nSur son lit de gnocchis aux légumes\n44€\n\nDesserts\nPétales de violettes glacés\nEt purée de noisettes\n18€\n\nFondant au chocolat\nRevisité\n22€\n\nMillefeuille croustillant\nMyrtilles et pâte d’amande\n23€\n</body>\n</html>"
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n    À la française\n\nentrees\nTartare de poulpe acidulé\nAux zestes d'orange\n25€\n\nVelouté de légumes d'antan\nCarotte, panais, topinambour\n35€\n\nSoupe à l'oignon\nRevisitée\n20€\n\nPlats\nCoquilles Saint-Jacques\nAccompagnées d'une purée de panais\n40€\n\nMagret de canard\nEt parmentier de pommes de terre\n35€\n\nPigeonneau d’Ille-et-Vilaine\nSur son lit de gnocchis aux légumes\n44€\n\nDesserts\nPétales de violettes glacés\nEt purée de noisettes\n18€\n\nFondant au chocolat\nRevisité\n22€\n\nMillefeuille croustillant\nMyrtilles et pâte d’amande\n23€\n</body>\n</html>"
         }
     ]
 }

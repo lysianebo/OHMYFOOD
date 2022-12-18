@@ -25,18 +25,19 @@ header{
         .heart .fas{
             top: 35px;
             right: 30px;
-        &:hover{
-            animation: fill-heart 10s;  
+            animation: fill-heart all 1s ease-in-out;
         }
         }
     } 
     .menu{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        font-size: 60%;
-        margin: auto;
-        .entrées .course{
+        justify-content: space-evenly;
+        width: 100%;
+        .entrees .plats .desserts{
+            width: 100%;
+        }
+        .entrees .course{
             animation : loading_menus 3s;
             animation-fill-mode: forwards;
         }
@@ -49,15 +50,30 @@ header{
             animation-fill-mode: forwards;
         }
         @include media_tablet{
-            flex-wrap: wrap;
-            flex-direction: row;
-            gap: 20px;
-            justify-content: space-around;
-            align-items: flex-start;
+            flex-direction: column;
+            .course{
+                width: 500px;
+                    .dish{
+                        width: 85%;
+                    }
+            }
         }
+        @include media_desktop{
+            flex-direction: row;
+            .entrees, .plats, .desserts{
+                width: 30%;
+            .course{
+                width: auto;
+            .dish{
+                width: 85%;
+                }
+            }
+        }
+    }
     }
     a.commander{
         width: 300px;
         margin: 50px auto;
     }
-}
+
+    

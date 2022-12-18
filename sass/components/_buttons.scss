@@ -23,7 +23,8 @@
 .grey{
     position: relative;
     @include flexCenter(row);
-    width: 85%;
+    justify-content: center;
+    width: 300px;
     margin: auto;
     margin-bottom: 30px;
     background-color: lighten($colour-gray, 2);

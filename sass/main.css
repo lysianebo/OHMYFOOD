@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
@@ -49,7 +48,7 @@ h5 {
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 100%;
   font-weight: 600;
 }
 
@@ -82,9 +81,19 @@ a {
 @keyframes fill-heart {
   0% {
     height: 0%;
+    font-weight: 200;
   }
-  100% {
+  35% {
+    height: 0.25%;
+    font-weight: 300;
+  }
+  50% {
+    height: 0.5%;
+    font-weight: 400;
+  }
+  70% {
     height: 100%;
+    font-weight: 600;
   }
 }
 @keyframes scale {
@@ -201,29 +210,29 @@ html {
   opacity: 0;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 15px;
+  margin: 15px auto;
   border-radius: 15px;
   background-color: white;
   box-shadow: 4px 4px 5px #d4d4d4;
-  height: 65px;
+  height: 75px;
   overflow: hidden;
-  transition: 100ms ease-in-out;
+  transition: 200ms ease-in;
 }
-.course:hover .fa-check-circle {
-  animation: rotate 0.5s;
+.course:active .fa-check-circle {
+  animation: rotate 1s;
 }
-.course:hover .dish {
+.course:active .dish {
   transition: width 1s;
   min-width: 200px;
   padding-right: 10px;
 }
-.course:hover .validate {
-  width: 100px;
+.course:active .validate {
+  width: 80px;
   opacity: 1;
 }
 
 .dish {
-  width: 380px;
+  width: 300px;
   justify-content: space-between;
 }
 
@@ -239,10 +248,9 @@ html {
 }
 
 .prix {
-  width: 100px;
+  width: 60px;
   text-align: right;
-  z-index: 5;
-  padding: 0 20px 15px 20px;
+  padding: 0 10px 15px 10px;
 }
 
 .validate {
@@ -303,7 +311,8 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  justify-content: center;
+  width: 300px;
   margin: auto;
   margin-bottom: 30px;
   background-color: #f8f8f8;
@@ -337,13 +346,13 @@ i {
   font-weight: 100;
   font-size: 26px;
 }
-.heart .fas:hover {
+.heart .fas:active {
   font-weight: 600;
   background: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 2s;
+  animation: fill-heart 300ms ease-in;
 }
 
 header .fa-arrow-left-long {
@@ -358,10 +367,10 @@ header .fa-arrow-left-long {
   position: inherit;
   font-size: 30px;
   color: white;
-  transform: rotate(360deg);
+  transform: rotate(-360deg);
 }
 .fa-check-circle:hover {
-  animation: rotate 1s linear;
+  animation: rotate 0.5ms linear;
 }
 
 .purple-circle {
@@ -374,6 +383,11 @@ header .fa-arrow-left-long {
   left: -15px;
 }
 
+@media screen and (min-width: 599px) and (max-width: 992px) {
+  main h2 {
+    text-align: center;
+  }
+}
 main form {
   display: flex;
   flex-direction: row;
@@ -415,16 +429,10 @@ main input {
 }
 
 .fonctionnement {
+  width: 100%;
   padding: 30px 0px;
 }
-@media screen and (min-width: 767px) {
-  .fonctionnement {
-    margin: 2% 2%;
-  }
-  .fonctionnement h2 {
-    text-align: center;
-    margin: auto;
-  }
+@media screen and (min-width: 992px) {
   .fonctionnement .grey {
     width: 30%;
   }
@@ -451,9 +459,12 @@ main input {
   display: grid;
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) and (max-width: 992px) {
   .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .liste_restaurants .liste_cards h2 {
+    text-align: center;
   }
 }
 @media screen and (min-width: 992px) {
@@ -461,6 +472,9 @@ main input {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 80%;
+  }
+  .liste_restaurants .liste_cards h2 {
+    text-align: center;
   }
 }
 
@@ -499,39 +513,57 @@ header a {
 .main2 .restaurant_name .heart .fas {
   top: 35px;
   right: 30px;
+  animation: fill-heart all 1s ease-in-out;
 }
-.main2 .restaurant_name .heart .fas:hover {
-  animation: fill-heart 10s;
-}
-.main2 .menu {
+
+.menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 60%;
-  margin: auto;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.main2 .menu .entrées .course {
+.menu .entrees .plats .desserts {
+  width: 100%;
+}
+.menu .entrees .course {
   animation: loading_menus 3s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .plats .course {
+.menu .plats .course {
   animation: loading_menus 6s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .desserts .course {
+.menu .desserts .course {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
-@media screen and (min-width: 767px) {
-  .main2 .menu {
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-around;
-    align-items: flex-start;
+@media screen and (min-width: 599px) and (max-width: 992px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu .course {
+    width: 500px;
+  }
+  .menu .course .dish {
+    width: 85%;
   }
 }
-.main2 a.commander {
+@media screen and (min-width: 992px) {
+  .menu {
+    flex-direction: row;
+  }
+  .menu .entrees, .menu .plats, .menu .desserts {
+    width: 30%;
+  }
+  .menu .entrees .course, .menu .plats .course, .menu .desserts .course {
+    width: auto;
+  }
+  .menu .entrees .course .dish, .menu .plats .course .dish, .menu .desserts .course .dish {
+    width: 85%;
+  }
+}
+
+a.commander {
   width: 300px;
   margin: 50px auto;
 }
@@ -547,7 +579,7 @@ footer h4, footer ul, footer a h4, footer a ul {
   padding: 10px 0 20px 20px;
   line-height: 1.7;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) and (max-width: 992px) {
   footer h4, footer ul, footer a h4, footer a ul {
     display: flex;
     justify-content: space-between;
@@ -555,7 +587,7 @@ footer h4, footer ul, footer a h4, footer a ul {
     text-align: center;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) and (max-width: 992px) {
   footer footer, footer h4, footer a footer, footer a h4 {
     width: fit-content;
   }

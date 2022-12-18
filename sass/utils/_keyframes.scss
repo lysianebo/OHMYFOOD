@@ -18,9 +18,19 @@
 @keyframes fill-heart{
     0%{
         height: 0%;
+       font-weight: 200;
     }
-    100%{
+    35%{
+        height: 0.25%;
+        font-weight: 300;
+    }
+    50%{
+        height: 0.50%;
+        font-weight: 400;
+    }
+    70%{
         height: 100%;
+        font-weight: 600;
     }
 }
 

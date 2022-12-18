@@ -3,16 +3,16 @@
     opacity: 0;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 15px;
+    margin: 15px auto;
     border-radius: 15px;
     background-color: white;
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
-    height: 65px;
+    height: 75px;
     overflow: hidden;
-    transition: 100ms ease-in-out;
-    &:hover{
+    transition: 200ms ease-in;
+    &:active{
         .fa-check-circle{
-           animation: rotate 0.5s;
+           animation: rotate 1s;
         }
         .dish{
             transition: width 1s;
@@ -20,13 +20,13 @@
             padding-right: 10px;
         }
         .validate{
-            width: 100px;  
+            width: 80px;  
             opacity: 1;
         }
     }
 }
 .dish{
-    width: 380px;
+    width: 300px;
     justify-content: space-between;
 }
 .dish p, h6{
@@ -36,13 +36,12 @@
     text-overflow: ellipsis;
 }
 .dish p{
-padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 .prix{
-    width: 100px;
+    width: 60px;
     text-align: right;
-    z-index: 5;
-    padding: 0 20px 15px 20px;
+    padding: 0 10px 15px 10px;
 }
 .validate{
     @include flexCenter(column);
