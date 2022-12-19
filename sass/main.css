@@ -81,17 +81,9 @@ a {
 @keyframes fill-heart {
   0% {
     height: 0%;
-    font-weight: 200;
+    font-weight: 0;
   }
-  35% {
-    height: 0.25%;
-    font-weight: 300;
-  }
-  50% {
-    height: 0.5%;
-    font-weight: 400;
-  }
-  70% {
+  100% {
     height: 100%;
     font-weight: 600;
   }
@@ -343,8 +335,8 @@ i {
   position: absolute;
   right: 10px;
   top: 0px;
+  align-items: center;
   font-weight: 100;
-  font-size: 26px;
 }
 .heart .fas:active {
   font-weight: 600;
@@ -352,7 +344,7 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 300ms ease-in;
+  animation: fill-heart 2s;
 }
 
 header .fa-arrow-left-long {
@@ -504,66 +496,66 @@ header a {
   position: relative;
 }
 .main2 .restaurant_name {
+  display: flex;
   font-size: 62%;
-}
-.main2 .restaurant_name h1 {
   width: 300px;
   margin: auto;
 }
-.main2 .restaurant_name .heart .fas {
-  top: 35px;
+.main2 .heart .fas {
+  top: 40px;
   right: 30px;
-  animation: fill-heart 1s ease-in-out;
 }
-
-.menu {
+.main2 .menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
 }
-.menu .entrees .plats .desserts {
+.main2 .menu .entrees .plats .desserts {
   width: 100%;
 }
-.menu .entrees .course {
+.main2 .menu .entrees .course {
   animation: loading_menus 3s;
   animation-fill-mode: forwards;
 }
-.menu .plats .course {
+.main2 .menu .plats .course {
   animation: loading_menus 6s;
   animation-fill-mode: forwards;
 }
-.menu .desserts .course {
+.main2 .menu .desserts .course {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
 @media screen and (min-width: 599px) and (max-width: 992px) {
-  .menu {
+  .main2 .menu {
     flex-direction: column;
   }
-  .menu .course {
+  .main2 .menu .course {
     width: 500px;
   }
-  .menu .course .dish {
+  .main2 .menu .course .dish {
     width: 85%;
   }
 }
 @media screen and (min-width: 992px) {
-  .menu {
+  .main2 .menu {
     flex-direction: row;
   }
-  .menu .entrees, .menu .plats, .menu .desserts {
-    width: 30%;
+  .main2 .menu .entrees, .main2 .menu .plats, .main2 .menu .desserts {
+    font-size: 95%;
+    width: 32%;
   }
-  .menu .entrees .course, .menu .plats .course, .menu .desserts .course {
+  .main2 .menu .entrees .course, .main2 .menu .plats .course, .main2 .menu .desserts .course {
     width: auto;
   }
-  .menu .entrees .course .dish, .menu .plats .course .dish, .menu .desserts .course .dish {
+  .main2 .menu .entrees .course .dish, .main2 .menu .plats .course .dish, .main2 .menu .desserts .course .dish {
     width: 85%;
   }
+  .main2 .menu .entrees .course .dish p, .main2 .menu .plats .course .dish p, .main2 .menu .desserts .course .dish p {
+    font-size: 88%;
+  }
 }
-
-a.commander {
+.main2 a.commander {
   width: 300px;
   margin: 50px auto;
 }

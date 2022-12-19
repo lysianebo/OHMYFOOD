@@ -18,17 +18,18 @@ i{
   position: absolute;
   right: 10px;
   top: 0px;
+  align-items: center;
   font-weight: 100;
-  font-size: 26px;
   &:active{
     font-weight: 600;
     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
-    background-clip: text ;
-    -webkit-background-clip: text ;
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: fill-heart 300ms ease-in; 
-  }
+    animation: fill-heart 2s;
+  } 
 }
+
 
 //Arrow-----------------  
 header .fa-arrow-left-long{

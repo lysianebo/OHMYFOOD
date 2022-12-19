@@ -1,12 +1,17 @@
 
 //**** Mixins for Layout ***
-
+@mixin dish(){
+    $width : 85%;   
+@if $width > 84%{
+    font-size: 88%;
+    }
+}
 @mixin flexCenter($direction){
     display: flex;
     flex-direction: $direction;
     justify-content: center; 
     align-items: center; 
-    }
+}
 @mixin img_size{
     width: 100%;
     height: 200px;

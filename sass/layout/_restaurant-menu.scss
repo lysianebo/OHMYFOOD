@@ -17,18 +17,15 @@ header{
     border-radius: 50px 50px 0 0 ;
     position: relative;
     .restaurant_name{
+        display: flex;
         font-size: 62%;
-        h1{
-            width: 300px;
-            margin: auto;
+        width: 300px;
+        margin: auto;
         }
         .heart .fas{
-            top: 35px;
+            top: 40px;
             right: 30px;
-            animation: fill-heart 1s ease-in-out;
         }
-        }
-    } 
     .menu{
         display: flex;
         flex-direction: column;
@@ -61,11 +58,15 @@ header{
         @include media_desktop{
             flex-direction: row;
             .entrees, .plats, .desserts{
-                width: 30%;
+                font-size: 95%;
+                width: 32%;
             .course{
                 width: auto;
             .dish{
                 width: 85%;
+                    p{
+                    @include dish;
+                    }
                 }
             }
         }
@@ -75,5 +76,5 @@ header{
         width: 300px;
         margin: 50px auto;
     }
-
+}
     
