@@ -1,10 +1,10 @@
-.btn {
+.btn{
     display: inline-block;
     margin: auto;
     padding: 15px;
     font-weight: bold;
-    border-radius: 15px;
-&.pink {
+    border-radius: 20px;
+&.pink{
     background: linear-gradient(to bottom right, $colour-secondary, 45%, $colour-primary);
     color: $colour-white;
     border-radius: 50px;
@@ -22,11 +22,12 @@
 }
 .grey{
     position: relative;
-    @include flexCenter(row);
-    justify-content: center;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    width: 80%;
     margin: auto;
     margin-bottom: 30px;
+    padding: 20px;
     background-color: lighten($colour-gray, 2);
     color: $colour-black;
     box-shadow: 2px 3px 5px 4px $colour-gray;

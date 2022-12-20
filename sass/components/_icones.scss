@@ -4,15 +4,18 @@ i{
 
 //Icônes fonctionnement-----------------
 .fonctionnement i{
-   color: darken($colour-gray, 30); 
-   padding-left: 15px;
+  color: darken($colour-gray, 30); 
+  width: 30px;
+  margin: 0 5%;
   &.fa-mobile-screen{
-      font-size: 28px;
+      font-size: 30px;
+      text-align: center;
     }
   &:hover{
     color: $colour-primary;
    }
 }
+
 //Heart-----------------
 .heart .fas{
   position: absolute;
@@ -20,16 +23,16 @@ i{
   top: 0px;
   align-items: center;
   font-weight: 100;
-  &:active{
+  &:hover:active{
     font-weight: 600;
-    background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
+    background-image: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fill-heart 2s;
-  } 
+    //animation-duration: 2s paused;
+} 
 }
-
 
 //Arrow-----------------  
 header .fa-arrow-left-long{

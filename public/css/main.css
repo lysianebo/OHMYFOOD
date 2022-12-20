@@ -128,41 +128,6 @@ a {
     transform: scale(0);
   }
 }
-html {
-  --i: 100;
-}
-
-.loader {
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(231, 222, 241, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: 100ms loader 4s both;
-}
-.loader span {
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  transform: rotate(calc(18deg * var(--i)));
-}
-.loader span::before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 150px;
-  border-radius: 50%;
-  background: linear-gradient(to right bottom, #9356DC, 30%, #FF79DA);
-  animation-delay: 1s;
-  animation: rotate 5s;
-}
-
 .restaurant_card {
   background-color: #FFFFFF;
   margin: auto;
@@ -276,7 +241,7 @@ html {
   margin: auto;
   padding: 15px;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .btn.pink {
   background: linear-gradient(to bottom right, #FF79DA, 45%, #9356DC);
@@ -300,13 +265,11 @@ html {
 .grey {
   position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  justify-content: center;
-  width: 300px;
+  width: 80%;
   margin: auto;
   margin-bottom: 30px;
+  padding: 20px;
   background-color: #f8f8f8;
   color: #000000;
   box-shadow: 2px 3px 5px 4px #f3f3f3;
@@ -322,10 +285,12 @@ i {
 
 .fonctionnement i {
   color: #a7a7a7;
-  padding-left: 15px;
+  width: 30px;
+  margin: 0 5%;
 }
 .fonctionnement i.fa-mobile-screen {
-  font-size: 28px;
+  font-size: 30px;
+  text-align: center;
 }
 .fonctionnement i:hover {
   color: #9356DC;
@@ -338,9 +303,9 @@ i {
   align-items: center;
   font-weight: 100;
 }
-.heart .fas:active {
+.heart .fas:hover:active {
   font-weight: 600;
-  background: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
+  background-image: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -375,11 +340,41 @@ header .fa-arrow-left-long {
   left: -15px;
 }
 
-@media screen and (min-width: 599px) and (max-width: 992px) {
-  main h2 {
-    text-align: center;
-  }
+html {
+  --i: 100;
 }
+
+.loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(231, 222, 241, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 100ms loader 4s both;
+}
+.loader span {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: rotate(calc(18deg * var(--i)));
+}
+.loader span::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, #9356DC, 30%, #FF79DA);
+  animation-delay: 1s;
+  animation: rotate 5s;
+}
+
 main form {
   display: flex;
   flex-direction: row;
@@ -392,80 +387,69 @@ main form {
   margin: auto;
   margin-bottom: 0;
 }
-main input, main label {
+main form input, main form label {
   border: none;
   background-color: transparent;
   font-size: large;
   font-weight: 600;
   padding: 10px;
 }
-main input {
+main form input input, main form label input {
   width: 170px;
 }
-
-.introduction, .liste_restaurants {
+main .introduction, main .liste_restaurants {
   background-color: #f3f3f3;
   padding-bottom: 40px;
 }
-
-.introduction {
+main .introduction .introduction, main .liste_restaurants .introduction {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.introduction .introduction__titre {
+main .introduction .introduction .introduction__titre, main .liste_restaurants .introduction .introduction__titre {
   width: 90%;
   text-align: center;
   padding-bottom: 40px;
 }
-
-.fonctionnement {
+main .fonctionnement {
   width: 100%;
   padding: 30px 0px;
 }
 @media screen and (min-width: 992px) {
-  .fonctionnement .grey {
+  main .fonctionnement .grey {
     width: 30%;
   }
-  .fonctionnement .trois-etapes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  main .fonctionnement .trois-etapes {
+    background-color: #FFFFFF;
+    position: relative;
+  }
+  main .fonctionnement .trois-etapes p {
+    padding-left: 0;
   }
 }
-.fonctionnement .trois-etapes {
-  background-color: #FFFFFF;
-  position: relative;
-}
-.fonctionnement .trois-etapes p {
-  width: 300px;
-  padding-left: 40px;
-}
-
-.liste_restaurants {
+main .fonctionnement .liste_restaurants {
   padding-top: 20px;
 }
-.liste_restaurants .liste_cards {
+main .fonctionnement .liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 599px) and (max-width: 992px) {
-  .liste_restaurants .liste_cards {
+@media screen and (min-width: 767px) {
+  main .fonctionnement .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  .liste_restaurants .liste_cards h2 {
+  main .fonctionnement .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }
 @media screen and (min-width: 992px) {
-  .liste_restaurants .liste_cards {
+  main .fonctionnement .liste_restaurants .liste_cards {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 80%;
   }
-  .liste_restaurants .liste_cards h2 {
+  main .fonctionnement .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }
@@ -526,7 +510,7 @@ header a {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
-@media screen and (min-width: 599px) and (max-width: 992px) {
+@media screen and (min-width: 767px) {
   .main2 .menu {
     flex-direction: column;
   }
@@ -571,7 +555,7 @@ footer h4, footer ul, footer a h4, footer a ul {
   padding: 10px 0 20px 20px;
   line-height: 1.7;
 }
-@media screen and (min-width: 599px) and (max-width: 992px) {
+@media screen and (min-width: 767px) {
   footer h4, footer ul, footer a h4, footer a ul {
     display: flex;
     justify-content: space-between;
@@ -579,7 +563,7 @@ footer h4, footer ul, footer a h4, footer a ul {
     text-align: center;
   }
 }
-@media screen and (min-width: 599px) and (max-width: 992px) {
+@media screen and (min-width: 767px) {
   footer footer, footer h4, footer a footer, footer a h4 {
     width: fit-content;
   }

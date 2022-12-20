@@ -1,0 +1,18 @@
+{
+    "sourceFile": "sass/utils/mixin.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1671532277862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1671532277862,
+            "name": "Commit-0",
+            "content": "@keyframes fadeIn {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 0.8;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n@keyframes scale {\n  from {\n    opacity: 0;\n    transform: scale(0);\n  }\n  to {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n@keyframes rotate {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n@keyframes loading_menus {\n  0% {\n    opacity: 0;\n    transform: translateY(500px);\n  }\n  50% {\n    opacity: 0.5;\n    transform: translateY(0);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@keyframes loader {\n  0% {\n    transform: scale(1);\n  }\n  100% {\n    transform: scale(0);\n  }\n}\n@keyframes ohmyfood_animate {\n  0% {\n    opacity: 0;\n    transform: translateX(-300px);\n  }\n  33% {\n    opacity: 1;\n    transform: translateX(0px);\n  }\n  66% {\n    opacity: 1;\n    transform: translateX(0px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(400px);\n  }\n}\n@keyframes animateBg {\n  0% {\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n@keyframes animate {\n  0% {\n    transform: scale(1);\n    filter: hue-rotate(0deg);\n  }\n  80%, 100% {\n    transform: scale(0);\n    filter: hue-rotate(360deg);\n  }\n}/*# sourceMappingURL=mixin.css.map */"
+        }
+    ]
+}
