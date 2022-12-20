@@ -1,49 +1,80 @@
 main form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 55px;
+  background-color: #e6e6e6;
   border: none;
+  box-shadow: inset 0px 10px 5px -6px silver;
   margin: auto;
   margin-bottom: 0;
 }
-main input, main label {
+main form input, main form label {
   border: none;
   background-color: transparent;
   font-size: large;
   font-weight: 600;
   padding: 10px;
 }
-main input {
+main form input input, main form label input {
   width: 170px;
 }
 
 .introduction, .liste_restaurants {
+  background-color: #f3f3f3;
   padding-bottom: 40px;
 }
-
-.introduction .introduction__titre {
+.introduction .introduction, .liste_restaurants .introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction .introduction .introduction__titre, .liste_restaurants .introduction .introduction__titre {
   width: 90%;
   text-align: center;
   padding-bottom: 40px;
 }
 
 .fonctionnement {
-  width: 100%;
+  margin: 0 15px;
   padding: 30px 0px;
 }
-.fonctionnement .grey {
-  width: 30%;
+@media screen and (min-width: 992px) {
+  .fonctionnement .grey {
+    width: 30%;
+  }
+  .fonctionnement .trois-etapes {
+    background-color: #FFFFFF;
+    position: relative;
+  }
+  .fonctionnement .trois-etapes p {
+    padding-left: 0;
+  }
 }
-.fonctionnement .trois-etapes {
-  position: relative;
-}
-.fonctionnement .trois-etapes p {
-  padding-left: 0;
-}
-
-.liste_restaurants {
-  background-color: rgb(0, 60, 255);
+.fonctionnement .liste_restaurants {
   padding-top: 20px;
 }
-.liste_restaurants .liste_cards {
+.fonctionnement .liste_restaurants .liste_cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .fonctionnement .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fonctionnement .liste_restaurants .liste_cards h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fonctionnement .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+    font-size: 80%;
+  }
+  .fonctionnement .liste_restaurants .liste_cards h2 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=index.css.map */

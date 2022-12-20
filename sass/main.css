@@ -303,13 +303,13 @@ i {
   align-items: center;
   font-weight: 100;
 }
-.heart .fas:hover:active {
+.heart .fas:active, .heart .fas:hover {
   font-weight: 600;
   background-image: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 2s;
+  animation: fill-heart 500ms;
 }
 
 header .fa-arrow-left-long {
@@ -320,14 +320,15 @@ header .fa-arrow-left-long {
   text-align: left;
 }
 
-.fa-check-circle {
-  position: inherit;
+.fas .fa-check-circle {
+  display: flex;
+  align-items: center;
   font-size: 30px;
   color: white;
   transform: rotate(-360deg);
 }
-.fa-check-circle:hover {
-  animation: rotate 0.5ms linear;
+.fas .fa-check-circle:hover, .fas .fa-check-circle:active {
+  animation: rotate 500ms;
 }
 
 .purple-circle {
@@ -413,7 +414,7 @@ main .introduction .introduction .introduction__titre, main .liste_restaurants .
   padding-bottom: 40px;
 }
 main .fonctionnement {
-  width: 100%;
+  margin: 0 15px;
   padding: 30px 0px;
 }
 @media screen and (min-width: 992px) {
@@ -435,7 +436,7 @@ main .fonctionnement .liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   main .fonctionnement .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -510,7 +511,7 @@ header a {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .main2 .menu {
     flex-direction: column;
   }
@@ -555,7 +556,7 @@ footer h4, footer ul, footer a h4, footer a ul {
   padding: 10px 0 20px 20px;
   line-height: 1.7;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   footer h4, footer ul, footer a h4, footer a ul {
     display: flex;
     justify-content: space-between;
@@ -563,7 +564,7 @@ footer h4, footer ul, footer a h4, footer a ul {
     text-align: center;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   footer footer, footer h4, footer a footer, footer a h4 {
     width: fit-content;
   }
