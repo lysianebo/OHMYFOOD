@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 32,
             "patches": [
                 {
                     "date": 1667518364602,
@@ -120,6 +120,22 @@
                 {
                     "date": 1671565203886,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n $breakpoints: (\n-\n         tablet: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671571062441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablet: 768px,\n+        tableet: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671571070605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tableet: 768px,\n+        tablet: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671571254433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablet: 768px,\n+        tablebt: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671571260615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablebt: 768px,\n+        tablet: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1667518364602,

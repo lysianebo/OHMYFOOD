@@ -1,7 +1,7 @@
-@import 'utils/variables';
 @import 'base/base';
 @import 'base/fonts';
 @import 'base/typography';
+@import 'utils/variables';
 @import 'utils/maps';
 @import 'utils/mixins';
 @import 'utils/keyframes';
@@ -15,4 +15,4 @@
 @import 'pages/index';
 @import 'layout/restaurant-menu';
 @import 'layout/footer';
-//@import 'vendors/normalize';
+@import 'vendors/normalize';

@@ -9,8 +9,9 @@
     color: $colour-white;
     border-radius: 50px;
     box-shadow: 4px 4px 3px 2px $colour-secondary;
+    @include flexCenter(row);
     &.commander{
-        @include flexCenter(row);
+        
         margin-bottom: 40px;
        }
     &:hover{
