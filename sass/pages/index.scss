@@ -1,9 +1,21 @@
-//@import '../base/base';
-// @import '../base/fonts';
-// @import '../base/typography';
-// @import '../utils/maps';
-// @import '../utils/variables';
-// @import '../utils/mixin';
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'utils/variables';
+@import 'utils/maps';
+@import 'utils/mixins';
+@import 'utils/keyframes';
+@import 'components/card_restaurant';
+@import 'components/card_menu';
+@import 'components/greenLign';
+@import 'components/buttons';
+@import 'components/icones';
+@import 'components/circle';
+@import 'components/loader';
+@import 'pages/index';
+@import 'layout/restaurant-menu';
+@import 'layout/footer';
+//@import 'vendors/normalize';
 main{
   form{
     @include flexTool(row);
