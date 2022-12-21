@@ -10,7 +10,7 @@
     height: 75px;
     overflow: hidden;
     transition: 200ms ease-in;
-    &:active{
+    &:active &:hover{
         .fa-check-circle{
            animation: rotate 1s;
         }
