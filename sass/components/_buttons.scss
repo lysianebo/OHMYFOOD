@@ -9,7 +9,7 @@
     color: $colour-white;
     border-radius: 50px;
     box-shadow: 4px 4px 3px 2px $colour-secondary;
-    @include flexCenter(row);
+    @include flexTool(row);
     &.commander{
         
         margin-bottom: 40px;

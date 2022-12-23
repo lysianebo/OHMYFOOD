@@ -1,59 +1,60 @@
 .course{
-    width: 360px;
-    opacity: 0;
-    display: flex;
-    align-items: flex-end;
-    margin: 15px auto;
-    border-radius: 15px;
     background-color: white;
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
+    border-radius: 15px;
     height: 75px;
-    overflow: hidden;
-    transition: 200ms ease-in;
-    &:active &:hover{
-        .fa-check-circle{
-           animation: rotate 1s;
+    margin: 15px 0px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;   
+    &:active, &:hover{
+        .dish, .prix, .valide{
+            flex : 0 2 2;
         }
         .dish{
-            transition: width 1s;
-            min-width: 200px;
-            padding-right: 10px;
+            max-width: 60%;
+        }
+        .prix{
+            margin-right: 10px;
         }
         .validate{
-            width: 80px;  
+            width: 80px;
+            margin-right: 0px;  
             opacity: 1;
+            .fa-check-circle{
+                animation: rotate 1s;
+            }
         }
     }
 }
-.dish{
-    width: 300px;
-    justify-content: space-between;
-}
-.dish p, h6{
+.dish, .prix, .valide{
+    flex : 2 1 0;
+    p, h6{
     padding-left: 15px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-.dish p{
-    padding-bottom: 15px;
+    }
 }
 .prix{
-    width: 60px;
     text-align: right;
-    padding: 0 10px 15px 10px;
-}
+    padding: 32px 10px 11px 0px;
+    margin-right: 0;
+    transition: margin-right 200ms 100ms ease-in-out;
+    cursor: pointer;
+    }
 .validate{
-    @include flexCenter(column);
+    @include flexTool(column);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color:$colour-tertiary;
-    width: 0px;
-    opacity: 0;
     height: 100%;
-    transition: width 1s, opacity 1s;
-    .fa-check-circle{
-        color: white;
-        font-size: 30px;
-    }
+    width: 0;
+    opacity: 0;
+    min-width: 80px;
+    margin-right: -80px;
+    transition: margin-right 300ms 100ms ease-in-out;
 }
