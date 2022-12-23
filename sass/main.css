@@ -287,12 +287,10 @@ i {
 
 .fonctionnement i {
   color: #a7a7a7;
-  width: 30px;
-  margin: 0 5%;
+  padding-left: 15px;
 }
 .fonctionnement i.fa-mobile-screen {
-  font-size: 30px;
-  text-align: center;
+  font-size: 28px;
 }
 .fonctionnement i:hover {
   color: #9356DC;
@@ -300,18 +298,20 @@ i {
 
 .heart .fas {
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 0px;
-  align-items: center;
   font-weight: 100;
+  font-size: 26px;
+  cursor: pointer;
 }
 .heart .fas:active, .heart .fas:hover {
   font-weight: 600;
-  background-image: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
+  background: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 500ms;
+  animation: fill-heart 300ms;
+  animation-fill-mode: forwards;
 }
 
 header .fa-arrow-left-long {
@@ -322,15 +322,13 @@ header .fa-arrow-left-long {
   text-align: left;
 }
 
-.fas .fa-check-circle {
-  display: flex;
-  align-items: center;
+.fa-check-circle {
+  margin: auto;
   font-size: 30px;
   color: white;
-  transform: rotate(-360deg);
 }
-.fas .fa-check-circle:hover, .fas .fa-check-circle:active {
-  animation: rotate 500ms;
+.fa-check-circle:active, .fa-check-circle:hover {
+  animation: rotate 1s linear;
 }
 
 .purple-circle {
@@ -661,12 +659,10 @@ i {
 
 .fonctionnement i {
   color: #a7a7a7;
-  width: 30px;
-  margin: 0 5%;
+  padding-left: 15px;
 }
 .fonctionnement i.fa-mobile-screen {
-  font-size: 30px;
-  text-align: center;
+  font-size: 28px;
 }
 .fonctionnement i:hover {
   color: #9356DC;
@@ -674,18 +670,20 @@ i {
 
 .heart .fas {
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 0px;
-  align-items: center;
   font-weight: 100;
+  font-size: 26px;
+  cursor: pointer;
 }
 .heart .fas:active, .heart .fas:hover {
   font-weight: 600;
-  background-image: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
+  background: linear-gradient(360deg, #9356DC 30%, #FF79DA 70%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 500ms;
+  animation: fill-heart 300ms;
+  animation-fill-mode: forwards;
 }
 
 header .fa-arrow-left-long {
@@ -696,15 +694,13 @@ header .fa-arrow-left-long {
   text-align: left;
 }
 
-.fas .fa-check-circle {
-  display: flex;
-  align-items: center;
+.fa-check-circle {
+  margin: auto;
   font-size: 30px;
   color: white;
-  transform: rotate(-360deg);
 }
-.fas .fa-check-circle:hover, .fas .fa-check-circle:active {
-  animation: rotate 500ms;
+.fa-check-circle:active, .fa-check-circle:hover {
+  animation: rotate 1s linear;
 }
 
 .purple-circle {
@@ -771,73 +767,56 @@ header a {
 }
 
 .main2 {
-  margin-top: -70px;
+  margin-top: -60px;
   padding: 20px 0px;
   background-color: #f3f3f3;
   border-radius: 50px 50px 0 0;
   position: relative;
 }
 .main2 .restaurant_name {
-  display: flex;
   font-size: 62%;
-  width: 300px;
+}
+.main2 .restaurant_name h1 {
+  width: fit-content;
   margin: auto;
 }
-.main2 .heart .fas {
-  top: 40px;
+.main2 .restaurant_name .heart .fas {
+  top: 35px;
   right: 30px;
 }
-.main2 .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100%;
+
+.menu {
+  margin: 10px;
 }
-.main2 .menu .entrees .plats .desserts {
-  width: 100%;
-}
-.main2 .menu .entrees .course {
+.menu .entrees .course {
   animation: loading_menus 3s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .plats .course {
+.menu .plats .course {
   animation: loading_menus 6s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .desserts .course {
+.menu .desserts .course {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
 @media screen and (min-width: 768px) {
-  .main2 .menu {
-    flex-direction: column;
+  .menu {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
-  .main2 .menu .course {
-    width: 500px;
-  }
-  .main2 .menu .course .dish {
-    width: 85%;
+  .menu .entrees, .menu .plats, .menu .desserts {
+    width: 48%;
   }
 }
 @media screen and (min-width: 992px) {
-  .main2 .menu {
-    flex-direction: row;
-  }
-  .main2 .menu .entrees, .main2 .menu .plats, .main2 .menu .desserts {
-    font-size: 95%;
+  .menu .entrees, .menu .plats, .menu .desserts {
     width: 32%;
   }
-  .main2 .menu .entrees .course, .main2 .menu .plats .course, .main2 .menu .desserts .course {
-    width: auto;
-  }
-  .main2 .menu .entrees .course .dish, .main2 .menu .plats .course .dish, .main2 .menu .desserts .course .dish {
-    width: 85%;
-  }
-  .main2 .menu .entrees .course .dish p, .main2 .menu .plats .course .dish p, .main2 .menu .desserts .course .dish p {
-    font-size: 88%;
-  }
 }
-.main2 a.commander {
+
+a.commander {
   width: 300px;
   margin: 50px auto;
 }
@@ -981,73 +960,56 @@ header a {
 }
 
 .main2 {
-  margin-top: -70px;
+  margin-top: -60px;
   padding: 20px 0px;
   background-color: #f3f3f3;
   border-radius: 50px 50px 0 0;
   position: relative;
 }
 .main2 .restaurant_name {
-  display: flex;
   font-size: 62%;
-  width: 300px;
+}
+.main2 .restaurant_name h1 {
+  width: fit-content;
   margin: auto;
 }
-.main2 .heart .fas {
-  top: 40px;
+.main2 .restaurant_name .heart .fas {
+  top: 35px;
   right: 30px;
 }
-.main2 .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100%;
+
+.menu {
+  margin: 10px;
 }
-.main2 .menu .entrees .plats .desserts {
-  width: 100%;
-}
-.main2 .menu .entrees .course {
+.menu .entrees .course {
   animation: loading_menus 3s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .plats .course {
+.menu .plats .course {
   animation: loading_menus 6s;
   animation-fill-mode: forwards;
 }
-.main2 .menu .desserts .course {
+.menu .desserts .course {
   animation: loading_menus 9s;
   animation-fill-mode: forwards;
 }
 @media screen and (min-width: 768px) {
-  .main2 .menu {
-    flex-direction: column;
+  .menu {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
-  .main2 .menu .course {
-    width: 500px;
-  }
-  .main2 .menu .course .dish {
-    width: 85%;
+  .menu .entrees, .menu .plats, .menu .desserts {
+    width: 48%;
   }
 }
 @media screen and (min-width: 992px) {
-  .main2 .menu {
-    flex-direction: row;
-  }
-  .main2 .menu .entrees, .main2 .menu .plats, .main2 .menu .desserts {
-    font-size: 95%;
+  .menu .entrees, .menu .plats, .menu .desserts {
     width: 32%;
   }
-  .main2 .menu .entrees .course, .main2 .menu .plats .course, .main2 .menu .desserts .course {
-    width: auto;
-  }
-  .main2 .menu .entrees .course .dish, .main2 .menu .plats .course .dish, .main2 .menu .desserts .course .dish {
-    width: 85%;
-  }
-  .main2 .menu .entrees .course .dish p, .main2 .menu .plats .course .dish p, .main2 .menu .desserts .course .dish p {
-    font-size: 88%;
-  }
 }
-.main2 a.commander {
+
+a.commander {
   width: 300px;
   margin: 50px auto;
 }

@@ -11,70 +11,53 @@ header{
     height: 300px;
 }
 .main2{
-    margin-top: -70px;
+    margin-top: -60px;
     padding: 20px 0px;
     background-color: $colour-gray;
     border-radius: 50px 50px 0 0 ;
     position: relative;
     .restaurant_name{
-        display: flex;
         font-size: 62%;
-        width: 300px;
-        margin: auto;
+        h1{
+            width:fit-content;
+            margin: auto;
         }
         .heart .fas{
-            top: 40px;
+            top: 35px;
             right: 30px;
         }
-    .menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 100%;
-        .entrees .plats .desserts{
-            width: 100%;
-        }
-        .entrees .course{
-            animation : loading_menus 3s;
-            animation-fill-mode: forwards;
-        }
-        .plats .course{
-            animation : loading_menus 6s;
-            animation-fill-mode: forwards;
-        }
-        .desserts .course{
-            animation : loading_menus 9s;
-            animation-fill-mode: forwards;
-        }
-        @include media_tablet{
-            flex-direction: column;
-            .course{
-                width: 500px;
-                    .dish{
-                        width: 85%;
-                    }
-            }
-        }
-        @include media_desktop{
-            flex-direction: row;
-            .entrees, .plats, .desserts{
-                font-size: 95%;
-                width: 32%;
-            .course{
-                width: auto;
-            .dish{
-                width: 85%;
-                    p{
-                    @include dish;
-                    }
-                }
-            }
-        }
     }
+} 
+.menu{
+    margin: 10px;
+    .entrees .course{
+        animation : loading_menus 3s;
+        animation-fill-mode: forwards;
+    }
+    .plats .course{
+        animation : loading_menus 6s;
+        animation-fill-mode: forwards;
+    }
+    .desserts .course{
+        animation : loading_menus 9s;
+        animation-fill-mode: forwards;
+    }
+    @include media_tablet{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        .entrees, .plats, .desserts{
+            width: 48%;
+        }
+    }  
+    @include media_desktop{
+        .entrees, .plats, .desserts{
+            width: 32%;
+        }
+    } 
     }
     a.commander{
         width: 300px;
         margin: 50px auto;
     }
-}
-    
+        

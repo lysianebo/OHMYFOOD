@@ -1,66 +1,52 @@
 i{
-    font-size: 24px;
- }
+  font-size: 24px;
+}
 
 //Icônes fonctionnement-----------------
 .fonctionnement i{
-  color: darken($colour-gray, 30); 
-  width: 30px;
-  margin: 0 5%;
-  &.fa-mobile-screen{
-      font-size: 30px;
-      text-align: center;
-    }
-  &:hover{
-    color: $colour-primary;
-   }
+ color: darken($colour-gray, 30); 
+ padding-left: 15px;
+&.fa-mobile-screen{
+    font-size: 28px;
+  }
+&:hover{
+  color: $colour-primary;
+ }
 }
-
 //Heart-----------------
 .heart .fas{
-  position: absolute;
-  right: 10px;
-  top: 0px;
-  align-items: center;
-  font-weight: 100;
+position: absolute;
+right: 15px;
+top: 0px;
+font-weight: 100;
+font-size: 26px;
+cursor: pointer;
 &:active, &:hover{
-    font-weight: 600;
-    background-image: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: fill-heart 500ms;
-  } 
+  font-weight: 600;
+  background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
+  background-clip: text ;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent;
+  animation: fill-heart 300ms;
+  animation-fill-mode: forwards; 
+}
 }
 
 //Arrow-----------------  
 header .fa-arrow-left-long{
-  color: $colour-black ;
-  font-size: 30px;
-  width: 100px;
-  padding: 5px;
-  text-align: left;
+color: $colour-black ;
+font-size: 30px;
+width: 100px;
+padding: 5px;
+text-align: left;
 }
 
 //Check-----------------  
-.fas .fa-check-circle{
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  color: white;
-  transform: rotate(-360deg);
-  &:hover, &:active{
-  animation: rotate 500ms;
-  }
+.fa-check-circle{
+margin: auto;
+font-size: 30px;
+color: white;
+&:active, &:hover{
+  animation: rotate 1s linear;
 }
-
-
-    
-    
-
-
-
-       
-  
-  
- 
+}
