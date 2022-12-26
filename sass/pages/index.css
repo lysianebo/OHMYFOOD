@@ -81,7 +81,17 @@ a {
     font-weight: 0;
   }
   100% {
-    min-height: 1%;
+    height: 4%;
+    font-weight: 600;
+  }
+}
+@keyframes fill-heart2 {
+  0% {
+    height: 0%;
+    font-weight: 0;
+  }
+  100% {
+    height: 100%;
     font-weight: 600;
   }
 }
@@ -157,6 +167,9 @@ a {
 }
 .restaurant_card .description h3, .restaurant_card .description p {
   line-height: 1.5;
+}
+.restaurant_card .description .heart .fas {
+  animation: fill-heart2 1000ms;
 }
 
 .course {
@@ -306,7 +319,7 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fill-heart 300ms;
+  animation: fill-heart 1000ms;
   animation-fill-mode: forwards;
 }
 

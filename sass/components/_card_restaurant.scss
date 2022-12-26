@@ -25,5 +25,8 @@
         h3, p{
             line-height: 1.5;
         }
+        .heart .fas{
+     animation:  fill-heart2 1000ms;
+    }
     }
 }
