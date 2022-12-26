@@ -17,7 +17,7 @@ header{
     border-radius: 50px 50px 0 0 ;
     position: relative;
     .restaurant_name{
-        font-size: 62%;
+        font-size: 70%;
         h1{
             width:fit-content;
             margin: auto;
@@ -46,6 +46,7 @@ header{
         display: flex;
         flex-flow: wrap;
         justify-content: space-around;
+            
         .entrees, .plats, .desserts{
             width: 48%;
         }
@@ -55,9 +56,8 @@ header{
             width: 32%;
         }
     } 
-    }
+}
     a.commander{
         width: 300px;
         margin: 50px auto;
     }
-        

@@ -12,7 +12,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
   margin: auto;
   padding: 0;
   max-width: 1400px;
@@ -20,7 +19,6 @@ body {
 
 h1 {
   font-family: Shrikhand, sans-serif;
-  font-size: 250%;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
@@ -29,7 +27,6 @@ h1 {
 
 h2 {
   padding: 20px;
-  font-size: 150%;
 }
 
 h3, p {
@@ -38,12 +35,12 @@ h3, p {
 
 h4 {
   font-family: Shrikhand, sans-serif;
-  font-size: 30px;
+  font-size: 180%;
 }
 
 h5 {
   text-transform: uppercase;
-  font-size: 130%;
+  font-size: 110%;
   font-weight: 100;
   padding-left: 15px;
   padding-bottom: 22px;
@@ -87,7 +84,7 @@ a {
     font-weight: 0;
   }
   100% {
-    height: 100%;
+    min-height: 1%;
     font-weight: 600;
   }
 }
@@ -166,7 +163,7 @@ a {
 }
 
 .course {
-  background-color: white;
+  background-color: #FFFFFF;
   box-shadow: 4px 4px 5px #d4d4d4;
   border-radius: 15px;
   height: 75px;
@@ -183,9 +180,10 @@ a {
 }
 .course:active .dish, .course:hover .dish {
   max-width: 60%;
+  width: auto;
 }
 .course:active .prix, .course:hover .prix {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .course:active .validate, .course:hover .validate {
   width: 80px;
@@ -204,13 +202,14 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  max-width: 301px;
 }
 
 .prix {
   text-align: right;
-  padding: 32px 10px 11px 0px;
+  padding: 32px 15px 11px 0px;
   margin-right: 0;
-  transition: margin-right 200ms 100ms ease-in-out;
+  transition: margin-right 300ms ease-in-out;
   cursor: pointer;
 }
 
@@ -227,7 +226,7 @@ a {
   opacity: 0;
   min-width: 80px;
   margin-right: -80px;
-  transition: margin-right 300ms 100ms ease-in-out;
+  transition: margin-right 300ms ease-in-out;
 }
 
 .bordered-bottom {
@@ -384,7 +383,6 @@ html {
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
   margin: auto;
   padding: 0;
   max-width: 1400px;
@@ -392,7 +390,6 @@ body {
 
 h1 {
   font-family: Shrikhand, sans-serif;
-  font-size: 250%;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
@@ -401,7 +398,6 @@ h1 {
 
 h2 {
   padding: 20px;
-  font-size: 150%;
 }
 
 h3, p {
@@ -410,12 +406,12 @@ h3, p {
 
 h4 {
   font-family: Shrikhand, sans-serif;
-  font-size: 30px;
+  font-size: 180%;
 }
 
 h5 {
   text-transform: uppercase;
-  font-size: 130%;
+  font-size: 110%;
   font-weight: 100;
   padding-left: 15px;
   padding-bottom: 22px;
@@ -459,7 +455,7 @@ a {
     font-weight: 0;
   }
   100% {
-    height: 100%;
+    min-height: 1%;
     font-weight: 600;
   }
 }
@@ -538,7 +534,7 @@ a {
 }
 
 .course {
-  background-color: white;
+  background-color: #FFFFFF;
   box-shadow: 4px 4px 5px #d4d4d4;
   border-radius: 15px;
   height: 75px;
@@ -555,9 +551,10 @@ a {
 }
 .course:active .dish, .course:hover .dish {
   max-width: 60%;
+  width: auto;
 }
 .course:active .prix, .course:hover .prix {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .course:active .validate, .course:hover .validate {
   width: 80px;
@@ -576,13 +573,14 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  max-width: 301px;
 }
 
 .prix {
   text-align: right;
-  padding: 32px 10px 11px 0px;
+  padding: 32px 15px 11px 0px;
   margin-right: 0;
-  transition: margin-right 200ms 100ms ease-in-out;
+  transition: margin-right 300ms ease-in-out;
   cursor: pointer;
 }
 
@@ -599,7 +597,7 @@ a {
   opacity: 0;
   min-width: 80px;
   margin-right: -80px;
-  transition: margin-right 300ms 100ms ease-in-out;
+  transition: margin-right 300ms ease-in-out;
 }
 
 .bordered-bottom {
@@ -774,7 +772,7 @@ header a {
   position: relative;
 }
 .main2 .restaurant_name {
-  font-size: 62%;
+  font-size: 70%;
 }
 .main2 .restaurant_name h1 {
   width: fit-content;
@@ -901,7 +899,6 @@ main .fonctionnement .trois-etapes .grey {
   width: 90%;
 }
 main .fonctionnement .trois-etapes .grey p {
-  width: 500px;
   padding-left: 20px;
 }
 @media screen and (min-width: 768px) {
@@ -915,28 +912,29 @@ main .fonctionnement .trois-etapes .grey p {
     width: 30%;
   }
 }
-main .liste_restaurants {
+
+.liste_restaurants {
   padding-top: 20px;
 }
-main .liste_restaurants .liste_cards {
+.liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 768px) {
-  main .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  main .liste_restaurants .liste_cards h2 {
+  .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }
 @media screen and (min-width: 992px) {
-  main .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 90%;
   }
-  main .liste_restaurants .liste_cards h2 {
+  .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }
@@ -967,7 +965,7 @@ header a {
   position: relative;
 }
 .main2 .restaurant_name {
-  font-size: 62%;
+  font-size: 70%;
 }
 .main2 .restaurant_name h1 {
   width: fit-content;

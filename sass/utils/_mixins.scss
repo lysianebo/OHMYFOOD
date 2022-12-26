@@ -1,11 +1,6 @@
 
-//**** Mixins for Layout ***
-@mixin dish(){
-    $width : 85%;   
-@if $width > 84%{
-    font-size: 88%;
-    }
-}
+// //**** Mixins for Layout ***
+
 @mixin flexTool($direction){
     display: flex;
     flex-direction: $direction;
