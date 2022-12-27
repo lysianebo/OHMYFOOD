@@ -11,9 +11,9 @@
     position: relative;
     overflow: hidden;
     &:active, &:hover{
-        .dish, .prix, .valide{
+       // .dish, .prix, .valide{
            // flex : 0 1 1;
-        }
+       // }
         .dish{
           max-width: 60%;
           width: auto;
