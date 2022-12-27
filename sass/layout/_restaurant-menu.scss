@@ -29,7 +29,7 @@ header{
     }
 } 
 .menu{
-    margin: 10px;
+    margin: 0px;
     .entrees .course{
         animation : loading_menus 3s;
         animation-fill-mode: forwards;
@@ -46,7 +46,6 @@ header{
         display: flex;
         flex-flow: wrap;
         justify-content: space-around;
-            
         .entrees, .plats, .desserts{
             width: 48%;
         }
@@ -54,10 +53,13 @@ header{
     @include media_desktop{
         .entrees, .plats, .desserts{
             width: 32%;
-        }
-    } 
-}
+            p, h6{
+            width: calc(299px - 47px  );
+            }
+        } 
+    }
     a.commander{
         width: 300px;
         margin: 50px auto;
     }
+}

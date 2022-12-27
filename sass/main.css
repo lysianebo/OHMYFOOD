@@ -81,7 +81,6 @@ a {
 @keyframes fill-heart {
   0% {
     height: 0%;
-    font-weight: 0;
   }
   100% {
     height: 4%;
@@ -91,7 +90,6 @@ a {
 @keyframes fill-heart2 {
   0% {
     height: 0%;
-    font-weight: 0;
   }
   100% {
     height: 100%;
@@ -180,7 +178,7 @@ a {
   box-shadow: 4px 4px 5px #d4d4d4;
   border-radius: 15px;
   height: 75px;
-  margin: 15px 0px;
+  margin: 15px 10px;
   opacity: 0;
   display: flex;
   align-items: center;
@@ -215,7 +213,7 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 301px;
+  width: 299px;
 }
 
 .prix {
@@ -465,7 +463,6 @@ a {
 @keyframes fill-heart {
   0% {
     height: 0%;
-    font-weight: 0;
   }
   100% {
     height: 4%;
@@ -475,7 +472,6 @@ a {
 @keyframes fill-heart2 {
   0% {
     height: 0%;
-    font-weight: 0;
   }
   100% {
     height: 100%;
@@ -564,7 +560,7 @@ a {
   box-shadow: 4px 4px 5px #d4d4d4;
   border-radius: 15px;
   height: 75px;
-  margin: 15px 0px;
+  margin: 15px 10px;
   opacity: 0;
   display: flex;
   align-items: center;
@@ -599,7 +595,7 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 301px;
+  width: 299px;
 }
 
 .prix {
@@ -810,7 +806,7 @@ header a {
 }
 
 .menu {
-  margin: 10px;
+  margin: 0px;
 }
 .menu .entrees .course {
   animation: loading_menus 3s;
@@ -838,9 +834,11 @@ header a {
   .menu .entrees, .menu .plats, .menu .desserts {
     width: 32%;
   }
+  .menu .entrees p, .menu .entrees h6, .menu .plats p, .menu .plats h6, .menu .desserts p, .menu .desserts h6 {
+    width: 252px;
+  }
 }
-
-a.commander {
+.menu a.commander {
   width: 300px;
   margin: 50px auto;
 }
@@ -1003,7 +1001,7 @@ header a {
 }
 
 .menu {
-  margin: 10px;
+  margin: 0px;
 }
 .menu .entrees .course {
   animation: loading_menus 3s;
@@ -1031,9 +1029,11 @@ header a {
   .menu .entrees, .menu .plats, .menu .desserts {
     width: 32%;
   }
+  .menu .entrees p, .menu .entrees h6, .menu .plats p, .menu .plats h6, .menu .desserts p, .menu .desserts h6 {
+    width: 252px;
+  }
 }
-
-a.commander {
+.menu a.commander {
   width: 300px;
   margin: 50px auto;
 }
