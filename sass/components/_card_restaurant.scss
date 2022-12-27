@@ -25,8 +25,10 @@
         h3, p{
             line-height: 1.5;
         }
-        .heart .fas{
+        
+        :hover.heart .fas{
             animation:  fill-heart2 1000ms;
+
         // a .heart{
         //     text-decoration: none;
         //     color: rgb(112, 56, 56);

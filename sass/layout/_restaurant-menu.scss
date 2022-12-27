@@ -53,9 +53,9 @@ header{
     @include media_desktop{
         .entrees, .plats, .desserts{
             width: 32%;
-            p, h6{
-            width: calc(299px - 47px  );
-            }
+            // p, h6{
+            // width: calc(299px - 47px  );
+            // }
         } 
     }
 }
