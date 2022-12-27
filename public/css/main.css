@@ -186,9 +186,6 @@ a {
   position: relative;
   overflow: hidden;
 }
-.course:active .dish, .course:active .prix, .course:active .valide, .course:hover .dish, .course:hover .prix, .course:hover .valide {
-  flex: 0 1 1;
-}
 .course:active .dish, .course:hover .dish {
   max-width: 60%;
   width: auto;
@@ -206,7 +203,7 @@ a {
 }
 
 .dish, .prix, .valide {
-  flex: 1 1 0;
+  flex: 1 1 auto;
 }
 .dish p, .dish h6, .prix p, .prix h6, .valide p, .valide h6 {
   padding-left: 15px;
@@ -568,9 +565,6 @@ a {
   position: relative;
   overflow: hidden;
 }
-.course:active .dish, .course:active .prix, .course:active .valide, .course:hover .dish, .course:hover .prix, .course:hover .valide {
-  flex: 0 1 1;
-}
 .course:active .dish, .course:hover .dish {
   max-width: 60%;
   width: auto;
@@ -588,7 +582,7 @@ a {
 }
 
 .dish, .prix, .valide {
-  flex: 1 1 0;
+  flex: 1 1 auto;
 }
 .dish p, .dish h6, .prix p, .prix h6, .valide p, .valide h6 {
   padding-left: 15px;

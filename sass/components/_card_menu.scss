@@ -12,7 +12,7 @@
     overflow: hidden;
     &:active, &:hover{
         .dish, .prix, .valide{
-            flex : 0 1 1;
+           // flex : 0 1 1;
         }
         .dish{
           max-width: 60%;
@@ -32,7 +32,7 @@
     }
 }
 .dish, .prix, .valide{
-    flex : 1 1 0;
+    flex : 1 1 auto;
     p, h6{
     padding-left: 15px;
     overflow: hidden;
