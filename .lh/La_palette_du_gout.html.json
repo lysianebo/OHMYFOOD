@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1671263053298,
@@ -36,6 +36,14 @@
                 {
                     "date": 1671305247560,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n                     <i class=\"fas fa-heart\"></i>\n                 </div>\n             </div>\n             <div class=\"menu\">\n-                \n                 <div class=\"entrees\">\n                     <h5 class=\"bordered-bottom\">entrees</h5>   \n                     <div class=\"course\">\n                         <div class=\"dish\">\n"
+                },
+                {
+                    "date": 1672167624775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n                     <H5 class=\"bordered-bottom\">Plats</H5>  \n                     <div class=\"course\">\n                         <div class=\"dish\">\n                             <h6>Filet de boeuf aux herbes</h6>\n-                            <p>Accompagné de sa ribambelle de légumes</p>\n+                            <p>Accompagné de sa ribambelle de </p>\n                         </div>\n                         <span class=\"prix\">40€</span>\n                         <span class=\"validate\"><i class=\"fas fa-check-circle\"></i></span>\n                     </div>\n"
+                },
+                {
+                    "date": 1672167655314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n                     <H5 class=\"bordered-bottom\">Plats</H5>  \n                     <div class=\"course\">\n                         <div class=\"dish\">\n                             <h6>Filet de boeuf aux herbes</h6>\n-                            <p>Accompagné de sa ribambelle de </p>\n+                            <p>Accompagné de sa ribambelle de légumes</p>\n                         </div>\n                         <span class=\"prix\">40€</span>\n                         <span class=\"validate\"><i class=\"fas fa-check-circle\"></i></span>\n                     </div>\n"
                 }
             ],
             "date": 1671263053298,

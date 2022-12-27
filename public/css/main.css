@@ -80,15 +80,6 @@ a {
     height: 0%;
   }
   100% {
-    height: 4%;
-    font-weight: 600;
-  }
-}
-@keyframes fill-heart2 {
-  0% {
-    height: 0%;
-  }
-  100% {
     height: 100%;
     font-weight: 600;
   }
@@ -167,7 +158,7 @@ a {
   line-height: 1.5;
 }
 .restaurant_card .description :hover.heart .fas {
-  animation: fill-heart2 1000ms;
+  animation: fill-heart 1000ms;
 }
 
 .course {
@@ -185,10 +176,9 @@ a {
 }
 .course:active .dish, .course:hover .dish {
   max-width: 60%;
-  width: auto;
 }
 .course:active .prix, .course:hover .prix {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .course:active .validate, .course:hover .validate {
   width: 80px;
@@ -203,15 +193,16 @@ a {
   flex: 1 1 auto;
 }
 .dish p, .dish h6, .prix p, .prix h6, .valide p, .valide h6 {
-  padding-left: 15px;
+  padding-left: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  width: 98%;
 }
 
 .prix {
   text-align: right;
-  padding: 32px 15px 11px 0px;
+  padding: 32px 10px 11px 5px;
   margin-right: 0;
   transition: margin-right 300ms ease-in-out;
   cursor: pointer;
@@ -252,12 +243,11 @@ a {
   background: linear-gradient(to bottom right, #FF79DA, 45%, #9356DC);
   color: #FFFFFF;
   border-radius: 50px;
-  box-shadow: 4px 4px 3px 2px #FF79DA;
+  box-shadow: 5px 7px 8px rgb(210, 210, 210);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 7px 8px rgb(210, 210, 210);
 }
 .btn.pink.commander {
   margin-bottom: 40px;
