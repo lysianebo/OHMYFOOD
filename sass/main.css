@@ -169,12 +169,8 @@ a {
 .restaurant_card .description h3, .restaurant_card .description p {
   line-height: 1.5;
 }
-.restaurant_card .description a, .restaurant_card .description .heart .fas {
+.restaurant_card .description .heart .fas {
   animation: fill-heart2 1000ms;
-}
-.restaurant_card .description a a .heart, .restaurant_card .description .heart .fas a .heart {
-  text-decoration: none;
-  color: rgb(112, 56, 56);
 }
 
 .course {
@@ -186,7 +182,7 @@ a {
   opacity: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
   overflow: hidden;
 }
@@ -214,7 +210,6 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 299px;
 }
 
 .prix {
@@ -552,12 +547,8 @@ a {
 .restaurant_card .description h3, .restaurant_card .description p {
   line-height: 1.5;
 }
-.restaurant_card .description a, .restaurant_card .description .heart .fas {
+.restaurant_card .description .heart .fas {
   animation: fill-heart2 1000ms;
-}
-.restaurant_card .description a a .heart, .restaurant_card .description .heart .fas a .heart {
-  text-decoration: none;
-  color: rgb(112, 56, 56);
 }
 
 .course {
@@ -569,7 +560,7 @@ a {
   opacity: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
   overflow: hidden;
 }
@@ -597,7 +588,6 @@ a {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 299px;
 }
 
 .prix {

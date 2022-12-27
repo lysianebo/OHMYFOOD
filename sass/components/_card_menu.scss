@@ -7,7 +7,7 @@
     opacity: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: relative;
     overflow: hidden;
     &:active, &:hover{
@@ -38,7 +38,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 299px;
+    //width: 299px;
     }
 }
 .prix{
