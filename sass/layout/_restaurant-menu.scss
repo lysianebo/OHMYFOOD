@@ -1,3 +1,6 @@
+
+//@import '/utils/mixins';
+
 header{
     position: relative;
     a{
@@ -50,16 +53,14 @@ header{
             width: 48%;
         }
     }  
-    @include media_desktop{
+    @media screen and (min-width:1200px){
         .entrees, .plats, .desserts{
-            width: 32%;
-            // p, h6{
-            // width: calc(299px - 47px  );
-            // }
-        } 
+              width: 32%;
+        }
     }
 }
     a.commander{
         width: 300px;
         margin: 50px auto;
     }
+ 

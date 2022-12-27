@@ -533,7 +533,7 @@ header a {
     width: 48%;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .menu .entrees, .menu .plats, .menu .desserts {
     width: 32%;
   }
